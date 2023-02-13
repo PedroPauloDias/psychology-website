@@ -20,7 +20,12 @@ export const Button = styled.button`
 height: 3rem;
 width: 3rem;
 border-radius:50%;
-color: #17191E ;
-border: 1px solid #17191E ;
+border: 1px solid #d9dadb ;
+transition:.5s;
+cursor: pointer;
+
+&:hover{
+  border: 1px solid #17191E ; 
+}
 
 `
