@@ -26,6 +26,7 @@ cursor: pointer;
 
 &:hover{
   border: 1px solid #17191E ; 
+
 }
 
 `
