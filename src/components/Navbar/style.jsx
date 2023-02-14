@@ -48,6 +48,7 @@ height: 2.5rem;
 display: flex;
 align-items: center;
 justify-content: end;
+background-color: transparent;
 
 
 `

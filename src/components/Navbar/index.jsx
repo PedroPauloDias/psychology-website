@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import { List, X } from 'phosphor-react'
-import logo from '../../assets/images/logo.svg'
+
 
 import * as S from './style'
 
