@@ -1,6 +1,6 @@
 import React from 'react'
-
-import { Navbar } from '../Navbar'
+import { NavBar } from '../Navbar'
+import { MenuMobile } from '../MenuMobile'
 import Card from '../card'
 import * as S from './style'
 
@@ -9,7 +9,8 @@ export const Header = () => {
   return (
     <header>
       <div>
-        <Navbar />
+        <MenuMobile />
+        <NavBar />
         <S.LogoContainer>
           <S.Image src='/images/logo.svg' alt="" />
           <S.logoCards>
