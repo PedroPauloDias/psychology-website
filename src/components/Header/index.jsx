@@ -10,7 +10,7 @@ export const Header = () => {
     <header>
 
       <S.LogoContainer>
-        <S.Image src='/images/Banner.png' alt="" />
+        <S.Image src='/images/logo.jpg' alt="" />
         <S.logoCards>
           <S.Cards>
             <Card />
