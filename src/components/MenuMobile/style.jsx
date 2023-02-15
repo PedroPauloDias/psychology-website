@@ -5,6 +5,8 @@ import styled from "styled-components";
 export const ModalMenu = styled.div`
 height: 100%;
 width: 100%;
+top: 0;
+left:50%;
 backdrop-filter: blur(3px);
 background:rgba(0, 0, 0, 0.692);   
 
@@ -21,6 +23,8 @@ flex-direction: column;
 z-index: 1000;
 position: absolute;
 box-shadow: -8px 0px 20px 0px #fff;
+
+
 `
 export const ContainerLink = styled.ul`
 height: 100%;
@@ -60,8 +64,13 @@ border: none;
 background-color: transparent;
 padding-right: 1rem ;
 cursor: pointer;
-border: 1px solid red;
 position: absolute;
+display: block;
+
+
+@media (min-width: 720px){
+  display: none;
+}
 
 
 `

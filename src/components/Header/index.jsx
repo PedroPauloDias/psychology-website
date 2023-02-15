@@ -7,18 +7,16 @@ import * as S from './style'
 
 export const Header = () => {
   return (
-    <header>
-      <div>
-        <MenuMobile />
-        <NavBar />
+    <header>     
+    
         <S.LogoContainer>
-          <S.Image src='/images/logo.svg' alt="" />
+          <S.Image src='/images/Banner.png' alt="" />
           <S.logoCards>
             <Card />
             <Card/>
           </S.logoCards>
         </S.LogoContainer>
-        <div>
+     
           <div>
             <h2>Psicologia</h2>
             <p>conheça nossos serviços</p>
@@ -27,8 +25,7 @@ export const Header = () => {
           card
           card
           card
-        </div>
-      </div>
+   
     </header>
   )
 }

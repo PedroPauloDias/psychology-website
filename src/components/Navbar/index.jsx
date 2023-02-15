@@ -1,11 +1,13 @@
 import React from 'react'
 import * as S from './style'
+import { MenuMobile } from '../MenuMobile'
 
-export const NavBar = () => {
+export const Navbar = () => {
   return (
     <S.Container>
       <nav>
         <S.ContainerList>
+      
           <S.LinkList>
             <S.A href="#">Home</S.A>
           </S.LinkList>
@@ -21,6 +23,7 @@ export const NavBar = () => {
           <S.LinkList>
             <S.A href="#">Whatsapp</S.A>
           </S.LinkList>
+        <MenuMobile/>
         </S.ContainerList>
       </nav>
     </S.Container>
