@@ -26,9 +26,11 @@ export const Header = () => {
         </S.ContainerTitle>
         <S.Cards>
           <Card />
+          <Card />         
+        </S.Cards>
+        <S.Cards>
           <Card />
-          <Card />
-          <Card />
+          <Card />         
         </S.Cards>
       </S.Container>
 
