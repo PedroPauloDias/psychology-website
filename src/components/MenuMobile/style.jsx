@@ -30,7 +30,7 @@ height: 100%;
 display: flex;
 flex-direction: column;
 justify-content: center;
-align-items: center;
+margin-left: 30%;
 gap: 2.2rem;
 
 
@@ -47,6 +47,7 @@ font-size:1.8rem;
 font-weight: 400;
 font-family: 'Nunito';
 font-style: italic;
+
 
 
 &:hover {
