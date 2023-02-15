@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-height: 8rem;
-width: 12rem;
+height: 7rem;
+width: 9rem;
 border-radius: 1rem;
 background: rgb(63,89,80);
 background: linear-gradient(166deg, rgba(63,89,80,0.27494747899159666) 53%, rgba(217,193,150,1) 100%);
