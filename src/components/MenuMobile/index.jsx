@@ -16,8 +16,7 @@ export const MenuMobile = () => {
     <navbar>    
       {menuIsOpen == true ?        
         (
-          <S.ModalMenu>
-          <S.ContainerMenu>       
+          <S.ContainerMenu   >       
             <S.CloseButton onClick={openMenu}>
               <X/>
             </S.CloseButton>
@@ -39,13 +38,13 @@ export const MenuMobile = () => {
           </S.ListLink>
             </S.ContainerLink>
             </S.ContainerMenu>
-          </S.ModalMenu>
+    
             )
           :
         (
-          <S.OpenedMenu>        
+          <S.OpenMenu>        
             <S.OpenButton onClick={openMenu}><List size={25} /></S.OpenButton>          
-          </S.OpenedMenu>
+          </S.OpenMenu>
           )          
       }             
     </navbar>

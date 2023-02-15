@@ -2,26 +2,19 @@ import styled from "styled-components";
 
 export const Container = styled.div`
 height: 2.2rem;
-
-
-
 `
 export const ContainerList = styled.ul`
 display: flex;
-align-items: center;
 justify-content: end;
 gap: .5rem;
 padding-right: 1rem;
-border: 1px solid blue;
-
 `
 export const LinkList = styled.li`
 text-decoration: none;
 list-style: none;
 
 @media (max-width:720px) {
-  display: none;
-  
+  display: none;  
 }
 `
 export const A = styled.a`
@@ -31,4 +24,5 @@ font-style: italic;
 color : #446258;
 font-weight: 200;
 font-size: 1.1rem;
+
 `
