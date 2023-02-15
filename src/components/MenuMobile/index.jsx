@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useState } from 'react'
 import { List, X } from 'phosphor-react'
 
@@ -11,6 +11,10 @@ export const MenuMobile = () => {
   const openMenu = () => {
     setMenuIsOpen(!menuIsOpen)
   }
+
+  useEffect(() => {
+    document.body.style.overflowY = menuIsOpen ? 'hidden' : 'auto'
+  },[menuIsOpen])
 
   return (
     <navbar>    

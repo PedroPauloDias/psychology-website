@@ -7,25 +7,31 @@ import * as S from './style'
 
 export const Header = () => {
   return (
-    <header>     
-    
-        <S.LogoContainer>
-          <S.Image src='/images/Banner.png' alt="" />
-          <S.logoCards>
+    <header>
+
+      <S.LogoContainer>
+        <S.Image src='/images/Banner.png' alt="" />
+        <S.logoCards>
+          <S.Cards>
             <Card />
-            <Card/>
-          </S.logoCards>
-        </S.LogoContainer>
-     
-          <div>
-            <h2>Psicologia</h2>
-            <p>conheça nossos serviços</p>
-          </div>
-          card
-          card
-          card
-          card
-   
+            <Card />
+          </S.Cards>
+        </S.logoCards>
+      </S.LogoContainer>
+
+      <S.Container>
+        <S.ContainerTitle>
+          <S.Title>Psicologia</S.Title>
+          <S.SubTitle>conheça nossos serviços</S.SubTitle>
+        </S.ContainerTitle>
+        <S.Cards>
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+        </S.Cards>
+      </S.Container>
+
     </header>
   )
 }
