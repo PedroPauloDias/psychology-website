@@ -2,7 +2,7 @@ import React from 'react'
 import {CaretRight} from 'phosphor-react'
 import * as S from './style'
 
- const DescriptionCard = () => {
+ const AboutCardCard = () => {
   return (
     <S.Container>
       <S.Title>Sobre mim</S.Title>
@@ -11,4 +11,4 @@ import * as S from './style'
   </S.Container>
   )
 }
-export default DescriptionCard
+export default AboutCardCard

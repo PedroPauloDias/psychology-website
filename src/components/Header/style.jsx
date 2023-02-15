@@ -30,7 +30,7 @@ object-fit: contain;
 export const Container = styled.div`
 height: 32.5rem ;
 font-family: 'Nunito';
-font-weight: 700;
+
 `
 
 export const ContainerTitle = styled.div`
@@ -40,6 +40,7 @@ font-size: 1.7rem;
 padding: .5rem;
 margin-bottom: 2rem;
 margin-left: .5rem;
+font-weight: 700;
 `
 
 export const Title = styled.h2`
