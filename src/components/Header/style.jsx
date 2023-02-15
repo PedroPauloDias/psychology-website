@@ -39,7 +39,7 @@ line-height: 1rem;
 font-size: 1.7rem;
 padding: .5rem;
 margin-bottom: 2rem;
-margin-left: .5rem;
+margin-left: 1.2rem;
 font-weight: 700;
 `
 

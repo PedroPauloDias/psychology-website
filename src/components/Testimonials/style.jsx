@@ -1,19 +1,15 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-padding:.5rem 1rem;
+padding:.5rem 1.2rem;
+margin:  1rem 0;
 `
-export const ContainerImg = styled.div`
-`
-
 export const ContainerSlider = styled.div`
 height: 10rem;
 position: relative;
 padding: 0.5rem;
 background-color: #F0F1F3;
 border-radius: 30px;
-
-
 
 .slick-prev::before{
   color: #EECD62 !important;
@@ -48,5 +44,5 @@ margin-top: .5rem;
 
 export const Image = styled.img`
 width: 100%;
-object-fit: contain;
+object-fit: cover;
 `

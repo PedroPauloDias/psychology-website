@@ -19,9 +19,9 @@ export const Testimonials = () => {
   return (
     <section>
       <S.Container>
-        <S.ContainerImg>
+        <div>
           <S.Image src="/images/perfil.jpg" alt="" />
-        </S.ContainerImg>
+        </div>
         <div>
           <div>
             <h2>Resultados dos clientes</h2>
