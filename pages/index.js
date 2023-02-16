@@ -4,6 +4,7 @@ import { Navbar } from "@/src/components/Navbar";
 import { AboutSection } from "@/src/components/AboutSection";
 import { Testimonials } from "@/src/components/Testimonials";
 import { Expectation } from "@/src/components/Expectation.jsx";
+import { Form } from "@/src/components/Form";
 
 export default function Home() {
   return (
@@ -14,6 +15,8 @@ export default function Home() {
       <AboutSection />
       <Expectation/>
       <Testimonials />
+      <Form />
+      
   </>
     
 
