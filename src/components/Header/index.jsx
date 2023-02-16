@@ -11,11 +11,7 @@ export const Header = () => {
 
       <S.LogoContainer>
         <S.Image src='/images/logo.jpg' alt="" />
-        <S.logoCards>
-          <S.Cards>
-            <Card />
-            <Card />
-          </S.Cards>
+        <S.logoCards>     
         </S.logoCards>
       </S.LogoContainer>
 

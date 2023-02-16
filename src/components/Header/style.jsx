@@ -25,7 +25,7 @@ margin:.5rem;
 
 export const Image = styled.img`
 width: 100%;
-object-fit: contain;
+object-fit: cover;
 `
 export const Container = styled.div`
 height: 32.5rem ;

@@ -14,31 +14,18 @@ z-index: 10;
 backdrop-filter: blur(2px);
 background: rgb(63,89,80);
 background: linear-gradient(166deg, rgba(63,89,80,1) 53%, rgba(217,193,150,1) 100%);
-
-
-transition: all 1s;
-
-
-
 `
-
-
-
-
 export const ContainerLink = styled.ul`
 height: 100%;
 display: flex;
 flex-direction: column;
 justify-content: center;
-margin-left: 30%;
+margin-left: 28%;
 gap: 2.2rem;
-
-
 `
 export const ListLink = styled.li`
 text-decoration: none;
 list-style: none;
-
 `
 export const Link = styled.a`
 text-decoration: none;
@@ -48,13 +35,9 @@ font-weight: 400;
 font-family: 'Nunito';
 font-style: italic;
 
-
-
 &:hover {
   border-bottom: 1px solid #D9C196;
-
 }
-
 `
 export const OpenMenu = styled.div`
 height: 2.5rem;
@@ -62,8 +45,6 @@ display: flex;
 align-items: center;
 justify-content: end;
 background-color: transparent;
-
-
 `
 export const OpenButton = styled.button`
 border: none;
@@ -74,7 +55,6 @@ position: absolute;
 top: 1rem;
 right: .1rem;
 display: block;
-
 
 @media (min-width: 720px){
   display: none;
