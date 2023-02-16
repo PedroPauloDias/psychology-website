@@ -48,14 +48,19 @@ border-radius: 10px;
 display: flex;
 align-items: center;
 justify-content: flex-start;
+
+
 `
 export const TextArea = styled.textarea`
 border: unset;
 outline: none;
+font-family: 'Nunito';
 font-style: italic;
 font-weight: 200;
 font-size: .8rem;
 margin-left: 1.5rem;
+
+
 `
 
 export const ContainerSelect = styled.div`
