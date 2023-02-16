@@ -23,9 +23,9 @@ export const Testimonials = () => {
           <S.Image src="/images/perfil.jpg" alt="" />
         </div>
         <div>
-          <div>
+          <S.ContainerTitle>
             <h2>Resultados dos clientes</h2>
-          </div>
+          </S.ContainerTitle>
           <S.ContainerSlider>
             <Slider {...settings} >
               <S.ContainerText>

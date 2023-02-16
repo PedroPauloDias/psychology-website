@@ -4,6 +4,17 @@ export const Container = styled.div`
 padding:.5rem 1.2rem;
 margin:  1rem 0;
 `
+
+export const ContainerTitle = styled.div`
+height: 7.5rem;
+text-align: center;
+font-family: 'Nunito';
+font-weight: 700;
+font-size: 1.5rem;
+line-height: 2.5rem;
+color: #070A11;
+
+`
 export const ContainerSlider = styled.div`
 height: 10rem;
 position: relative;
