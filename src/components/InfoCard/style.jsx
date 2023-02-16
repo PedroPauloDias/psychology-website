@@ -48,5 +48,5 @@ align-items: flex-end;
 text-align: center;
 color: #070A11;
 margin: -.5rem .8rem;
-opacity: 0.7;
+
 `

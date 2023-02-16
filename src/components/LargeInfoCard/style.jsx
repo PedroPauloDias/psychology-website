@@ -15,7 +15,7 @@ font-style: italic;
 font-weight: 200;
 font-size: 1rem;
 color: #17191E;
-opacity: 0.7;
+
 
 `
 export const ContainerButton = styled.div`
@@ -46,7 +46,6 @@ font-size: .7rem;
 color: #fff;
 border: none;
 text-decoration: none;
-opacity: .5;
 margin-left:.2rem;
 
 
