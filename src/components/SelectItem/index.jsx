@@ -1,6 +1,6 @@
 import { forwardRef } from 'react';
 import { Group, Avatar, Text, Select } from '@mantine/core';
-
+import * as S from './style'
 const data = [
   {
     image: 'https://cdn-icons-png.flaticon.com/512/174/174879.png',
@@ -24,17 +24,17 @@ const data = [
 
 const SelectItem = (
   ({ image, label, description, ...others }) => (
-    <div  {...others}>
+    <S.Teste   {...others}>
       <Group noWrap>
         <Avatar src={image} size={15} />
 
         <div>
-          <Text size="sm">{label}</Text>
+          <Text size="md">{label}</Text>
           <Text size="xs" opacity={0.65}>  
           </Text>
         </div>
       </Group>
-    </div>
+    </S.Teste>
   )
 );
 

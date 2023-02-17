@@ -72,6 +72,7 @@ font-style: italic;
 font-weight: 400;
 
 
+
 background-color: #fff;
 `
 export const TextLabel = styled.label`

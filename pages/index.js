@@ -6,6 +6,7 @@ import { Testimonials } from "@/src/components/Testimonials";
 import { Expectation } from "@/src/components/Expectation.jsx";
 import { Form } from "@/src/components/Form";
 import Demo from "@/src/components/SelectItem";
+import { Contact } from "@/src/components/Contact";
 
 export default function Home() {
   return (
@@ -18,7 +19,7 @@ export default function Home() {
       <AboutSection />
       <Expectation/>
       <Testimonials />
-      <Form />
+      <Contact/>
       
   </>
     
