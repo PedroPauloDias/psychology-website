@@ -64,16 +64,13 @@ margin-left: 1.5rem;
 `
 
 export const ContainerSelect = styled.div`
-height: 3.2rem;
 width: 19rem;
 border-radius: 10px;
-display: flex;
-align-items: center;
-justify-content: center;
-position: relative;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
+margin-bottom: .5rem;
+font-family: 'Nunito';
+font-style: italic;
+font-weight: 400;
+
 
 background-color: #fff;
 `
@@ -88,39 +85,7 @@ margin-left: 1.5rem;
 
 `
 
-export const Select = styled.select`
- width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  border: none;
-  outline: none;
-  background: transparent;
-  appearance: none;
-  margin-left : 1rem;
-  cursor: pointer;
 
-
-
-
-
-`
-export const Option = styled.option`
-width: 60%;
-margin-left: 1.5rem;
-border-radius: 20px;
-font-family: 'Nunito';
-font-style: italic;
-font-weight: 200;
-font-size: .8rem;
-line-height: 160%;
-display: flex;
-align-items: center;
-color: #17191E;
-
-
-;
-`
 export const CaretDownContainer = styled.div`
 height:2.5rem;
 width: 2.5rem;

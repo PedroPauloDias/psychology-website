@@ -1,9 +1,15 @@
 import React from 'react'
 import * as S from './style'
 
-import { CaretDown, WhatsappLogo,CaretRight } from 'phosphor-react'
+import { CaretDown, WhatsappLogo, CaretRight } from 'phosphor-react'
+import SelectComponent from '../SelectItem'
+
 
 export const Form = () => {
+
+  
+
+
   return (
     <section>
       <S.ContainerForm>
@@ -23,26 +29,11 @@ export const Form = () => {
           ></S.TextArea>
         </S.ContainerTextArea>
         <S.TextLabel >Por onde posso te chamar ?</S.TextLabel>
+
         <S.ContainerSelect>
-          <div><WhatsappLogo size={20}/></div>   
-          <S.Select >
-            <S.Option
-              value="whatsapp">                
-              Whatsapp
-            </S.Option>
-            <S.Option
-              value="telegram">Telegram
-            </S.Option>
-            <S.Option
-              value="telefone">Telefone
-            </S.Option>
-        
-            </S.Select>
-            <S.CaretDownContainer>
-            <CaretDown size={20} color="#fff" />
-            </S.CaretDownContainer>
-   
+        <SelectComponent/>
         </S.ContainerSelect>
+        
         <S.ContainerButton>
           <S.Button>Enviar mensagem
           <CaretRight size={15}  />
