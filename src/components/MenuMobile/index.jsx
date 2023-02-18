@@ -7,6 +7,8 @@ import * as S from './style'
 
 export const MenuMobile = () => {
   const [menuIsOpen, setMenuIsOpen] = useState(false)
+
+  
   
   const openMenu = () => {
     setMenuIsOpen(!menuIsOpen)

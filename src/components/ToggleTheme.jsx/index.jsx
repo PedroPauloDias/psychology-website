@@ -8,6 +8,7 @@ import { Sun, Moon } from 'phosphor-react'
 export const ToggleTheme = () => {
   const { theme, setTheme } = useTheme()
 
+
   const ChangeTheme = () => {
     setTheme(!theme)
   }
@@ -17,12 +18,14 @@ export const ToggleTheme = () => {
       {
         theme === 'light' ?
           (
-
-            <S.StyledButton onClick={() => setTheme('dark')}> <Moon color='#000' size={15} /></S.StyledButton>
-
+            <div>
+              <S.StyledButton onClick={() => setTheme('dark')}> <Moon color='#000' size={15} /></S.StyledButton>
+            </div>
           ) :
           (
-            <S.StyledButton onClick={() => setTheme('light')}><Sun color='#fff' size={15} /></S.StyledButton>
+            <div>
+              <S.StyledButton onClick={() => setTheme('light')}><Sun color='#fff' size={15} /></S.StyledButton>
+            </div>
           )
       }
     </>
