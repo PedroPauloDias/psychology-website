@@ -10,7 +10,7 @@ display: flex;
 flex-direction: column;
 align-items: flex-start;
 justify-content: space-around;
-padding: .5rem;
+padding: 1rem;
 
 `
 export const Title = styled.p`
@@ -27,7 +27,7 @@ font-weight: 200;
 font-size: 1.2rem;
 
 color: #fff;
-opacity: 0.7;
+opacity: .7;
 `
 export const Button = styled.button`
 height: 3rem;

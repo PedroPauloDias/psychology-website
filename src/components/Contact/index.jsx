@@ -1,12 +1,14 @@
 import React from 'react'
 import * as S from './style'
 import {Form} from'../Form'
+import { Footer } from '../Footer'
 
 export const Contact = () => {
   return (
     <div>
       <S.containerTitle>
-        <h3>Agende já uma
+        <h3>
+          Agende já uma
          <S.HighlightText> consulta gratuita</S.HighlightText>
            pra gente se conhecer</h3>
       </S.containerTitle>
@@ -22,7 +24,7 @@ export const Contact = () => {
         </S.ContactInfoCard>
       </S.ContainerCards>
         <Form/>
-      footer
+      <Footer/>
     </div>
   )
 }

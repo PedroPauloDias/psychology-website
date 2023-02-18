@@ -15,7 +15,8 @@ margin-top: 4rem;
 `
 export const HighlightText = styled.span`
 color:#EECD62;
-margin-left: .5rem;
+margin-left: .1rem;
+margin-right:0.5rem
 
 `
 

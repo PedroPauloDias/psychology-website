@@ -107,6 +107,7 @@ align-items: center;
 justify-content: center;
 background-color: #3F5950;
 margin-top: 1rem;
+margin-bottom: 1.5em;
 
 `
 
