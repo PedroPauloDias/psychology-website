@@ -13,7 +13,7 @@ export const ToggleTheme = () => {
   }
 
   return (
-    <div>
+    <>
       {
         theme === 'light' ?
           (
@@ -25,6 +25,6 @@ export const ToggleTheme = () => {
             <S.StyledButton onClick={() => setTheme('light')}><Sun color='#fff' size={15} /></S.StyledButton>
           )
       }
-    </div>
+    </>
   )
 }
