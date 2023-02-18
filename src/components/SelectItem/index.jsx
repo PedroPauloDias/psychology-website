@@ -22,23 +22,26 @@ const data = [
 
 ];
 
-const SelectItem = (
-  ({ image, label, description, ...others }) => (
-    <S.Teste   {...others}>
-      <Group noWrap>
-        <Avatar src={image} size={15} />
-
-        <div>
-          <Text size="md">{label}</Text>
-          <Text size="xs" opacity={0.65}>  
-          </Text>
-        </div>
-      </Group>
-    </S.Teste>
-  )
-);
 
 export default function SelectComponent() {
+
+  const SelectItem = (
+    ({ image, label, description, ...others }) => (
+      <S.Teste   {...others}>
+        <Group noWrap>
+          <Avatar src={image} size={15} />
+  
+          <div>
+            <Text size="md">{label}</Text>
+            <Text size="xs" opacity={0.65}>  
+            </Text>
+          </div>
+        </Group>
+      </S.Teste>
+    )
+  );
+  
+
   return (
     <Select
     
