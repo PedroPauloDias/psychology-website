@@ -1,12 +1,17 @@
 import React from 'react'
 import * as S from './style'
 import { MenuMobile } from '../MenuMobile'
+import { ToggleTheme } from '../ToggleTheme.jsx'
 
 export const Navbar = () => {
   return (
     <S.Container>
       <nav>
         <S.ContainerList>
+          <div>
+          <ToggleTheme/>
+          </div>
+            
       
           <S.LinkList>
             <S.A href="#">Home</S.A>

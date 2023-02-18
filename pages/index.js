@@ -4,15 +4,15 @@ import { Navbar } from "@/src/components/Navbar";
 import { AboutSection } from "@/src/components/AboutSection";
 import { Testimonials } from "@/src/components/Testimonials";
 import { Expectation } from "@/src/components/Expectation.jsx";
-import { Form } from "@/src/components/Form";
-import Demo from "@/src/components/SelectItem";
 import { Contact } from "@/src/components/Contact";
+import { ToggleTheme } from "@/src/components/ToggleTheme.jsx";
 
 export default function Home() {
+
+
   return (
         
     <>
-      
      
       <Navbar />
       <Header />
