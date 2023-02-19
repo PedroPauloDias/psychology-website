@@ -1,18 +1,23 @@
 import React from 'react'
-import { NavBar } from '../Navbar'
-import { MenuMobile } from '../MenuMobile'
+
+
 import Card from '../card'
 import * as S from './style'
 
 
 export const Header = () => {
-  return (
-    <header>
 
+
+
+  return (
+    <>
+  
       <S.LogoContainer>
+
         <S.Image src='/images/logo.jpg' alt="" />
-        <S.logoCards>     
+        <S.logoCards>
         </S.logoCards>
+
       </S.LogoContainer>
 
       <S.Container>
@@ -22,14 +27,13 @@ export const Header = () => {
         </S.ContainerTitle>
         <S.Cards>
           <Card />
-          <Card />         
+          <Card />
         </S.Cards>
         <S.Cards>
           <Card />
-          <Card />         
+          <Card />
         </S.Cards>
       </S.Container>
-
-    </header>
+  </>
   )
 }

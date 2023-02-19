@@ -26,7 +26,7 @@ font-style: italic;
 font-weight: 200;
 font-size: 1.2rem;
 
-color: #fff;
+color:  var(--text_color);
 opacity: .7;
 `
 export const Button = styled.button`
