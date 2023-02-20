@@ -14,17 +14,15 @@ position: absolute;
 
 `
 export const Cards = styled.div`
-max-width: 22rem;
+max-width: 25rem;
 display: grid;
 grid-template-columns: repeat(2, 1fr);
 gap:.7rem;
-
+padding: 0 1rem;
 margin: 0 auto;
-
 
 @media  (min-width:720px) {
 max-width: 100%;
-
 margin: 1.5rem;
 
 }
@@ -35,12 +33,6 @@ grid-template-columns: repeat(4, 1fr);
 margin-top: 1.5rem;
 
 }
-
-
-
-
-
-
 `
 
 export const Image = styled.img`
@@ -49,13 +41,10 @@ object-fit: cover;
 
 `
 export const Container = styled.div`
-height: 32.5rem ;
+height: 27.5rem ;
 font-family: 'Nunito';
-margin: 0 auto;
-border: 1px solid purple;
 
 @media (min-width:320px) and (max-width:720px) {
-  border: 1px solid red;
 }
 
 
@@ -82,12 +71,10 @@ font-weight: 700;
 
 @media (min-width:720px) {
   font-size: 2rem;
-  border: 1px solid red;
   margin-right: 2.5rem;
 }
 @media (min-width:1200px) {
   font-size: 2rem;
-  border: 1px solid red;
   margin-top: 4.5rem;
 }
 `
