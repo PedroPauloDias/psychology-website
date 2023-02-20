@@ -14,18 +14,20 @@ z-index: 10;
 backdrop-filter: blur(2px);
 background: rgb(63,89,80);
 background: linear-gradient(166deg, rgba(63,89,80,1) 53%, rgba(217,193,150,1) 100%);
+
 `
 export const ContainerLink = styled.ul`
 height: 100%;
 display: flex;
 flex-direction: column;
 justify-content: center;
-margin-left: 28%;
+align-items: center;
 gap: 2.2rem;
 `
 export const ListLink = styled.li`
 text-decoration: none;
 list-style: none;
+
 `
 export const Link = styled.a`
 text-decoration: none;
@@ -49,12 +51,13 @@ background-color: transparent;
 export const OpenButton = styled.button`
 border: none;
 background-color: transparent;
-padding-right: 1rem ;
+padding-right:.7rem ;
 cursor: pointer;
 position: absolute;
-top: 1rem;
-right: .1rem;
+top: .7rem;
+right: 0rem;
 display: block;
+
 
 @media (min-width: 720px){
   display: none;

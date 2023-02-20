@@ -20,10 +20,10 @@ export default function App({ Component, pageProps }) {
       <ThemeProvider theme={theme == 'light' ? lightTheme : darkTheme}>
         {
           theme == 'light' ? (
-            <S.StyledButton onClick={toggleTheme}><Moon color='#000' size={15} /></S.StyledButton>
+            <S.StyledButton onClick={toggleTheme}><Moon color='#000' size={20} /></S.StyledButton>
             
           ) : (
-            <S.StyledButton onClick={toggleTheme}><Sun color='#000' size={15} /></S.StyledButton>
+            <S.StyledButton onClick={toggleTheme}><Sun color='#fff' size={20} /></S.StyledButton>
           )
         }       
         <GlobalStyles />

@@ -8,28 +8,63 @@ position: relative;
 
 export const logoCards = styled.div`
 min-height: 9.9rem;
-width: 100%;
 gap: 1rem;
 bottom:.1rem;
 position: absolute;
 
 `
 export const Cards = styled.div`
-display: flex;
-align-items: center;
-justify-content: center;
-gap:1.5rem;
-margin:.5rem;
+max-width: 22rem;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap:.7rem;
+
+margin: 0 auto;
+
+
+@media  (min-width:720px) {
+max-width: 100%;
+
+margin: 1.5rem;
+
+}
+@media  (min-width:1200px) {
+max-width: 100%;
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+margin-top: 1.5rem;
+
+}
+
+
+
+
+
 
 `
 
 export const Image = styled.img`
 width: 100%;
 object-fit: cover;
+
 `
 export const Container = styled.div`
 height: 32.5rem ;
 font-family: 'Nunito';
+margin: 0 auto;
+border: 1px solid purple;
+
+@media (min-width:320px) and (max-width:720px) {
+  border: 1px solid red;
+}
+
+
+
+@media (min-width:720px) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 `
 
@@ -38,17 +73,42 @@ height: 8rem;
 line-height: 1rem;
 font-size: 1.7rem;
 padding: .5rem;
-margin-bottom: 2rem;
-margin-left: 1.2rem;
+margin: 1rem 0;
+margin-left: 2.7rem;
 font-weight: 700;
+
+
+
+
+@media (min-width:720px) {
+  font-size: 2rem;
+  border: 1px solid red;
+  margin-right: 2.5rem;
+}
+@media (min-width:1200px) {
+  font-size: 2rem;
+  border: 1px solid red;
+  margin-top: 4.5rem;
+}
 `
 
 export const Title = styled.h2`
-color:#070A11;
+color: ${({theme})=> theme.text};
+margin: 1.5rem 0;
 
+
+
+@media (min-width:720px) {
+  margin: 2rem 0;
+}
+
+@media (min-width:1200px) {
+
+}
 `
 
 
 export const SubTitle = styled.p`
 color:#EECD62;
+
 `
