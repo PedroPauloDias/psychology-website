@@ -1,4 +1,5 @@
 import React from 'react'
+import 'animate.css';
 import { FacebookLogo, TwitterLogo, InstagramLogo, LinkedinLogo } from 'phosphor-react'
 import * as S from './style'
 
@@ -10,20 +11,20 @@ export const Footer
           <div>
             <S.SocialMediaList>
               <S.SocialMedia>
-                <a href="#"><FacebookLogo size={25} color='#fff' /></a>
+                <a href="#"><FacebookLogo size={30} color='#fff' /></a>
               </S.SocialMedia>
               <S.SocialMedia>
-                <a href="#"> <TwitterLogo size={25} color='#fff' /></a>
+                <a href="#"> <TwitterLogo size={30} color='#fff' /></a>
               </S.SocialMedia>
               <S.SocialMedia>
-                <a href="#"><InstagramLogo size={25} color='#fff' /></a>
+                <a href="#"><InstagramLogo size={30} color='#fff' /></a>
               </S.SocialMedia>
               <S.SocialMedia>
-                <a href="#"><LinkedinLogo size={25} color='#fff' /></a>
+                <a href="#"><LinkedinLogo size={30} color='#fff' /></a>
               </S.SocialMedia>
             </S.SocialMediaList>
           </div>
-          <S.FooterText>
+          <S.FooterText className="animate__animated animate__bounce">
             <p>
               Todos os direitos reservados
               © 2023 Copyright

@@ -1,4 +1,5 @@
 import React from 'react'
+import 'animate.css';
 
 
 import Card from '../card'
@@ -16,9 +17,9 @@ export const Header = () => {
         <S.Image src='/images/logo.jpg' alt="" />
       </S.LogoContainer>
       <S.Container>
-        <S.ContainerTitle>
-          <S.Title>Psicologia</S.Title>
-          <S.SubTitle>conheça nossos serviços</S.SubTitle>
+        <S.ContainerTitle >
+          <S.Title className="animate__animated animate__fadeInDown animate__slow animate__delay-2s">Psicologia</S.Title>
+          <S.SubTitle className="animate__animated animate__fadeInDown animate__slow animate__delay-3s">conheça nossos serviços</S.SubTitle>
         </S.ContainerTitle>
         <S.Cards>
           <Card />
