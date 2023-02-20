@@ -8,12 +8,12 @@ export const Expectation = () => {
   return (
     <section>
       <S.Container>
-        <S.ContainerTitle>
+        <S.ContainerTitle data-aos="fade-right">
           <h2>O que você vai conseguir das reuniões</h2>
         </S.ContainerTitle>
-        <LargeCardInfo />
+        <LargeCardInfo data-aos="zoom-in-up" />
         <S.ContainerCards>
-          <InfoCard />
+          <InfoCard  />
           <InfoCard />
           <InfoCard />
           <InfoCard />

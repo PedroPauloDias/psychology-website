@@ -5,7 +5,7 @@ export const InfoCard = () => {
   return (
 
 
-    <S.Container>
+    <S.Container data-aos="zoom-in-up">
       <S.NumberContainer>
         <span>1</span>
       </S.NumberContainer>

@@ -14,14 +14,14 @@ export const Header = () => {
     <>
   
       <S.LogoContainer>
-        <S.Image src='/images/logo.jpg' alt="" />
+        <S.Image src='/images/logo.jpg' alt="" data-aos="zoom-in" />
       </S.LogoContainer>
       <S.Container>
-        <S.ContainerTitle >
-          <S.Title className="animate__animated animate__fadeInDown animate__slow animate__delay-2s">Psicologia</S.Title>
-          <S.SubTitle className="animate__animated animate__fadeInDown animate__slow animate__delay-3s">conheça nossos serviços</S.SubTitle>
+        <S.ContainerTitle data-aos="fade-right" >
+          <S.Title >Psicologia</S.Title>
+          <S.SubTitle >conheça nossos serviços</S.SubTitle>
         </S.ContainerTitle>
-        <S.Cards>
+        <S.Cards data-aos="zoom-in-down">
           <Card />
           <Card />       
           <Card />

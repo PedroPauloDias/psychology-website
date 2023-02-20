@@ -20,10 +20,10 @@ export const Testimonials = () => {
     <section>
       <S.Container>
         <div>
-          <S.Image src="/images/perfil.jpg" alt="" />
+          <S.Image src="/images/perfil.jpg" alt="" data-aos="zoom-in" />
         </div>
         <div>
-          <S.ContainerTitle>
+          <S.ContainerTitle data-aos="fade-right">
             <h2>Depoimentos dos clientes</h2>
           </S.ContainerTitle>
           <S.ContainerSlider>
