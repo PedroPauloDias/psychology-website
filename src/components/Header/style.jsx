@@ -8,17 +8,14 @@ position: relative;
 
 export const logoCards = styled.div`
 min-height: 9.9rem;
-gap: 1rem;
 bottom:.1rem;
 position: absolute;
-
 `
 export const Cards = styled.div`
-max-width: 25rem;
+max-width: 20rem;
 display: grid;
 grid-template-columns: repeat(2, 1fr);
 gap:.7rem;
-padding: 0 1rem;
 margin: 0 auto;
 
 @media  (min-width:720px) {

@@ -2,15 +2,14 @@ import styled from "styled-components";
 
 export const Container = styled.div`
 height: 7rem;
-width: 9rem;
+width: 9.5rem;
 border-radius: 1rem;
-background:${({theme})=> theme.backgroundCard};
-margin-left:1rem;
+background:${({ theme }) => theme.backgroundCard};
 display: flex;
 flex-direction: column;
 align-items: flex-end;
 justify-content: space-between;
-padding: .8rem .5rem;
+padding: .85rem .5rem;
 
 
 @media  (min-width:720px){

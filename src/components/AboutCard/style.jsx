@@ -12,15 +12,18 @@ align-items: flex-start;
 justify-content: space-around;
 padding: 1rem;
 
+
 @media (min-width: 720px) {
   height: 21rem;
   width: 22.5rem;
   margin-right: 1rem;
+  margin-top: 5rem;
+
   
 }
 @media (min-width: 1200px) {
-  height: 25rem;
-  width: 31rem;
+  height: 26rem;
+  width: 32rem;
   margin-right: 0rem;
 
 }

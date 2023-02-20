@@ -24,7 +24,7 @@ export const Testimonials = () => {
         </div>
         <div>
           <S.ContainerTitle>
-            <h2>Resultados dos clientes</h2>
+            <h2>Depoimentos dos clientes</h2>
           </S.ContainerTitle>
           <S.ContainerSlider>
             <Slider {...settings} >
@@ -34,7 +34,7 @@ export const Testimonials = () => {
                   </div>
                 <S.Text>
                 consectetur. aliquam in feugiat eget tortor placerat sit
-                  cursus leo cursus interdum in ac mattis arcu consectetur. cursus leo cursus interdum in ac mattis arcu consectetur. aliquam. Risus pellentesque magna in quam aliquet pharetra vitae.
+                  cursus leo cursus interdum in ac mattis arcu consectetur. cursus leo cursus interdum in ac mattis arcu consectetur aliquam in feugiat. 
                 </S.Text>
                 <S.Quote2>
                   <CgQuote size={30} color='#EECD62' />

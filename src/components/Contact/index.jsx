@@ -14,12 +14,12 @@ export const Contact = () => {
       </S.containerTitle>
       <S.ContainerCards>
         <S.ContactInfoCard>
-          <p>contato@thaynacunha
-            .com.br</p>
-          <p>+55 15 99813 2212</p>
+          <S.Text>contato@thaynacunha
+            .com.br</S.Text>
+          <S.Text>+55 15 99813 2212</S.Text>
         </S.ContactInfoCard>
         <S.ContactInfoCard>
-          <p>Horario de atendimento</p>
+          <S.Text>Horario de atendimento</S.Text>
           <S.Horary>Seg - Ter: 12:00 - 19:00</S.Horary>
         </S.ContactInfoCard>
       </S.ContainerCards>
