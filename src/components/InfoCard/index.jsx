@@ -1,19 +1,19 @@
 import React from 'react'
 import * as S from './style'
 
-export const InfoCard = () => {
+export const InfoCard = ({number , title , text}) => {
   return (
 
 
     <S.Container data-aos="zoom-in-up">
       <S.NumberContainer>
-        <span>1</span>
+        <span>{number }</span>
       </S.NumberContainer>
       <S.ContainerTitle>
-        <h4>Nós estudamos o problema</h4>
+        <h4>{title}</h4>
       </S.ContainerTitle>
       <S.ContainerText>
-        <p>Vamos mudar o antigo significado atribuído.</p>
+        <p>{text}</p>
       </S.ContainerText>
     </S.Container>
 

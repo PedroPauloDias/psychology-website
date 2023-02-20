@@ -12,7 +12,7 @@ export const Header = () => {
 
   return (
     <>
-  
+
       <S.LogoContainer>
         <S.Image src='/images/logo.jpg' alt="" data-aos="zoom-in" />
       </S.LogoContainer>
@@ -22,12 +22,16 @@ export const Header = () => {
           <S.SubTitle >conheça nossos serviços</S.SubTitle>
         </S.ContainerTitle>
         <S.Cards data-aos="zoom-in-down">
-          <Card />
-          <Card />       
-          <Card />
-          <Card />
+          <Card
+            title='Comunicação e relacionamentos'/>
+          <Card
+            title='Dificuldades emocionais e sentimentos' />
+          <Card
+            title='Terapia de trauma' />
+          <Card
+            title='Agende para uma consulta gratuita' />
         </S.Cards>
       </S.Container>
-  </>
+    </>
   )
 }
