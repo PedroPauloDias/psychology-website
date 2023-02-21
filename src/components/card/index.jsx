@@ -6,7 +6,7 @@ const Card = ({title, BackgroundColor,color,text,category}) => {
   return (
       <S.Container BackgroundColor={BackgroundColor}  >
       <S.Title color={color} >{title}</S.Title>
-      <Modal title={title} text={text} category={ category} />  
+      <Modal title={title} text={text} category={ category}  />  
       </S.Container>
   )
 }

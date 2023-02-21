@@ -12,14 +12,16 @@ export const Modal = ({ title, text,  category }) => {
       <Dialog.Root>
         <S.DialogTrigger type="button">
           <S.OpenButton><Plus size={20} color="#080808" /></S.OpenButton>
-        </S.DialogTrigger>
-        <Dialog.Portal>
+        </S.DialogTrigger >
+        <Dialog.Portal >
           <S.Overlay />
           <S.DialogContent>
-            <S.Title>{title}</S.Title>
-            <S.Imagem src={url} alt="" />
-            <S.Text>{text}</S.Text>
-            <S.ContactMe>
+            <div   >
+
+            <S.Title data-aos="zoom-in">{title}</S.Title>
+            <S.Imagem src={url} alt="" data-aos="flip-left" />
+            <S.Text data-aos="zoom-in">{text}</S.Text>
+            <S.ContactMe >
               Entre em contato Comigo
               <CaretRight size={15} />
             </S.ContactMe>
@@ -29,6 +31,7 @@ export const Modal = ({ title, text,  category }) => {
               </S.Button>
 
             </S.DialogClose>
+            </div>
           </S.DialogContent>
         </Dialog.Portal>
       </Dialog.Root>
