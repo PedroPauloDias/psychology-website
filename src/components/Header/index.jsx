@@ -22,7 +22,7 @@ export const Header = () => {
         </S.ContainerTitle>
         <S.Cards data-aos="zoom-in-down">
           <Card
-            category='Comunicação'
+            category='Comunicar'
             title='Comunicação e relacionamentos'
             text='A comunicação entre o casal envolve a colaboração de duas pessoas, que compartilham e examinam todas as suas percepções, sentimentos, ideias e pensamentos para chegar a um entendimento preciso do que está acontecendo.' />
           <Card

@@ -23,7 +23,7 @@ export const DialogContent = styled(Dialog.Content)`
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 67vh;
+  height: 80vh;
   width: 90vw;
   max-width: 450px;
   max-height: 650px;
