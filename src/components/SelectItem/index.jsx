@@ -27,7 +27,7 @@ export default function SelectComponent() {
 
   const SelectItem = (
     ({ image, label, description, ...others }) => (
-      <S.Teste   {...others}>
+      <S.Container   {...others}>
         <Group noWrap>
           <Avatar src={image} size={15} />
   
@@ -37,7 +37,7 @@ export default function SelectComponent() {
             </Text>
           </div>
         </Group>
-      </S.Teste>
+      </S.Container>
     )
   );
   

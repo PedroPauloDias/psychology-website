@@ -4,7 +4,7 @@ export const Container = styled.div`
 height: 7rem;
 width: 9.5rem;
 border-radius: 1rem;
-background:${({ theme }) => theme.backgroundCard};
+background-color: ${({ BackgroundColor }) => BackgroundColor || '#F0F1F3'};
 display: flex;
 flex-direction: column;
 align-items: flex-end;
@@ -30,7 +30,7 @@ margin-top:2rem
 export const Title = styled.p`
 font-size: 1.1rem;
 font-family: 'Nunito';
-color:${({ theme }) => theme.textCard};
+color: ${({ color }) => color || '#000'};
 
 
 @media  (min-width:720px){
@@ -44,28 +44,6 @@ font-size:1.5rem
 
 }
 
-`
-export const Button = styled.button`
-height: 2rem;
-width: 2rem;
-border-radius:50%;
-border: 1px solid #d9dadb ;
-transition:.5s;
-cursor: pointer;
 
-@media  (min-width:720px){
-  font-size:1rem;
-
-}
-@media  (min-width:1200px){
-  font-size:1.3rem;
- 
-
-}
-
-&:hover{
-  border: 1px solid #3F5950 ; 
-
-}
 
 `

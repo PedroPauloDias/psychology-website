@@ -6,6 +6,7 @@ import store from "@/src/redux/store";
 import { Sun, Moon } from 'phosphor-react'
 import * as S from "../styles/app"
 
+
 export default function App({ Component, pageProps }) {
   const [theme, setTheme] = useState("light") 
 
@@ -23,7 +24,7 @@ export default function App({ Component, pageProps }) {
             <S.StyledButton onClick={toggleTheme}><Moon color='#000' size={20} /></S.StyledButton>
             
           ) : (
-            <S.StyledButton onClick={toggleTheme}><Sun color='#fff' size={20} /></S.StyledButton>
+            <S.StyledButton  onClick={toggleTheme}><Sun color='#fff' size={20} /></S.StyledButton>
           )
         }       
         <GlobalStyles />

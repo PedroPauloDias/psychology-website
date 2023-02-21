@@ -1,7 +1,6 @@
 import styled from '@emotion/styled'
-import { Group } from '@mantine/core';
 
-export const Teste = styled.div`
+export const Container = styled.div`
 display: flex;
 align-items: center;
 font-family: 'Nunito';

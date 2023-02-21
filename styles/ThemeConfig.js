@@ -5,12 +5,15 @@ export const lightTheme = {
   text: '#070A11',
   textCard: '#070A11',
   textCard2: '#fff',
+  textCardModal:'#070A11',
   textAboutCard:'#363537',
   highlightText:'#EECD62',
   toggleBorder: '#FFF',
   background: '#363537',
   backgroundCard: "#F0F1F3",
-  backgroundButton:'#070A11',
+  backgroundModal:'#fff' ,
+  backgroundButton: '#070A11',
+  backgroundButtonModal:"#EECD62"
 }
 
 export const darkTheme = {
@@ -18,12 +21,16 @@ export const darkTheme = {
   text: '#FAFAFA',
   textCard: '#3F5950',
   textCard2: '#fff',
+  textCardModal:'#fff',
   textAboutCard:'#363537',
   highlightText:'#3F5950',
   toggleBorder: '#6B8096',
   background: ' #446258;',
   backgroundCard: "#F0F1F3",
-  backgroundButton:'#070A11',
+  backgroundModal:'#3F5950',
+  backgroundButton: '#070A11',
+  backgroundButtonModal:"#f0f1f3"
+  
 }
 
 export const GlobalStyles = createGlobalStyle`
