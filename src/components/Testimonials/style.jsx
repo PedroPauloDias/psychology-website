@@ -16,6 +16,17 @@ font-size: 1.6rem;
 line-height: 2.5rem;
 margin-top:2.5rem;
 
+@media (min-width: 720px){
+  height: 10rem;
+  font-size: 2rem;
+  margin-top: 5rem;
+}
+
+@media (min-width: 1200px){
+  height: 13rem;
+  font-size: 2.5rem;
+  margin-top: 6rem;
+}
 `
 export const ContainerSlider = styled.div`
 height: 12rem;
@@ -74,5 +85,6 @@ margin-top: .5rem;
 
 export const Image = styled.img`
 width: 100%;
-object-fit: cover;
+max-height: 50rem;
+object-fit: contain;
 `

@@ -84,15 +84,27 @@ margin: 1.5rem 0;
 
 @media (min-width:720px) {
   margin: 2rem 0;
+  font-size: 2.5rem;
 }
 
 @media (min-width:1200px) {
-
+  margin: 2rem 0;
+  font-size: 3.5rem;
 }
 `
 
 
 export const SubTitle = styled.p`
 color:#EECD62;
+
+@media (min-width:720px) {
+  margin: 2rem 0;
+  font-size: 2rem;
+}
+
+@media (min-width:1200px) {
+  margin: 2rem 0;
+  font-size: 3rem;
+}
 
 `

@@ -84,6 +84,18 @@ font-size: .8rem;
 color:#17191E;
 margin-left: 1.5rem;
 
+@media (min-width:720px) {
+  font-size: 1rem;
+  text-align: center;
+  margin-right: 9rem;
+}
+
+@media (min-width:1200px) {
+  margin-right: 7rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
 `
 
 

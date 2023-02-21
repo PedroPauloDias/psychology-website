@@ -14,7 +14,7 @@ padding: 1rem;
 
 
 @media (min-width: 720px) {
-  height: 21rem;
+  height: 25rem;
   width: 22.5rem;
   margin-right: 1rem;
   margin-top: 5rem;
@@ -63,7 +63,7 @@ margin:.5rem 0;
 }
 `
 export const Button = styled.button`
-height: 3rem;
+height: 2rem;
 width: 9.5rem;
 border-radius:1.5rem;
 display: flex;
@@ -83,7 +83,7 @@ transition:.5s;
 cursor: pointer;
 
 @media (min-width: 720px) {
-  margin:1rem .5rem 2rem .5rem
+  margin:2rem .5rem 2rem .5rem
 }
 
 @media (min-width: 1200px) {
