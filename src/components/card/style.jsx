@@ -9,7 +9,9 @@ display: flex;
 flex-direction: column;
 align-items: flex-end;
 justify-content: space-between;
-padding: .85rem .5rem;
+padding: 1rem .8rem;
+
+
 
 
 @media  (min-width:720px){

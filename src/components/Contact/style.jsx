@@ -34,6 +34,7 @@ align-items: center;
 justify-content: center;
 gap:.3rem;
 
+
 `
 export const ContactInfoCard = styled.div`
 height: 7rem;
@@ -44,11 +45,9 @@ background: #F0F1F3;
 color:#363537;
 border-radius: 20px;
 font-family: 'Nunito';
-font-style: italic;
 font-weight: 700;
 font-size: .8rem;
 margin-bottom:1rem;
-
 @media (min-width: 720px){
 height: 10rem;
 width: 13rem;
@@ -81,16 +80,4 @@ font-size:1.5rem;
   
 
 
-export const Horary = styled.div`
-opacity: .7;
-margin: 1rem;
 
-@media (min-width: 720px){
-font-size:1rem;
-}
-
-@media (min-width: 1200px){
-font-size:1.3em;
-
-}
-`

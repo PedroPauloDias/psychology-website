@@ -11,7 +11,7 @@ export const Modal = ({ title, text,  category }) => {
     <div>
       <Dialog.Root>
         <S.DialogTrigger type="button">
-          <S.OpenButton><Plus size={20} color="#080808" /></S.OpenButton>
+          <S.OpenButton><Plus size={15} color="#080808" /></S.OpenButton>
         </S.DialogTrigger >
         <Dialog.Portal >
           <S.Overlay />

@@ -26,18 +26,17 @@ background-color: #fff;
 export const Input = styled.input`
 
 width:100%;
-margin-left: 1.5rem;
+height:100%;
 border-radius: 20px;
 border: unset;
 outline: none;
-font-family: 'Nunito';
-font-style: italic;
 font-weight: 200;
-font-size: .8rem;
+font-size: 1rem;
 line-height: 160%;
 display: flex;
 align-items: center;
 color: #17191E;
+padding: 1rem 1.5rem;
 `
 
 export const ContainerTextArea = styled.div`
@@ -49,16 +48,20 @@ display: flex;
 align-items: center;
 justify-content: flex-start;
 
+background-color: blue;
+
 
 `
 export const TextArea = styled.textarea`
+height: 100%;
+width: 100%;
 border: unset;
 outline: none;
 font-family: 'Nunito';
-font-style: italic;
 font-weight: 200;
-font-size: .8rem;
-margin-left: 1.5rem;
+font-size: 1rem;
+padding: 1rem 1.5rem;
+
 
 
 `
@@ -68,8 +71,8 @@ width: 19rem;
 border-radius: 10px;
 margin-bottom: .5rem;
 font-family: 'Nunito';
-font-style: italic;
-font-weight: 400;
+font-weight: 200;
+
 
 
 
@@ -78,7 +81,6 @@ background-color: #fff;
 export const TextLabel = styled.label`
 width: 100%;
 font-family: 'Nunito';
-font-style: italic;
 font-weight: 200;
 font-size: .8rem;
 color:#17191E;

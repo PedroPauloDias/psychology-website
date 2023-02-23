@@ -1,14 +1,14 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-height:11.5rem;
+height:12.5rem;
 width:10rem;
 display: flex;
 flex-direction: column;
 align-items: center;
 background-color:#F0F1F3;
 border-radius: 30px;
-padding: .5rem 0;
+padding: .5rem ;
 
 @media (min-width: 720px) {
 height:13rem;
@@ -39,7 +39,7 @@ export const ContainerTitle = styled.div`
 
 font-family: 'Nunito';
 font-weight: 700;
-font-size: .9rem;
+font-size: 1rem;
 text-align: center;
 color: #070A11;
 
@@ -51,9 +51,8 @@ font-size: 1.1rem;
 `
 export const ContainerText = styled.div`
 font-family: 'Nunito';
-font-style: italic;
 font-weight: 400;
-font-size: .9rem;
+font-size: 1rem;
 display: flex;
 align-items: flex-end;
 text-align: center;

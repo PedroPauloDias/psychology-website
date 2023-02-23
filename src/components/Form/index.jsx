@@ -29,7 +29,6 @@ export const Form = () => {
           ></S.TextArea>
         </S.ContainerTextArea>
         <S.TextLabel >Por onde posso te chamar ?</S.TextLabel>
-
         <S.ContainerSelect>
         <SelectComponent/>
         </S.ContainerSelect>

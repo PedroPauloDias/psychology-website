@@ -9,11 +9,15 @@ import * as S from './style'
 export const Testimonials = () => {
 
   const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1
+   
+      dots: true,
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: true,
+    autoplaySpeed: 5000,
+    pauseOnHover: true,
+      cssEase: "linear"
   };
 
   return (

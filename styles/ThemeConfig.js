@@ -34,15 +34,18 @@ export const darkTheme = {
 }
 
 export const GlobalStyles = createGlobalStyle`
+
+
+
 *{
   margin:0;
   padding: 0;
   box-sizing: border-box;
+  font-family:  'Mynerve';
 }
   body {
     background: ${({ theme }) => theme.body};
     color: ${({ theme }) => theme.text};
-    font-family:  Helvetica, Arial,  sans-serif;
     transition: all 0.50s linear;
   }
 `

@@ -72,13 +72,15 @@ cursor: pointer;
 
 
 export const OpenButton = styled.button`
-height: 2rem;
-width: 2rem;
+height: 1.5rem;
+width: 1.5rem;
 border-radius:50%;
-border: 1px solid #d9dadb ;
+border: .5px solid #d9dadb ;
 transition:.5s;
 cursor: pointer;
-
+display: flex;
+align-items: center;
+justify-content: center;
 
 
 @media  (min-width:720px){

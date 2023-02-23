@@ -4,7 +4,6 @@ export const Container = styled.div`
 padding:.5rem 1.2rem;
 margin:  1rem 0;
 
-margin: 1px solid red;
 `
 
 export const ContainerTitle = styled.div`
@@ -34,20 +33,15 @@ position: relative;
 padding: 0.5rem;
 background-color: #F0F1F3;
 border-radius: 30px;
+  user-select: none;
 
 
-.slick-prev::before{
-  color: #EECD62 !important;
-  font-size: .9rem;
-  margin-right: 1rem;
+.slick-prev::before,
+.slick-next:before 
+{
+cursor: auto !important;
 }
 
-.slick-next:before {
-  color: #EECD62 !important;
-  font-size: .9rem;
-  margin-left: .3rem;
-
-}
 
 @media (min-width: 720px){
 max-width: 40rem;
