@@ -22,9 +22,9 @@ export const Header = () => {
         </S.ContainerTitle>
         <S.Cards data-aos="zoom-in-down">
           <Card
-            category='Comunicar'
-            title='Comunicação e relacionamentos'
-            text='A comunicação entre o casal envolve a colaboração de duas pessoas, que compartilham e examinam todas as suas percepções, sentimentos, ideias e pensamentos para chegar a um entendimento preciso do que está acontecendo.' />
+            category='comportamental'
+            title='Terapia comportamental'
+            text='O TDAH geralmente costuma se apresentar na infância e seus sintomas mais explícitos começam a aparecer na fase escolar, pois é o momento em que são mais estimulados, à interação e à utilização do raciocínio para resolução de problemas.' />
           <Card
             category='Emocionais'
             title='Dificuldades emocionais '
@@ -32,12 +32,12 @@ export const Header = () => {
             />
           <Card
             category='trauma'
-            title='Terapia de trauma'
+            title='Terapia de traumas'
             text='A terapia cognitiva comportamental é bastante recomendada, com evidencias científicas. Não é só um jogo de palavras, mas a melhor abordagem para tratar os traumas do passado é investir seriamente nesse processo, seja via TCC, Psicanálise, Existencialismo, ou outras.'
           />
           <Card 
             category='gratis'
-            title='Agende para uma consulta gratuita'
+            title='Agendar consulta gratuita'
             text='Entre em Contato para uma consulta gratuita, juntos podemos melhorar sua qualidade de vida e bem-estar , aproveite essa oportunidade para nos conhecermos e começar a cuidar desde já da sua saúde mental '
             BackgroundColor='#EECD62'
             color='#ffffff'

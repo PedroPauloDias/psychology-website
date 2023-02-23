@@ -9,7 +9,7 @@ display: flex;
 flex-direction: column;
 align-items: flex-end;
 justify-content: space-between;
-padding: 1rem .8rem;
+padding: 1rem ;
 
 
 

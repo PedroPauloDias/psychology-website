@@ -38,17 +38,20 @@ height: 15rem;
 width: 20rem;
 object-fit: center;
 filter: grayscale(1);
-margin-top: .8rem;
+margin-top: 5rem;
 `
 export const Title = styled(Dialog.Title)`
 height: 4rem;
-width: 17rem;
-font-size: 1.4rem;
+width: 15rem;
+font-size: 1.7rem;
 line-height: 2rem;
 text-align: center;
 background-color: transparent;
 opacity:.9;
-margin: .5 auto;
+margin: .5 ;
+position: absolute;
+left: 3rem;
+top:1.5rem;
 color: ${({ theme }) => theme.TextCardModal }
 `
 export const Text = styled(Dialog.Description)`
