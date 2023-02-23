@@ -47,7 +47,7 @@ display: flex;
 align-items: center;
 justify-content: space-between;
 padding: 0 .7rem;
-margin: 1.5rem 0rem;
+margin: 1rem 0rem;
 text-decoration: none;
 background-color:#3F5950 ;
 
@@ -65,8 +65,7 @@ align-items: center;
 justify-content: space-around;
 font-weight: 200;
 font-family: 'Nunito';
-font-style: italic;
-font-size: .9rem;
+font-size: 1rem;
 color: #3F5950;
 border: none;
 text-decoration: none;

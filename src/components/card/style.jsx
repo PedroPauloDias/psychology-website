@@ -2,14 +2,14 @@ import styled from "styled-components";
 
 export const Container = styled.div`
 height: 7rem;
-width: 9.5rem;
+width: 10rem;
 border-radius: 1rem;
 background-color: ${({ BackgroundColor }) => BackgroundColor || '#F0F1F3'};
 display: flex;
 flex-direction: column;
 align-items: flex-end;
 justify-content: space-between;
-padding: 1rem ;
+padding: 1rem;
 
 
 

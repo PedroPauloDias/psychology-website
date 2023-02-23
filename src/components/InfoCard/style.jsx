@@ -55,7 +55,7 @@ font-family: 'Nunito';
 font-weight: 400;
 font-size: .9rem;
 display: flex;
-align-items: flex-start;
+align-items: center;
 text-align: center;
 color: #070A11;
 
