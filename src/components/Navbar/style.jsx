@@ -34,8 +34,6 @@ list-style: none;
 `
 export const A = styled.a`
 height: 1.9rem;
-font-family: 'Nunito';
-font-style: italic;
 text-decoration: none;
 color : ${({theme})=> theme.text};
 font-weight: 400;

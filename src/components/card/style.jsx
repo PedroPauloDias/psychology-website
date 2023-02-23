@@ -11,15 +11,10 @@ align-items: flex-end;
 justify-content: space-between;
 padding: 1rem;
 
-
-
-
 @media  (min-width:720px){
   height: 9rem;
 width: 12rem;
-
 }
-
 
 @media  (min-width:1200px){
   height:12rem;
@@ -31,7 +26,6 @@ margin-top:2rem
 `
 export const Title = styled.p`
 font-size: 1.1rem;
-font-family: 'Nunito';
 color: ${({ color }) => color || '#000'};
 
 

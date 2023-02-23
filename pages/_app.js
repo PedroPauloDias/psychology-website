@@ -5,8 +5,9 @@ import { Provider } from "react-redux";
 import store from "@/src/redux/store";
 import { Sun, Moon } from "phosphor-react";
 import * as S from "../styles/app";
-import Head from "next/head";
 
+import {Nunito} from '@next/font/google'
+const  nunito = Nunito({subsets: ['latin']})
 export default function App({ Component, pageProps }) {
   const [theme, setTheme] = useState("light");
 
@@ -27,8 +28,10 @@ export default function App({ Component, pageProps }) {
             <Sun color="#fff" size={20} />
           </S.StyledButton>
         )}
+        <main className={nunito.className} >
         <GlobalStyles />
         <Component {...pageProps} />
+        </main>
       </ThemeProvider>
     </Provider>
   );

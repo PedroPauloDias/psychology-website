@@ -32,7 +32,6 @@ border: unset;
 outline: none;
 font-weight: 200;
 font-size: 1rem;
-line-height: 160%;
 display: flex;
 align-items: center;
 color: #17191E;
@@ -43,12 +42,12 @@ export const ContainerTextArea = styled.div`
 height:7rem ;
 width:19rem ;
 background-color: #fff;
-border-radius: 10px;
+border-radius: 20px;
 display: flex;
 align-items: center;
 justify-content: flex-start;
-
-background-color: blue;
+border: none;
+outline: none;
 
 
 `
@@ -57,10 +56,10 @@ height: 100%;
 width: 100%;
 border: unset;
 outline: none;
-font-family: 'Nunito';
-font-weight: 200;
 font-size: 1rem;
 padding: 1rem 1.5rem;
+border-radius: 10px;
+
 
 
 
@@ -70,8 +69,11 @@ export const ContainerSelect = styled.div`
 width: 19rem;
 border-radius: 10px;
 margin-bottom: .5rem;
-font-family: 'Nunito';
 font-weight: 200;
+
+&::focus{
+  border: none;
+}
 
 
 
@@ -80,9 +82,8 @@ background-color: #fff;
 `
 export const TextLabel = styled.label`
 width: 100%;
-font-family: 'Nunito';
 font-weight: 200;
-font-size: .8rem;
+font-size: 1rem;
 color:#17191E;
 margin-left: 1.5rem;
 
@@ -131,7 +132,6 @@ color:#fff;
 display: flex;
 align-items: center;
 justify-content: space-around;
-font-family: 'Nunito';
 font-style: normal;
 font-weight: 500;
 font-size: .8rem;

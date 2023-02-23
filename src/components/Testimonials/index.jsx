@@ -32,30 +32,17 @@ export const Testimonials = () => {
           </S.ContainerTitle>
           <S.ContainerSlider>
             <Slider {...settings} >
-              <S.ContainerText>
-                  <div>
-                    <CgQuote size={30} color='#EECD62' />
-                  </div>
+              <S.ContainerText>            
                 <S.Text>
                 consectetur. aliquam in feugiat eget tortor placerat sit
                   cursus leo cursus interdum in ac mattis arcu consectetur. cursus leo cursus interdum in ac mattis arcu consectetur aliquam in feugiat. 
                 </S.Text>
-                <S.Quote2>
-                  <CgQuote size={30} color='#EECD62' />
-                </S.Quote2>
               </S.ContainerText>
-
-              <S.ContainerText>
-                  <div>
-                    <CgQuote size={30} color='#EECD62' />
-                  </div>
+              <S.ContainerText>             
                 <S.Text>
                   consectetur. aliquam in feugiat eget tortor placerat sit
-                  cursus leo cursus interdum in ac mattis arcu consectetur. cursus leo cursus interdum in ac mattis arcu consectetur. aliquam. Risus pellentesque magna in quam aliquet pharetra vitae.
-                </S.Text>
-                <S.Quote2>
-                  <CgQuote size={30} color='#EECD62' />
-                </S.Quote2>
+                  cursus leo cursus interdum in ac mattis arcu consectetur. cursus leo cursus interdum. aliquam. Risus pellentesque magna in quam aliquet pharetra vitae.
+                </S.Text>             
               </S.ContainerText>
             </Slider>
           </S.ContainerSlider>

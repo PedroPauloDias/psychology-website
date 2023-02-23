@@ -116,7 +116,6 @@ color: #000;
 display: flex;
 align-items: center;
 justify-content: center;
-font-family: 'Nunito';
 font-weight: 200;
 font-size: 1.2rem;
 gap:1rem;

@@ -39,7 +39,6 @@ object-fit: cover;
 `
 export const Container = styled.div`
 height: 27.5rem ;
-font-family: 'Nunito';
 
 @media (min-width:320px) and (max-width:720px) {
 }

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-height: 14.5rem;
+height: 16rem;
 background-color:#E9EFF1;
 border-radius: 30px;
 padding: 2.1rem;
@@ -12,14 +12,13 @@ margin: 1rem 4rem;
 }
 
 @media (min-width:1200px){
-  height: 16.5rem;
+  height: 17rem;
  margin: 1rem 4rem;  
 }
 `
 
 export const ContainerText = styled.div`
 
-font-family: 'Nunito';
 font-style: italic;
 font-weight: 400;
 font-size: 1rem;
@@ -42,7 +41,7 @@ color: #17191E;
 export const ContainerButton = styled.div`
 height: 2rem;
 width: 8rem;
-border-radius:30px;
+border-radius:10px;
 display: flex;
 align-items: center;
 justify-content: space-between;
@@ -64,9 +63,8 @@ display: flex;
 align-items: center;
 justify-content: space-around;
 font-weight: 200;
-font-family: 'Nunito';
 font-size: 1rem;
-color: #3F5950;
+color: #fff;
 border: none;
 text-decoration: none;
 margin-left:.4rem;
