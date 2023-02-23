@@ -52,7 +52,7 @@ export default function SelectComponent() {
     },
   
     label: {
-      fontWeight: 400,
+      fontWeight: 300,
       fontSize: theme.fontSizes.sm,
     },
   

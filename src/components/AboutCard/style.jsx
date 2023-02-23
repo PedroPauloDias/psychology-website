@@ -46,7 +46,7 @@ font-size: 1.5rem;
 export const Description = styled.p`
 font-style: italic;
 font-weight: 200;
-font-size: 1rem;
+font-size: 1.1rem;
 color:  ${({ theme }) => theme.textCard2};
 margin:1rem 0;
 
