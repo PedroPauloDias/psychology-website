@@ -12,7 +12,7 @@ bottom:.1rem;
 position: absolute;
 `
 export const Cards = styled.div`
-max-width: 20rem;
+max-width: 22rem;
 display: grid;
 grid-template-columns: repeat(2, 1fr);
 gap:.7rem;

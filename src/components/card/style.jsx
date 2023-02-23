@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
 height: 7rem;
-width: 10rem;
+width: 10.5rem;
 border-radius: 1rem;
 background-color: ${({ BackgroundColor }) => BackgroundColor || '#F0F1F3'};
 display: flex;

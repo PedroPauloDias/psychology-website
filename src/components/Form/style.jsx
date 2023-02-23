@@ -30,7 +30,6 @@ height:100%;
 border-radius: 20px;
 border: unset;
 outline: none;
-font-weight: 200;
 font-size: 1rem;
 display: flex;
 align-items: center;
@@ -59,17 +58,12 @@ outline: none;
 font-size: 1rem;
 padding: 1rem 1.5rem;
 border-radius: 10px;
-
-
-
-
 `
 
 export const ContainerSelect = styled.div`
 width: 19rem;
 border-radius: 10px;
 margin-bottom: .5rem;
-font-weight: 200;
 
 &::focus{
   border: none;
