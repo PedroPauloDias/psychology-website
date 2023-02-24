@@ -47,6 +47,7 @@ display: flex;
 align-items: center;
 justify-content: end;
 background-color: transparent;
+
 `
 export const OpenButton = styled.button`
 border: none;
@@ -57,6 +58,7 @@ position: absolute;
 top: .7rem;
 right: 0rem;
 display: block;
+  color: ${({theme})=> theme.svgColor};
 
 
 @media (min-width: 720px){

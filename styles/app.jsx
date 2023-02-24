@@ -7,10 +7,4 @@ cursor: pointer;
 position: absolute;
 left: 1rem;
 top:.8rem;
-z-index: 120;
-
-
-
-
-
 `

@@ -14,11 +14,11 @@ margin-right: 1rem;
 export const SocialMedia = styled.li`
 text-decoration: none;
 list-style: none;
-color: ${({title})=> title == 'facebook' ? 'pink' : 'white'};
+
 
 svg {
-color:  #fff 
-}
+  color: ${({ title }) => title ? '#fff' : 'red'}
+  };
  &:hover {
   scale: 1.1;
 transition: .2s;

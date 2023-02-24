@@ -12,13 +12,13 @@ export const SocialMedias = () => {
               <a href="#"><FacebookLogo size={30}   /></a>
             </S.SocialMedia>
             <S.SocialMedia title='twitter'>
-              <a href="#"> <TwitterLogo size={30} color='#fff'  /></a>
+              <a href="#"> <TwitterLogo size={30}   /></a>
             </S.SocialMedia>
             <S.SocialMedia  title='instagram'>
               <a href="#"><InstagramLogo size={30}  /></a>
             </S.SocialMedia>
             <S.SocialMedia title='linkedin'>
-              <a href="#"><LinkedinLogo size={30} color='#fff'  /></a>
+              <a href="#"><LinkedinLogo size={30}   /></a>
             </S.SocialMedia>
           </S.SocialMediaList>
         </div>

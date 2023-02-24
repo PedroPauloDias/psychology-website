@@ -14,7 +14,8 @@ export const lightTheme = {
   backgroundCard: "#F0F1F3",
   backgroundModal:'#fff' ,
   backgroundButton: '#070A11',
-  backgroundButtonModal:"#EECD62"
+  backgroundButtonModal: "#EECD62",
+  svgColor:'#000',
 }
 
 export const darkTheme = {
@@ -31,7 +32,8 @@ export const darkTheme = {
   backgroundCard: "#F0F1F3",
   backgroundModal:'#3F5950',
   backgroundButton: '#070A11',
-  backgroundButtonModal:"#f0f1f3"
+  backgroundButtonModal: "#f0f1f3",
+  svgColor:'#fff',
   
 }
 
@@ -43,11 +45,13 @@ export const GlobalStyles = createGlobalStyle`
   margin:0;
   padding: 0;
   box-sizing: border-box;
+
  
 }
   body {
     background: ${({ theme }) => theme.body};
     color: ${({ theme }) => theme.text};
     transition: all 0.50s linear;
+    
   }
 `

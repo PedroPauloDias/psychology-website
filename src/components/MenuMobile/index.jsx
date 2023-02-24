@@ -49,8 +49,8 @@ export const MenuMobile = () => {
             )
           :
         (
-          <S.OpenMenu>        
-            <S.OpenButton onClick={openMenu}><List size={25} /></S.OpenButton>          
+          <S.OpenMenu >        
+            <S.OpenButton onClick={openMenu}><List size={25}  /></S.OpenButton>          
           </S.OpenMenu>
           )          
       }             
