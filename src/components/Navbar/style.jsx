@@ -1,8 +1,7 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export const Container = styled.div`
-height: 1.8rem;
-margin-bottom: 1rem;
+height: 3rem;
 
 @media (min-width:720px )and (max-width:1190px) {
   height: 2rem;
@@ -11,6 +10,7 @@ margin-bottom: 1rem;
 @media (min-width:1200px) {
   height: 2.2rem;
 }
+
 `
 export const ContainerList = styled.ul`
 display: flex;
@@ -50,5 +50,6 @@ font-size: 1.2rem;
 font-size: 1.4rem;
   
 }
-
 `
+
+

@@ -1,12 +1,13 @@
 import React from 'react'
 import * as S from './style'
 import { MenuMobile } from '../MenuMobile'
-
 export const Navbar = () => {
+  
+
   return (
-    <S.Container>
+    <S.Container >
       <nav>
-        <S.ContainerList>     
+        <S.ContainerList >     
           <S.LinkList>
             <S.A href="#">Home</S.A>
           </S.LinkList>

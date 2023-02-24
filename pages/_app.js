@@ -15,6 +15,7 @@ export default function App({ Component, pageProps }) {
     theme == "light" ? setTheme("dark") : setTheme("light");
   };
 
+  
 
   return (
     <Provider store={store}>

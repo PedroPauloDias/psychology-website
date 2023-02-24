@@ -17,12 +17,13 @@ background: linear-gradient(166deg, rgba(63,89,80,1) 53%, rgba(217,193,150,1) 10
 
 `
 export const ContainerLink = styled.ul`
-height: 100%;
+height: 50%;
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
 gap: 2.2rem;
+margin: 5rem;
 `
 export const ListLink = styled.li`
 text-decoration: none;
@@ -34,8 +35,7 @@ text-decoration: none;
 color:#fff;
 font-size:1.8rem;
 font-weight: 400;
-font-family: 'Nunito';
-font-style: italic;
+
 
 &:hover {
   border-bottom: 1px solid #D9C196;

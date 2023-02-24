@@ -6,7 +6,7 @@ import { AboutSection } from "@/src/components/AboutSection";
 import { Testimonials } from "@/src/components/Testimonials";
 import { Expectation } from "@/src/components/Expectation.jsx";
 import { Contact } from "@/src/components/Contact";
-import { useEffect } from 'react';
+import { useEffect , useState} from 'react';
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import Head from 'next/head'
@@ -19,9 +19,13 @@ export default function Home() {
     })
   }, [])
 
+
+
+
+
   return (
     <>    
-        <Navbar />
+      <Navbar />
         <Header />
         <AboutSection />
         <Expectation />

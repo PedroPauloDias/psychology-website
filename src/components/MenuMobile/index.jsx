@@ -4,6 +4,7 @@ import { List, X } from 'phosphor-react'
 
 
 import * as S from './style'
+import { SocialMedias } from '../SocialMedias'
 
 export const MenuMobile = () => {
   const [menuIsOpen, setMenuIsOpen] = useState(false)
@@ -42,6 +43,7 @@ export const MenuMobile = () => {
             <S.Link href="#">Whatsapp</S.Link>
           </S.ListLink>
             </S.ContainerLink>
+            <SocialMedias/>
             </S.ContainerMenu>
     
             )

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import 'animate.css';
 
 import { Modal } from '../Modal';
@@ -29,13 +29,13 @@ export const Header = () => {
             category='Emocionais'
             title='Dificuldades emocionais '
             text='A crise emocional é caracterizada por um desgaste psicológico que pode ser decorrente de diversos fatores na vida de uma pessoa. Também conhecida como surto emocional, ela se instala quando o sofrimento psíquico é muito grande, ultrapassando a capacidade do indivíduo de lidar com a crise.'
-            />
+          />
           <Card
             category='trauma'
             title='Terapia de traumas'
             text='A terapia cognitiva comportamental é bastante recomendada, com evidencias científicas. Não é só um jogo de palavras, mas a melhor abordagem para tratar os traumas do passado é investir seriamente nesse processo, seja via TCC, Psicanálise, Existencialismo, ou outras.'
           />
-          <Card 
+          <Card
             category='gratis'
             title='Agendar consulta gratuita'
             text='Entre em Contato para uma consulta gratuita, juntos podemos melhorar sua qualidade de vida e bem-estar , aproveite essa oportunidade para nos conhecermos e começar a cuidar desde já da sua saúde mental '
