@@ -34,7 +34,8 @@ export const DialogContent = styled(Dialog.Content)`
   background-color: ${({ theme }) => theme.backgroundModal};
   
   @media (min-width: 1200px){
-    max-height: 800px;
+    height: 85vh;
+   max-height: 950px;
     max-width: 600px;
 
   }
@@ -74,7 +75,7 @@ margin-top: 5rem;
 @media (min-width: 1200px){
   height: 18rem;
   width: 100%;
-  margin-top: 6rem;
+  margin-top: 4rem;
  }
     
 @media (min-width: 2000px){
@@ -101,8 +102,8 @@ color: ${({ theme }) => theme.TextCardModal};
 @media (min-width: 1200px){
 width:90%;
 font-size: 2.2rem;
-margin-top: 1rem;
-left: -3rem;
+margin-top: .5rem;
+left: -4rem;
 
 }
 
@@ -123,10 +124,10 @@ color: ${({ theme }) => theme.TextCardModal};
 
 @media (min-width: 1200px){
 width: 100%;
-font-size: 1.7rem;
+font-size: 1.5rem;
 padding:  .5rem ;
-line-height: 2rem;
-margin-top: 2rem;
+line-height: 1.8rem;
+margin-top: .5rem;
 
 
 }
@@ -207,7 +208,7 @@ border: none;
 cursor: pointer;
 
 @media (min-width: 1200px){
-  font-size:1.4rem
+  font-size:1.2rem;
 }
 
 @media (min-width: 2000px){
