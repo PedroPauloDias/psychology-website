@@ -34,14 +34,13 @@ export const DialogContent = styled(Dialog.Content)`
   background-color: ${({ theme }) => theme.backgroundModal};
   
   @media (min-width: 1200px){
-    height: 85vh;
+    height: 88vh;
    max-height: 950px;
     max-width: 600px;
 
   }
   
 @media (min-width: 2000px){
-  height: 70vh;
   max-width: 60vw;
 }
 
@@ -124,11 +123,14 @@ color: ${({ theme }) => theme.TextCardModal};
 
 @media (min-width: 1200px){
 width: 100%;
+height: 11rem;
 font-size: 1.5rem;
 padding:  .5rem ;
 line-height: 1.8rem;
 margin-top: .5rem;
 
+border: 1px solid red;
+margin-bottom: 3rem;
 
 }
 
