@@ -11,13 +11,14 @@ border-radius: 30px;
 padding: 1rem .8rem;
 
 @media (min-width: 720px) {
-height:13rem;
-width:11rem;
+  height:16rem;
+width:13rem;
+padding: 1rem;
 }
 @media (min-width: 1200px) {
-  height:15rem;
-width:11.5rem;
-padding: 0;
+  height:16rem;
+width:13rem;
+padding: 1rem;
 }
 @media (min-width: 2000px) {
   height:15rem;
