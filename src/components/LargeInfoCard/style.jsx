@@ -12,14 +12,15 @@ margin: 1rem 4rem;
 }
 
 @media (min-width:1200px){
-  height: 17rem;
+  width:95%;
+  height: 19rem;
  margin: 1rem 4rem;  
+ padding: 3rem 2.5rem ;
 }
 `
 
 export const ContainerText = styled.div`
 
-font-style: italic;
 font-weight: 400;
 font-size: 1rem;
 color: #17191E;
@@ -31,7 +32,7 @@ color: #17191E;
 }
 @media (min-width:1200px){
   line-height:2.5rem;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: 400;
 
 }
@@ -70,7 +71,7 @@ text-decoration: none;
 margin-left:.4rem;
 
 @media (min-width:1200px){
-font-size: 1.2rem;
+font-size: 1rem;
 margin-left:.8rem;
 }
 

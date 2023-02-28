@@ -7,15 +7,16 @@ margin:  1rem 1.5rem;
 
 export const ContainerTitle = styled.div`
 height: 8rem;
-text-align: center;
+text-align: start;
 font-weight: 700;
 font-size: 1.6rem;
 line-height: 2.5rem;
 margin-top:2.5rem;
 
 
+
 @media (min-width: 720px){
-  height: 10rem;
+  height: 6rem;
   font-size: 2rem;
   margin-top: 5rem;
 }
@@ -42,7 +43,7 @@ cursor: auto !important;
 
 
 @media (min-width: 720px){
-max-width: 40rem;
+width: 45rem;
 height: 14rem;
 margin: 0 auto;
 

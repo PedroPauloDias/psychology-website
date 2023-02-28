@@ -31,14 +31,58 @@ export const DialogContent = styled(Dialog.Content)`
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: ${({theme})=> theme.backgroundModal};
-  `
+  background-color: ${({ theme }) => theme.backgroundModal};
+  
+  @media (min-width: 1200px){
+    max-height: 800px;
+    max-width: 600px;
+
+  }
+  
+@media (min-width: 2000px){
+  height: 70vh;
+  max-width: 60vw;
+}
+
+
+`
+export const ContainerCard = styled.div`
+
+  
+
+@media (min-width: 2000px){
+  width:900px;
+  margin-top:2rem;
+display: flex;
+justify-content : space-between;
+padding: 1rem;
+
+
+}
+
+`
+
+
+
 export const Imagem = styled.img`
 height: 15rem;
 width: 20rem;
 object-fit: center;
 filter: grayscale(1);
 margin-top: 5rem;
+
+@media (min-width: 1200px){
+  height: 18rem;
+  width: 100%;
+  margin-top: 6rem;
+ }
+    
+@media (min-width: 2000px){
+  width: 52%;
+  height: 17rem;
+  margin-top: 0;
+}
+
 `
 export const Title = styled(Dialog.Title)`
 height: 4rem;
@@ -52,14 +96,51 @@ margin: .5 ;
 position: absolute;
 left: 3rem;
 top:1.5rem;
-color: ${({ theme }) => theme.TextCardModal }
+color: ${({ theme }) => theme.TextCardModal};
+
+@media (min-width: 1200px){
+width:90%;
+font-size: 2.2rem;
+margin-top: 1rem;
+left: -3rem;
+
+}
+
+@media (min-width: 2000px){
+width:90%;
+position: initial;
+font-size: 2rem;
+margin-left:3rem;
+padding: 1rem;
+}
 `
+
 export const Text = styled(Dialog.Description)`
 width: 20rem;
-font-weight: bold;
 margin-top: 1rem;
 font-size: 1rem;
-color: ${({ theme }) => theme.TextCardModal };
+color: ${({ theme }) => theme.TextCardModal};
+
+@media (min-width: 1200px){
+width: 100%;
+font-size: 1.7rem;
+padding:  .5rem ;
+line-height: 2rem;
+margin-top: 2rem;
+
+
+}
+
+@media (min-width: 2000px){  
+margin-top: 0;
+  width: 50%;
+  height: 17rem;
+font-weight: 400;
+font-size: 1.5rem;
+padding: 1.5rem ;
+line-height: 1.7rem;
+
+}
 `
 
 export const DialogClose = styled(Dialog.Close)`
@@ -105,13 +186,16 @@ justify-content: center;
 export const Button = styled.button`
 border: none;
 background-color: transparent;
+
+
+
 `
 export const ContactMe = styled.a`
 height: 3.5rem;
 width: 20rem;
 margin-top: 2rem;
 border-radius:10px;
-background-color:  ${({theme})=> theme.backgroundButtonModal};;
+background-color:  ${({ theme }) => theme.backgroundButtonModal};;
 color: #000;
 display: flex;
 align-items: center;
@@ -120,4 +204,15 @@ font-weight: 200;
 font-size: 1.2rem;
 gap:1rem;
 border: none;
+cursor: pointer;
+
+@media (min-width: 1200px){
+  font-size:1.4rem
+}
+
+@media (min-width: 2000px){
+margin-left:19rem;
+}
+
+
 `

@@ -1,9 +1,9 @@
 import React from 'react';
 import * as Dialog from '@radix-ui/react-dialog';
-import { X, CaretRight,Plus } from 'phosphor-react'
+import { X, CaretRight, Plus } from 'phosphor-react'
 import * as S from './style'
 
-export const Modal = ({ title, text,  category }) => {
+export const Modal = ({ title, text, category }) => {
 
   const url = `images/${(category)}.webp`
 
@@ -18,19 +18,21 @@ export const Modal = ({ title, text,  category }) => {
           <S.DialogContent>
             <div   >
 
-            <S.Title data-aos="zoom-in">{title}</S.Title>
-            <S.Imagem src={url} alt="" data-aos="flip-left" />
-            <S.Text data-aos="zoom-in">{text}</S.Text>
-            <S.ContactMe >
-              Entre em contato Comigo
-              <CaretRight size={15} />
-            </S.ContactMe>
-            <S.DialogClose >
-              <S.Button>
-                <X size={20} color="#080808" />
-              </S.Button>
+              <S.Title  >{title}</S.Title >
+              <S.ContainerCard >
+                <S.Imagem src={url} alt="" />
+                <S.Text  >{text}</S.Text>
+              </S.ContainerCard>
+              <S.ContactMe  >
+                Entre em contato Comigo
+                <CaretRight size={15} />
+              </S.ContactMe>
+              <S.DialogClose >
+                <S.Button>
+                  <X size={20} color="#080808" />
+                </S.Button>
 
-            </S.DialogClose>
+              </S.DialogClose>
             </div>
           </S.DialogContent>
         </Dialog.Portal>

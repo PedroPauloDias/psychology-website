@@ -14,6 +14,16 @@ padding: 1rem .8rem;
 height:13rem;
 width:11rem;
 }
+@media (min-width: 1200px) {
+  height:15rem;
+width:11.5rem;
+padding: 0;
+}
+@media (min-width: 2000px) {
+  height:15rem;
+width:11.5rem;
+padding: 0;
+}
 
 `
 export const NumberContainer = styled.div`

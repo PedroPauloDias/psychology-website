@@ -10,9 +10,9 @@ export const Footer = () => {
 
   return (
     <footer>
-      <S.Container data-aos="fade-down">
+      <S.Container >
       <SocialMedias/>
-        <S.FooterText className="animate__animated animate__bounce">
+        <S.FooterText >
           <p>
             Todos os direitos reservados
             © 2023 Copyright

@@ -12,7 +12,7 @@ export const AboutSection = () => {
         />
         <AboutCardCard
           title='Sobre o método'
-          description='Eu uso a escola psicológica da PNL em meu trabalho. Programação neurolinguística. O nome é muito assustador e assustador, mas não julgue pela capa. "Neuro" significa trabalhar com o sistema nervoso e as emoções. "Linguística" - trabalhar com palavras, linguagem e significados da nossa imagem do mundo.'
+          description='Eu uso a escola psicológica da PNL em meu trabalho. Programação neurolinguística. O nome é muito assustador e assustador, mas não julgue pela capa. "Neuro" significa trabalhar com o sistema nervoso e as emoções. "Linguística" - trabalhar com palavras, linguagem '
         />
       </S.AboutContainer>
 

@@ -7,9 +7,7 @@ height: 3rem;
   height: 2rem;
 }
 
-@media (min-width:1200px) {
-  height: 2.2rem;
-}
+
 
 `
 export const ContainerList = styled.ul`
@@ -21,6 +19,14 @@ padding-right: .5rem;
 
 @media (min-width:720px) {
   margin-top:.5rem;
+}
+
+@media (min-width:1200px) {
+  margin-top:.5rem;
+  width: 50%;
+  justify-content:space-between;
+  margin-left: 8rem;
+
 }
 
 `
@@ -47,8 +53,14 @@ font-size: 1.2rem;
 
 @media (min-width:1200px) {
   
-font-size: 1.4rem;
+font-size: 1.2rem;
   
+}
+
+&:hover{
+  border-bottom: 2px solid ${({ theme }) => theme.textMenuFixed};
+  color: ${({ theme }) => theme.textMenuFixed};
+  font-weight: 500;
 }
 `
 

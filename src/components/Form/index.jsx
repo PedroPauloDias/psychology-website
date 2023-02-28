@@ -1,15 +1,11 @@
 import React from 'react'
 import * as S from './style'
 
-import { CaretDown, WhatsappLogo, CaretRight } from 'phosphor-react'
+import {CaretRight } from 'phosphor-react'
 import SelectComponent from '../SelectItem'
 
 
 export const Form = () => {
-
-  
-
-
   return (
     <section>
       <S.ContainerForm>

@@ -9,13 +9,17 @@ color:#fff;
 display: flex;
 flex-direction: column;
 align-items: space-around;
+
+@media (min-width:720px){
+  height: 12.5rem;
+  padding:1.5rem
+}
 `
 
 
 export const FooterText = styled.div`
-font-family: 'Nunito';
-font-style: italic;
-font-weight: 200;
 font-size: .9rem;
 text-align: center;
+
+
 `

@@ -11,6 +11,7 @@ align-items: flex-end;
 justify-content: space-between;
 padding: 1rem;
 
+
 @media  (min-width:720px){
   height: 9rem;
 width: 12rem;
@@ -19,7 +20,7 @@ width: 12rem;
 @media  (min-width:1200px){
   height:12rem;
 width: 15rem;
-margin-top:2rem
+padding: 1rem  1.5rem;
 
 }
 
@@ -29,16 +30,12 @@ font-size: 1.1rem;
 color: ${({ color }) => color || '#000'};
 
 
-@media  (min-width:720px){
+@media  (min-width:1200px){
 font-size:1.5rem
 
 }
 
-@media  (min-width:1200px){
-  font-size:1.8rem;
-  margin-left:.5rem;
 
-}
 
 
 

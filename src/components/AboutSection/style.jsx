@@ -13,4 +13,12 @@ gap: 1.5rem;
   flex-direction: row;
   margin-left:1rem;
 }
+@media (min-width: 1200px){
+margin: 3rem 1.5rem;
+border-radius: 20px;
+background-color: #3F5950;
+justify-content: space-around;
+
+
+}
 `

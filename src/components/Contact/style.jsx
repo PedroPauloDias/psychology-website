@@ -3,13 +3,14 @@ import styled from "styled-components";
 
 export const containerTitle = styled.div`
 height: 10.5rem;
-text-align: center;
+text-align: start;
 font-weight: 700;
-font-size: 1.3rem;
+font-size: 1.6rem;
 line-height: 2.5rem;
 color: ${({theme})=> theme.text};
 margin: 1.2rem;
 margin-top: 4rem;
+padding: 1rem;
 
 @media (min-width: 720px){
   font-size: 2.2rem;
@@ -47,15 +48,14 @@ font-weight: 700;
 margin-bottom:1rem;
 
 @media (min-width: 720px){
-height: 10rem;
-width: 13rem;
+height: 11rem;
+width: 14rem;
 margin-left:2rem
 }
 
 @media (min-width: 1200px){
-height: 13rem;
-width: 16rem;
-margin-left:4rem
+height: 14rem;
+width: 19rem;
 
 }
 

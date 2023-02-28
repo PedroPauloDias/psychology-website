@@ -10,12 +10,11 @@ import * as S from './style'
 
 export const Header = () => {
   return (
-    <>
-
+    <S.Container>
       <S.LogoContainer>
         <S.Image src='/images/logo.jpg' alt="" data-aos="zoom-in" />
       </S.LogoContainer>
-      <S.Container>
+      <S.ContainerCards>
         <S.ContainerTitle data-aos="fade-right" >
           <S.Title >Psicologia</S.Title>
           <S.SubTitle >conheça nossos serviços</S.SubTitle>
@@ -43,7 +42,7 @@ export const Header = () => {
             color='#ffffff'
           />
         </S.Cards>
-      </S.Container>
-    </>
+      </S.ContainerCards>
+    </S.Container>
   )
 }
