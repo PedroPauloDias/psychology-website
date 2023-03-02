@@ -3,12 +3,9 @@ import styled from "styled-components";
 
 export const Container = styled.div`
 
-
 @media (min-width: 1200px){
   display: flex;
   flex-direction : row;
-
-
 }
 `
 
@@ -59,6 +56,7 @@ object-fit: cover;
 
 @media (min-width: 1200px){
 height: 100%;
+border-radius: 20px;
 }
 
 `
@@ -117,7 +115,7 @@ margin: 1.5rem 0;
 
 @media (min-width:1200px) {
   font-size: 4rem;
-  margin-left: 1.5rem;
+  margin-left: -3rem;
 }
 `
 
@@ -135,7 +133,8 @@ line-height: 1.5rem;
 @media (min-width:1200px) {
   margin: 3rem 0;
   font-size: 2.5rem;
-  margin-left: 1.5rem;
+  margin-left: -3rem;
+
 
 }
 

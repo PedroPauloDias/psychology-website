@@ -23,9 +23,9 @@ export const Testimonials = () => {
   return (
     <section>
       <S.Container>
-        <div>
+        <S.ContainerImage>
           <S.Image src="/images/perfil.jpg" alt="" data-aos="zoom-in" />
-        </div>
+        </S.ContainerImage>
         <div>
           <S.ContainerTitle data-aos="fade-right">
             <h2>Depoimentos dos clientes</h2>

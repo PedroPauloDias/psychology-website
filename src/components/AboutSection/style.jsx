@@ -17,7 +17,9 @@ gap: 1.5rem;
 margin: 3rem 1.5rem;
 border-radius: 20px;
 background-color: #3F5950;
-justify-content: space-around;
+
+justify-content: space-between;
+padding: 1rem 8rem;
 
 
 }

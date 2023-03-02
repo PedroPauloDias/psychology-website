@@ -129,7 +129,6 @@ padding:  .5rem ;
 line-height: 1.8rem;
 margin-top: .5rem;
 
-border: 1px solid red;
 margin-bottom: 3rem;
 
 }

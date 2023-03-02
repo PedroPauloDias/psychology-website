@@ -3,6 +3,11 @@ import styled from "styled-components";
 export const Container = styled.div`
 margin:  1rem 1.5rem;
 
+
+@media (min-width: 1200px){
+  display: flex;
+  gap: 3rem;
+}
 `
 
 export const ContainerTitle = styled.div`
@@ -10,29 +15,42 @@ height: 8rem;
 text-align: start;
 font-weight: 700;
 font-size: 1.6rem;
-line-height: 2.5rem;
+line-height: 3rem;
 margin-top:2.5rem;
 
 
 
+
+
 @media (min-width: 720px){
+  width: 30rem;
   height: 6rem;
   font-size: 2rem;
-  margin-top: 5rem;
+  margin: 3rem 1rem;
 }
 
 @media (min-width: 1200px){
   height: 13rem;
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+@media (min-width: 1500px){
   font-size: 2.5rem;
-  margin-top: 6rem;
+}
+
+@media (min-width: 1600px){
+font-size: 2.6rem;
+line-height: 3.5rem;
+
 }
 `
 export const ContainerSlider = styled.div`
 height: 13rem;
 background-color: #F0F1F3;
-border-radius: 30px;
+border-radius: 20px;
   user-select: none;
   padding: 1rem;
+
 
 .slick-prev::before,
 .slick-next:before 
@@ -43,11 +61,30 @@ cursor: auto !important;
 
 
 @media (min-width: 720px){
-width: 45rem;
+width: 42rem;
 height: 14rem;
 margin: 0 auto;
 
 }
+@media (min-width: 1200px){
+  width: 40rem;
+margin: 0 auto;}
+
+@media (min-width: 1500px){
+width: 52rem;
+height: 20rem;
+margin: 0 auto;
+margin-top: 1rem;
+
+}
+@media (min-width: 1600px){
+width: 52rem;
+height: 20rem;
+margin: 0 auto;
+margin-top: 5rem;
+
+}
+
 
 `
 export const ContainerText = styled.div`
@@ -65,6 +102,17 @@ color : #000;
 margin: 1.5rem auto;
 font-size: 1.3rem;
 }
+@media (min-width: 1200px){
+font-size: 1.4em;
+line-height: 1.5rem;
+}
+
+@media (min-width: 1500px){
+padding: 2rem ;
+font-size: 1.6rem;
+font-size: 1.5rem;
+line-height: 2.5rem;
+}
 
 
 `
@@ -74,4 +122,21 @@ export const Image = styled.img`
 width: 100%;
 max-height: 50rem;
 object-fit: contain;
+border-radius: 20px;
+
+@media (min-width: 1200px){
+  max-height: 40rem;
+}
+@media (min-width: 1500px){
+  max-height: 40rem;
+}
+
+
+`
+
+export const ContainerImage = styled.div`
+@media (min-width: 1200px){
+width: 40rem;
+margin-left: 1rem;
+}
 `

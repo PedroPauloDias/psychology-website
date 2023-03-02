@@ -58,7 +58,7 @@ margin:1rem 0;
 }
 
 @media (min-width: 1200px) {
-  height: 9rem;
+  height: 11rem;
 }
 `
 export const Button = styled.button`

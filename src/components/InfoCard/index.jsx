@@ -1,14 +1,18 @@
 import React from 'react'
 import * as S from './style'
-
-export const InfoCard = ({number , title , text}) => {
+import { CaretRight } from 'phosphor-react'
+export const InfoCard = ({ number, title, text, background }) => {
   return (
 
 
-    <S.Container data-aos="zoom-in-up">
-      <S.NumberContainer>
-        <span>{number }</span>
-      </S.NumberContainer>
+    <S.Container background={background}>
+      <S.NumberContainer background={background}>
+        {
+          number === 'icon' ?
+            <span><CaretRight size={13} color='#000' /></span>
+            : <span>{number}</span>
+        }
+      </S.NumberContainer >
       <S.ContainerTitle>
         <h4>{title}</h4>
       </S.ContainerTitle>
@@ -18,6 +22,6 @@ export const InfoCard = ({number , title , text}) => {
     </S.Container>
 
 
- 
+
   )
 }

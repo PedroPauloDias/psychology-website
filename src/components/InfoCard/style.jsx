@@ -6,9 +6,13 @@ width:11rem;
 display: flex;
 flex-direction: column;
 align-items: center;
-background-color:#F0F1F3;
+background-color: ${({ background }) => background === 'yellow' ?
+    '#EECD62' : '#F0F1F3'};
 border-radius: 30px;
 padding: 1rem .8rem;
+
+
+
 
 @media (min-width: 720px) {
   height:16rem;
@@ -16,14 +20,20 @@ width:13rem;
 padding: 1rem;
 }
 @media (min-width: 1200px) {
-  height:16rem;
+  height:18rem;
 width:13rem;
 padding: 1rem;
 }
-@media (min-width: 2000px) {
-  height:15rem;
-width:11.5rem;
-padding: 0;
+@media (min-width: 1500px) {
+  height:19rem;
+width:13.5rem;
+padding: 1rem;
+}
+
+@media (min-width: 1600px) {
+  height:19rem;
+width:14.5rem;
+padding: 1rem;
 }
 
 `
@@ -32,7 +42,7 @@ height: 2rem;
 width: 2rem;
 margin: 1rem 0rem;
 border-radius: 30px;
-background-color:#EECD62 ;
+background-color:${({ background }) => background  ?'#F0F1F3': '#EECD62'  };
 text-align: center;
 color: #FFFFFF;
 display: flex;
