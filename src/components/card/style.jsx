@@ -23,6 +23,12 @@ width: 15rem;
 padding: 1rem  1.5rem;
 
 }
+@media  (min-width:1500px){
+  height:13rem;
+width: 16rem;
+padding: 1rem  1.5rem;
+
+}
 
 `
 export const Title = styled.p`

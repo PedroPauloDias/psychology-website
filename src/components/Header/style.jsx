@@ -48,6 +48,12 @@ grid-template-columns: repeat(2, 1fr);
 margin-top: 7rem;
 gap: 2rem;
 }
+@media  (min-width:1500px){
+  margin-top: 5rem;
+
+
+}
+
 `
 
 export const Image = styled.img`
