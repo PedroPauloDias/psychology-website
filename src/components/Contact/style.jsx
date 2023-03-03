@@ -16,7 +16,7 @@ margin-left: 1rem;
 padding: 1.5rem 0rem;
 }
 @media (min-width: 1500px){
-gap:5rem;
+gap:2rem;
 padding:5rem 1rem
 }
 `
@@ -66,6 +66,12 @@ gap:.3rem;
   gap: .5rem
  
 }
+@media (min-width: 1500px){
+
+  gap: 1rem;
+  margin-bottom: -2.5rem;
+ 
+}
 
 
 `
@@ -81,6 +87,10 @@ export const ContainerFooter = styled.div`
 @media (min-width: 1200px){
   grid-area: footer;
 
+}
+@media (min-width: 1500px){
+width: 100%;
+border-radius: 20px;
 }
 `
 
@@ -108,8 +118,8 @@ width: 19rem;
 margin: 0;
 }
 @media (min-width: 1500px) {
-  height: 10rem;
-width: 20rem;
+  height: 11rem;
+width: 21rem;
 }
 
 `

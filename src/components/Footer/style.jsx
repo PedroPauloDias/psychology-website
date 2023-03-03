@@ -20,6 +20,13 @@ width: 95%;
 border-radius: 20px;
 margin-left: 1rem;
 }
+
+@media (min-width: 1500px){
+width: 95%;
+border-radius: 20px;
+margin-left: 1rem;
+}
+
 `
 
 
