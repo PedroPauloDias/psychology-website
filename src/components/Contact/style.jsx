@@ -45,6 +45,12 @@ padding: 1rem;
   line-height: 3.5rem;
 
 }
+@media (min-width: 1500px){
+
+  margin: 5rem 0rem 2rem 1rem;
+  line-height: 3.5rem;
+
+}
 `
 export const HighlightText = styled.span`
 color:#EECD62;
@@ -69,7 +75,7 @@ gap:.3rem;
 @media (min-width: 1500px){
 
   gap: 1rem;
-  margin-bottom: -2.5rem;
+  margin-bottom: -2rem;
  
 }
 
