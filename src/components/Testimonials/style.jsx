@@ -5,8 +5,10 @@ margin:  1rem 1.5rem;
 
 
 @media (min-width: 1200px){
+  width: 100%;
   display: flex;
-  gap: 3rem;
+  gap: 1.5rem;
+  
 }
 `
 
@@ -61,17 +63,20 @@ cursor: auto !important;
 
 
 @media (min-width: 720px){
-width: 42rem;
+  width: 100%;
 height: 14rem;
 margin: 0 auto;
 
 }
 @media (min-width: 1200px){
-  width: 40rem;
-margin: 0 auto;}
+width: 38rem;
+margin-right: 2rem;
+margin-top: 3rem;
+;}
+
 
 @media (min-width: 1500px){
-width: 52rem;
+width: 50rem;
 height: 20rem;
 margin: 0 auto;
 margin-top: 1rem;
@@ -125,10 +130,10 @@ object-fit: contain;
 border-radius: 20px;
 
 @media (min-width: 1200px){
-  max-height: 40rem;
+  max-height: 32rem;
 }
 @media (min-width: 1500px){
-  max-height: 40rem;
+  max-height: 38rem;
 }
 
 
@@ -137,6 +142,5 @@ border-radius: 20px;
 export const ContainerImage = styled.div`
 @media (min-width: 1200px){
 width: 40rem;
-margin-left: 1rem;
 }
 `
