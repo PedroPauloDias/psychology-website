@@ -38,6 +38,7 @@ margin-top:2.5rem;
 }
 @media (min-width: 1500px){
   font-size: 2.5rem;
+  margin-left: 2.5rem;
 }
 
 @media (min-width: 1600px){
@@ -139,7 +140,7 @@ border-radius: 20px;
   width: 100%;
 }
 @media (min-width: 1500px){
-  max-height: 32rem;
+  max-height: 38rem;
 }
 
 
