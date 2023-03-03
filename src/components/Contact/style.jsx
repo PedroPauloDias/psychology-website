@@ -1,5 +1,25 @@
 import styled from "styled-components";
 
+export const Container = styled.div`
+
+@media (min-width: 1200px){
+height: 55rem;
+display: grid;
+grid-template-columns: repeat(2 ,1fr);
+grid-template-areas: 
+ "title form"
+ "cards form"
+ "footer form"
+
+;
+margin-left: 1rem;
+padding: 1.5rem 0rem;
+}
+@media (min-width: 1500px){
+gap:5rem;
+padding:5rem 1rem
+}
+`
 
 export const containerTitle = styled.div`
 height: 10.5rem;
@@ -12,12 +32,17 @@ margin: 1.2rem;
 margin-top: 4rem;
 padding: 1rem;
 
+
+
 @media (min-width: 720px){
   font-size: 2.2rem;
 
 }
 @media (min-width: 1200px){
+  grid-area: title;
   font-size: 2.8rem;
+  margin: 5rem 0rem 1rem 1rem;
+  line-height: 3.5rem;
 
 }
 `
@@ -34,8 +59,32 @@ align-items: center;
 justify-content: center;
 gap:.3rem;
 
+@media (min-width: 1200px){
+  height: 10rem;
+  grid-area: cards;
+  margin-bottom: -5rem;
+  gap: .5rem
+ 
+}
+
 
 `
+
+export const ContainerForm = styled.div`
+@media (min-width: 1200px){
+  grid-area: form;
+
+
+}
+`
+export const ContainerFooter = styled.div`
+@media (min-width: 1200px){
+  grid-area: footer;
+
+}
+`
+
+
 export const ContactInfoCard = styled.div`
 height: 8rem;
 width: 12rem;
@@ -54,9 +103,13 @@ margin-left:2rem
 }
 
 @media (min-width: 1200px){
-height: 14rem;
+height: 9rem;
 width: 19rem;
-
+margin: 0;
+}
+@media (min-width: 1500px) {
+  height: 10rem;
+width: 20rem;
 }
 
 `
@@ -69,8 +122,8 @@ font-size:1.2rem;
 }
 
 @media (min-width: 1200px){
-  margin: 2rem 0rem;
-font-size:1.5rem;
+  margin: 1rem 0rem;
+font-size:1.3rem;
 
 }
 `

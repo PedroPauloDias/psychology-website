@@ -47,9 +47,18 @@ margin:  1.5rem 1.2rem 0rem 1.2rem;
 }
 @media (min-width: 1200px) {
   font-size: 2.5rem;
-  line-height: 4rem;
+  line-height: 3.5rem;
   margin: 1rem 0;
   width: 40%;
+  padding: .5rem;
+
+}
+@media (min-width: 1500px) {
+  font-size: 2.4rem;
+  line-height: 3.7rem;
+  margin: 1rem 0;
+  width: 40%;
+  padding: .5rem;
 
 }
 `

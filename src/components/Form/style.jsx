@@ -8,8 +8,15 @@ gap:.8rem;
 margin: 1.2rem ;
 padding: 2rem .8rem;
 background: #E9EFF1;
-border-radius: 15px;
+border-radius: 20px;
 margin-top: 1.5rem;
+
+@media (min-width: 1200px){
+width: 95%;
+height: 45rem;
+gap:1.5rem;
+padding: 3rem .8rem;
+}
 `
 export const containerInput = styled.div`
 height: 3.2rem;
@@ -18,10 +25,22 @@ border-radius: 10px;
 display: flex;
 align-items: center;
 justify-content: flex-start;
-
-
-
 background-color: #fff;
+
+@media (min-width: 1200px){
+  height: 4.5rem;
+width: 22rem;
+
+@media (min-width: 1500px){
+  height: 5rem;
+width: 23rem;
+
+}
+
+  
+}
+
+
 `
 export const Input = styled.input`
 
@@ -35,6 +54,13 @@ display: flex;
 align-items: center;
 color: #17191E;
 padding: 1rem 1.5rem;
+
+@media (min-width: 1200px){
+  font-size: 1.4rem;
+
+}
+
+
 `
 
 export const ContainerTextArea = styled.div`
@@ -48,6 +74,16 @@ justify-content: flex-start;
 border: none;
 outline: none;
 
+@media (min-width: 1200px){
+  height:9rem;
+width: 22rem;
+}
+@media (min-width: 1500px){
+  height: 10rem;
+width: 23rem;
+
+}
+
 
 `
 export const TextArea = styled.textarea`
@@ -58,21 +94,36 @@ outline: none;
 font-size: 1rem;
 padding: 1rem 1.5rem;
 border-radius: 10px;
+
+@media (min-width: 1200px){
+  font-size: 1.4rem;
+
+}
 `
 
 export const ContainerSelect = styled.div`
 width: 19rem;
 border-radius: 10px;
 margin-bottom: .5rem;
+background-color: #fff;
 
 &::focus{
   border: none;
 }
+@media (min-width: 1200px){
+  height: 4.5rem;
+width: 22rem;
 
 
+  
+}
+@media (min-width: 1500px){
+  height: 5rem;
+width: 23rem;
+
+}
 
 
-background-color: #fff;
 `
 export const TextLabel = styled.label`
 width: 100%;
@@ -90,7 +141,7 @@ margin-left: 1.5rem;
 @media (min-width:1200px) {
   margin-right: 7rem;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 `
@@ -118,6 +169,21 @@ background-color: #3F5950;
 margin-top: 1rem;
 margin-bottom: 1.5em;
 
+@media (min-width: 1200px){
+  height: 4.5rem;
+width: 22rem;
+margin-top: .5rem;
+margin-bottom: .5em;
+
+
+  
+}
+@media (min-width: 1500px){
+  height: 10rem;
+width: 23rem;
+margin: 0
+}
+
 `
 
 export const Button = styled.button`
@@ -132,6 +198,10 @@ font-size: .8rem;
 gap:.5rem;
 
 border: none;
+@media (min-width: 1200px){
+  font-size: 1.4rem;
+
+}
 `
 
 

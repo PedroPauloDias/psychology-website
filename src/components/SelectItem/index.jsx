@@ -29,7 +29,8 @@ const data = [
 export default function SelectComponent() {
   const useStyles = createStyles((theme) => ({
     control: {
-      width: 305,
+      width: '100%',
+      height:'100%',
       display: 'flex',
       justifyContent: 'space-between',
       alignItems: 'center',

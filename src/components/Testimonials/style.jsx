@@ -69,24 +69,25 @@ margin: 0 auto;
 
 }
 @media (min-width: 1200px){
-width: 38rem;
+width: 32rem;
 margin-right: 2rem;
 margin-top: 3rem;
 ;}
 
 
 @media (min-width: 1500px){
-width: 50rem;
+width: 42rem;
 height: 20rem;
 margin: 0 auto;
-margin-top: 1rem;
+margin-top: 3rem;
+margin-left:3rem;
 
 }
 @media (min-width: 1600px){
 width: 52rem;
 height: 20rem;
 margin: 0 auto;
-margin-top: 5rem;
+margin-top: 3rem;
 
 }
 
@@ -113,10 +114,10 @@ line-height: 1.5rem;
 }
 
 @media (min-width: 1500px){
-padding: 2rem ;
+padding: 1.5rem ;
 font-size: 1.6rem;
 font-size: 1.5rem;
-line-height: 2.5rem;
+line-height: 2rem;
 }
 
 
@@ -124,23 +125,34 @@ line-height: 2.5rem;
 
 
 export const Image = styled.img`
-width: 100%;
-max-height: 50rem;
-object-fit: contain;
+max-height: 24rem;
+object-fit: cover;
 border-radius: 20px;
+
+@media (min-width: 760px){
+  max-height: 30rem;
+  width: 100%;
+}
 
 @media (min-width: 1200px){
   max-height: 32rem;
+  width: 100%;
 }
 @media (min-width: 1500px){
-  max-height: 38rem;
+  max-height: 32rem;
 }
+
 
 
 `
 
 export const ContainerImage = styled.div`
 @media (min-width: 1200px){
-width: 40rem;
+margin-left: 2rem;
+width: 50%;
+}
+@media (min-width: 1500px){
+width:45%
+
 }
 `

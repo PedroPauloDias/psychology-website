@@ -14,6 +14,12 @@ align-items: space-around;
   height: 12.5rem;
   padding:1.5rem
 }
+
+@media (min-width: 1200px){
+width: 95%;
+border-radius: 20px;
+margin-left: 1rem;
+}
 `
 
 

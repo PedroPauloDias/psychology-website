@@ -41,13 +41,13 @@ color: #17191E;
 
 }
 @media (min-width:1200px){
-  line-height:1.2rem;
+  line-height:1.5rem;
   font-size: 1.2rem;
 
 
 }
 @media (min-width: 1500px) {
-  line-height: rem;
+  line-height: 1.8rem;
   font-size: 1.3rem;
  
 }
