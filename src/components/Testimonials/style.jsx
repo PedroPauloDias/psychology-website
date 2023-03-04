@@ -4,6 +4,7 @@ export const Container = styled.div`
 margin:  1rem 1.5rem;
 
 
+
 @media (min-width: 1200px){
   width: 100%;
   display: flex;

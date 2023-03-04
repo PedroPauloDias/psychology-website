@@ -20,7 +20,7 @@ svg {
   color: ${({ title }) => title ? '#fff' : 'red'}
   };
  &:hover {
-  scale: 1.1;
+
 transition: .2s;
  }
 `

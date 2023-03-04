@@ -10,6 +10,7 @@ import { useEffect , useState} from 'react';
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import Head from 'next/head'
+import { LocalMap } from "@/src/components/LocalMap";
 
 export default function Home() {
    
@@ -30,7 +31,8 @@ export default function Home() {
         <AboutSection />
         <Expectation />
         <Testimonials />
-        <Contact />     
+      <Contact />     
+      
     </>
   );
 }

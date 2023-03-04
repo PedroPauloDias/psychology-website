@@ -34,15 +34,14 @@ export const DialogContent = styled(Dialog.Content)`
   background-color: ${({ theme }) => theme.backgroundModal};
   
   @media (min-width: 1200px){
-    height: 88vh;
-   max-height: 950px;
+    height: 70vh;
+   max-height: 750px;
     max-width: 600px;
+    padding: 3.5rem;
 
   }
   
-@media (min-width: 2000px){
-  max-width: 60vw;
-}
+
 
 
 `
@@ -50,15 +49,7 @@ export const ContainerCard = styled.div`
 
   
 
-@media (min-width: 2000px){
-  width:900px;
-  margin-top:2rem;
-display: flex;
-justify-content : space-between;
-padding: 1rem;
 
-
-}
 
 `
 
@@ -77,11 +68,7 @@ margin-top: 5rem;
   margin-top: 4rem;
  }
     
-@media (min-width: 2000px){
-  width: 52%;
-  height: 17rem;
-  margin-top: 0;
-}
+
 
 `
 export const Title = styled(Dialog.Title)`
@@ -101,18 +88,13 @@ color: ${({ theme }) => theme.TextCardModal};
 @media (min-width: 1200px){
 width:90%;
 font-size: 2.2rem;
-margin-top: .5rem;
-left: -4rem;
+margin-top: 1.5rem;
+margin-bottom: 2rem;;
+left: -2rem;
 
 }
 
-@media (min-width: 2000px){
-width:90%;
-position: initial;
-font-size: 2rem;
-margin-left:3rem;
-padding: 1rem;
-}
+
 `
 
 export const Text = styled(Dialog.Description)`
@@ -130,19 +112,11 @@ line-height: 1.8rem;
 margin-top: .5rem;
 
 margin-bottom: 3rem;
+margin-left: -.8rem;
 
 }
 
-@media (min-width: 2000px){  
-margin-top: 0;
-  width: 50%;
-  height: 17rem;
-font-weight: 400;
-font-size: 1.5rem;
-padding: 1.5rem ;
-line-height: 1.7rem;
 
-}
 `
 
 export const DialogClose = styled(Dialog.Close)`

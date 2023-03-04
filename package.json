@@ -17,6 +17,7 @@
     "@next/font": "^13.1.6",
     "@radix-ui/primitive": "^1.0.0",
     "@radix-ui/react-dialog": "^1.0.2",
+    "@react-google-maps/api": "^2.18.1",
     "@tabler/icons": "^2.5.0",
     "animate.css": "^4.1.1",
     "aos": "^2.3.4",
