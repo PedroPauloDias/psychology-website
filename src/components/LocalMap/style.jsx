@@ -8,7 +8,7 @@ export const Container = styled.div`
 height: 100%;
 width: 100%;
 position: absolute;
-top:255rem;
+top:263rem;
 left: 0;
 right: 0;
 bottom: 0;
@@ -28,7 +28,7 @@ background: linear-gradient(166deg, rgba(63,89,80,1) 53%, rgba(217,193,150,1) 10
 `
 
 export const Container2 = styled.div`
-height: 70%;
+height: 75%;
 display: flex;
 flex-direction: column;
 justify-content: center;
