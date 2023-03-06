@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState, useEffect} from 'react'
 import { SocialMedias } from '../SocialMedias'
 import { LocalMap } from '../LocalMap'
 
@@ -6,7 +6,15 @@ import * as S from './style'
 
 export const Footer = () => {
 
+  const [openedMap, setOpenedMap] = useState(false)
 
+ useEffect(() => {
+    document.body.style.overflowY = openedMap ? 'hidden' : 'auto'
+ }, [openedMap])
+
+  function handleMap() {
+    setOpenedMap(!openedMap)
+  }
 
 
 
@@ -18,7 +26,7 @@ export const Footer = () => {
           <S.ModalMap>
             <p>Rua João Evangelista nº 303  , Itapetininga-Sp </p>
             <div>             
-            <LocalMap/>
+              <LocalMap />             
             </div>
           </S.ModalMap>
           <p>

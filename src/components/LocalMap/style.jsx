@@ -5,10 +5,10 @@ export const Container = styled.div`
 
 
 
-height: 120vh;
+height: 100vh;
 width: 100%;
 position: absolute;
-top:260rem;
+top:255rem;
 left: 0;
 right: 0;
 bottom: 0;
@@ -28,12 +28,11 @@ background: linear-gradient(166deg, rgba(63,89,80,1) 53%, rgba(217,193,150,1) 10
 `
 
 export const Container2 = styled.div`
-height: 60%;
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-margin: 7rem;
+margin-top: 10rem;
 
 `
 

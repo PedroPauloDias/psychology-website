@@ -39,3 +39,15 @@ export const ModalMap = styled.div`
 
 `
 
+export const OpenMap = styled.button`
+border: none;
+background-color: transparent;
+color:#fff;
+font-size: .8rem;
+cursor: pointer;
+opacity: .7;
+margin: .2rem 0rem 1.5rem 0rem;
+
+@media (min-width: 500px){
+  display: none;
+}`
