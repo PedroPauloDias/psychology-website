@@ -16,7 +16,7 @@ export const LocalMap = () => {
 
 
   const { isLoaded } = useLoadScript({
-    googleMapsApiKey: "AIzaSyBKzsSpGHM8CGAFoFk9hA_0tbLwmqBz0vM",
+    googleMapsApiKey:  process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY,
   });
 
   const mapCenter = useMemo(
@@ -39,7 +39,7 @@ export const LocalMap = () => {
               <S.OpenMap onClick={handleMap}><XCircle size={32} /></S.OpenMap>
               <GoogleMap
 
-                zoom={20}
+                zoom={19.5}
                 center={mapCenter}
                 mapContainerStyle={{ width: '380px', height: '500px' }}
                 onLoad={() => console.log('Map Component Loaded...')}
