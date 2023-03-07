@@ -8,4 +8,7 @@ export const sendContactForm = async (data) =>
       "content-type": "application/json",
       Accept: "application/json",
     }
+  }).then((res) => {
+    if (!res.ok) throw new Error("mensagem não enviada");
+    return res.json();
   })
