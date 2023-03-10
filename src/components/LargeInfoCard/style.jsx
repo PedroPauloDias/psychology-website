@@ -32,7 +32,7 @@ margin-left: 2rem;
 export const ContainerText = styled.div`
 
 font-weight: 400;
-font-size: 1rem;
+font-size: .9rem;
 color: #17191E;
 
 @media (min-width:720px){
@@ -56,7 +56,7 @@ color: #17191E;
 `
 export const ContainerButton = styled.div`
 height: 2rem;
-width: 8rem;
+width: 9rem;
 border-radius:10px;
 display: flex;
 align-items: center;
@@ -85,7 +85,7 @@ display: flex;
 align-items: center;
 justify-content: space-around;
 font-weight: 200;
-font-size: 1rem;
+font-size: .9rem;
 color: #fff;
 border: none;
 text-decoration: none;

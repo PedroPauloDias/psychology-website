@@ -93,7 +93,7 @@ height: 8rem;
 line-height: 1rem;
 font-size: 1.7rem;
 padding: .5rem;
-margin: 1rem 0;
+margin: 2.5rem 0;
 margin-left: 2.7rem;
 font-weight: 700;
 
@@ -127,7 +127,7 @@ margin: 1.5rem 0;
 
 
 export const SubTitle = styled.p`
-color:#EECD62;
+color:#ebc65e;
 line-height: 1.5rem;
 
 

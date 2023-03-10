@@ -1,14 +1,14 @@
 import { createGlobalStyle } from "styled-components"
 
 export const lightTheme = {
-  body: '#FFF',
+  body: '#f7f6ef',
   text: '#070A11',
   textCard: '#070A11',
   textCard2: '#fff',
-  textMenuFixed:'#3F5950',
+  textMenuFixed:'#47625d',
   textCardModal:'#070A11',
   textAboutCard:'#363537',
-  highlightText:'#EECD62',
+  highlightText:'#Ebc65e' ,
   toggleBorder: '#FFF',
   background: '#363537',
   backgroundCard: "#F0F1F3",
@@ -22,18 +22,18 @@ export const darkTheme = {
   body: '#363537',
   text: '#FAFAFA',
   textCard: '#3F5950',
-  textCard2: '#fff',
-  textMenuFixed:'#fff',
-  textCardModal:'#fff',
+  textCard2: '#f7f6ef',
+  textMenuFixed:'#f7f6ef',
+  textCardModal:'#f7f6ef',
   textAboutCard:'#363537',
-  highlightText:'#3F5950',
+  highlightText:'#47625d',
   toggleBorder: '#6B8096',
   background: ' #446258;',
   backgroundCard: "#F0F1F3",
-  backgroundModal:'#3F5950',
+  backgroundModal:'#47625d',
   backgroundButton: '#070A11',
   backgroundButtonModal: "#f0f1f3",
-  svgColor:'#fff',
+  svgColor:'#f7f6ef',
   
 }
 

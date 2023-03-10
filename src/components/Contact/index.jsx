@@ -14,9 +14,10 @@ export const Contact = () => {
       </S.containerTitle>
       <S.ContainerCards  >
         <S.ContactInfoCard >
-          <S.Text>contato@thaynacunha
-            .com.br</S.Text>
-          <S.Text>+55 15 99813 2212</S.Text>
+          <S.Text>tcpsicologia23
+            @gmail.com
+            </S.Text>
+          <S.Text>tel : 15 99604 2007</S.Text>
         </S.ContactInfoCard>
         <S.ContactInfoCard  >
           <S.Text>Horario de atendimento</S.Text>

@@ -10,7 +10,7 @@ flex-direction: column;
 align-items: flex-end;
 justify-content: space-between;
 padding: 1rem;
-
+font-weight: 600;
 
 @media  (min-width:720px){
   height: 9rem;
@@ -32,7 +32,7 @@ padding: 1rem  1.5rem;
 
 `
 export const Title = styled.p`
-font-size: 1.1rem;
+font-size: .9rem;
 color: ${({ color }) => color || '#000'};
 
 

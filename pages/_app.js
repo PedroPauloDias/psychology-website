@@ -6,8 +6,8 @@ import store from "@/src/redux/store";
 import { Sun, Moon } from "phosphor-react";
 import * as S from "../styles/app";
 
-import {Nunito} from '@next/font/google'
-const  nunito = Nunito({subsets: ['latin']})
+import {Cinzel} from '@next/font/google'
+const  cinzel = Cinzel({subsets: ['latin']})
 export default function App({ Component, pageProps }) {
   const [theme, setTheme] = useState("light");
 
@@ -29,7 +29,7 @@ export default function App({ Component, pageProps }) {
             <Sun color="#fff" size={20} />
           </S.StyledButton>
         )}
-        <main className={nunito.className} >
+        <main className={cinzel.className} >
         <GlobalStyles />
         <Component {...pageProps} />
         </main>

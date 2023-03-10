@@ -17,7 +17,7 @@ export const ContainerTitle = styled.div`
 height: 8rem;
 text-align: start;
 font-weight: 700;
-font-size: 1.6rem;
+font-size: 1.3rem;
 line-height: 3rem;
 margin-top:2.5rem;
 

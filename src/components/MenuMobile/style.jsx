@@ -33,7 +33,7 @@ list-style: none;
 export const Link = styled.a`
 text-decoration: none;
 color:#fff;
-font-size:1.8rem;
+font-size:1.4rem;
 font-weight: 400;
 
 

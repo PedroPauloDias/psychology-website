@@ -25,7 +25,7 @@ export const containerTitle = styled.div`
 height: 10.5rem;
 text-align: start;
 font-weight: 700;
-font-size: 1.6rem;
+font-size: 1.3rem;
 line-height: 2.5rem;
 color: ${({theme})=> theme.text};
 margin: 1.2rem;
@@ -53,7 +53,7 @@ padding: 1rem;
 }
 `
 export const HighlightText = styled.span`
-color:#EECD62;
+color:#Ebc65e;
 margin-left: .1rem;
 margin-right:0.5rem;
 `
@@ -130,7 +130,9 @@ width: 21rem;
 
 `
 export const Text = styled.p`
-font-size: 1rem;
+font-size: .9rem;
+line-height: 1.5rem;
+margin-bottom: .7rem;
 
 @media (min-width: 720px){
   margin: 1.2rem 0rem;

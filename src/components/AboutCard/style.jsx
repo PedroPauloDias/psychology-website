@@ -11,6 +11,7 @@ flex-direction: column;
 align-items: flex-start;
 justify-content: space-around;
 border-radius: 20px;
+padding: 1.5rem;
 
 
 @media (min-width: 720px) {
@@ -48,7 +49,7 @@ width: 100%;
 height: 13.5rem;
 padding:.5rem 1rem;
 
-font-size: 1.1rem;
+font-size: .9rem;
 color:  ${({ theme }) => theme.textCard2};
 margin:1rem 0;
 

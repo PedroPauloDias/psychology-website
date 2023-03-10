@@ -1,13 +1,13 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-height: 14rem;
+height: 15rem;
 width:11rem;
 display: flex;
 flex-direction: column;
 align-items: center;
 background-color: ${({ background }) => background === 'yellow' ?
-    '#EECD62' : '#F0F1F3'};
+    '#Ebc65e' : '#F0F1F3'};
 border-radius: 30px;
 padding: 1rem .8rem;
 
@@ -42,7 +42,7 @@ height: 2rem;
 width: 2rem;
 margin: 1rem 0rem;
 border-radius: 30px;
-background-color:${({ background }) => background  ?'#F0F1F3': '#EECD62'  };
+background-color:${({ background }) => background  ?'#F0F1F3': '#Ebc65e'  };
 text-align: center;
 color: #FFFFFF;
 display: flex;
@@ -58,7 +58,7 @@ width: 2rem;
 export const ContainerTitle = styled.div`
 height: 4rem;
 font-weight: 700;
-font-size: 1rem;
+font-size: .9rem;
 text-align: center;
 color: #070A11;
 
@@ -71,7 +71,7 @@ font-size: 1.1rem;
 export const ContainerText = styled.div`
 height: 5rem;
 font-weight: 400;
-font-size: .9rem;
+font-size: .8rem;
 display: flex;
 align-items: center;
 text-align: center;

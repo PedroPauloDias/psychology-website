@@ -23,8 +23,8 @@ export const DialogContent = styled(Dialog.Content)`
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 80vh;
-  width: 90vw;
+  height: 90vh;
+  width: 85vw;
   max-width: 450px;
   max-height: 650px;
   padding: 25px;
@@ -60,7 +60,7 @@ height: 15rem;
 width: 20rem;
 object-fit: center;
 filter: grayscale(1);
-margin-top: 5rem;
+margin-top: 2rem;
 
 @media (min-width: 1200px){
   height: 18rem;
@@ -74,7 +74,7 @@ margin-top: 5rem;
 export const Title = styled(Dialog.Title)`
 height: 4rem;
 width: 15rem;
-font-size: 1.7rem;
+font-size: 1.3rem;
 line-height: 2rem;
 text-align: center;
 background-color: transparent;
@@ -82,7 +82,7 @@ opacity:.9;
 margin: .5 ;
 position: absolute;
 left: 3rem;
-top:1.5rem;
+top:1rem;
 color: ${({ theme }) => theme.TextCardModal};
 
 @media (min-width: 1200px){
@@ -100,7 +100,7 @@ left: -2rem;
 export const Text = styled(Dialog.Description)`
 width: 20rem;
 margin-top: 1rem;
-font-size: 1rem;
+font-size: .9rem;
 color: ${({ theme }) => theme.TextCardModal};
 
 @media (min-width: 1200px){
@@ -167,9 +167,9 @@ background-color: transparent;
 
 `
 export const ContactMe = styled.a`
-height: 3.5rem;
+height: 3rem;
 width: 20rem;
-margin-top: 2rem;
+margin-top: 1rem;
 border-radius:10px;
 background-color:  ${({ theme }) => theme.backgroundButtonModal};;
 color: #000;
@@ -177,7 +177,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 font-weight: 200;
-font-size: 1.2rem;
+font-size: 1rem;
 gap:1rem;
 border: none;
 cursor: pointer;

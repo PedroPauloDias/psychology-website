@@ -38,7 +38,7 @@ export const Header = () => {
             category='gratis'
             title='Agendar consulta gratuita'
             text='Entre em Contato para uma consulta gratuita, juntos podemos melhorar sua qualidade de vida e bem-estar , aproveite essa oportunidade para nos conhecermos e começar a cuidar desde já da sua saúde mental '
-            BackgroundColor='#EECD62'
+            BackgroundColor='#e9c45d;'
             color='#ffffff'
           />
         </S.Cards>
