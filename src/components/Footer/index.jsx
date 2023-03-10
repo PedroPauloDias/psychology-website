@@ -16,8 +16,6 @@ export const Footer = () => {
     setOpenedMap(!openedMap)
   }
 
-
-
   return (
     <footer>
       <S.Container >

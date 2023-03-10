@@ -4,13 +4,12 @@ import * as S from './style'
 import { CaretRight } from 'phosphor-react'
 import SelectComponent from '../SelectItem'
 import { sendContactForm } from '../lib/api'
-import { init } from 'aos'
 
 const initValues = {
   name: "",
   email: "",
   telefone: "",
-  text: "",
+  message: "",
 }
 const initState = { values: initValues }
 
@@ -29,21 +28,16 @@ export const Form = () => {
 
   }))
 
+  
+
   const onSubmit = async () => {
     setState((prev) => ({
       ...prev,
     }));
 
-    try {
       await sendContactForm(values)
-      setState(initState)
       
-    } catch (error) {
-      setState((prev) => ({
-        ...prev,
-        
-      }));
-    }
+    
 
   };
 
@@ -55,7 +49,8 @@ export const Form = () => {
               type="text"
               placeholder='Nome'
               placeholderTextColor="green"
-              name='name' value={values.name}
+              name='name'
+              value={values.name}
               onChange={handleChange} />
           </S.containerInput>
           <S.containerInput>
@@ -79,7 +74,7 @@ export const Form = () => {
               type="text"
               placeholder='Deixe sua mensagem'
               rows="5" cols="33"
-              value={values.text}
+             
               
             ></S.TextArea>
           </S.ContainerTextArea>
