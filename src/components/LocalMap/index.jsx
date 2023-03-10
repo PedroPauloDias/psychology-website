@@ -39,7 +39,7 @@ export const LocalMap = () => {
               <S.OpenMap onClick={handleMap}><XCircle size={32} /></S.OpenMap>
               <GoogleMap
 
-                zoom={19.5}
+                zoom={19}
                 center={mapCenter}
                 mapContainerStyle={{ width: '380px', height: '500px' }}
                 onLoad={() => console.log('Map Component Loaded...')}
