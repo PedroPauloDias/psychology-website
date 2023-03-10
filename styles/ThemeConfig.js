@@ -1,7 +1,7 @@
 import { createGlobalStyle } from "styled-components"
 
 export const lightTheme = {
-  body: '#f7f6ef',
+  body: '#fff',
   text: '#070A11',
   textCard: '#070A11',
   textCard2: '#fff',
@@ -22,9 +22,9 @@ export const darkTheme = {
   body: '#363537',
   text: '#FAFAFA',
   textCard: '#3F5950',
-  textCard2: '#f7f6ef',
-  textMenuFixed:'#f7f6ef',
-  textCardModal:'#f7f6ef',
+  textCard2: '#fff',
+  textMenuFixed:'#fff',
+  textCardModal:'#fff',
   textAboutCard:'#363537',
   highlightText:'#47625d',
   toggleBorder: '#6B8096',
@@ -33,7 +33,7 @@ export const darkTheme = {
   backgroundModal:'#47625d',
   backgroundButton: '#070A11',
   backgroundButtonModal: "#f0f1f3",
-  svgColor:'#f7f6ef',
+  svgColor:'#fff',
   
 }
 
