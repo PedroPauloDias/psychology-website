@@ -30,8 +30,9 @@ const handler = async (req, res) => {
     transporter.sendMail({
       ...mailOptions,
       ...generateEmailContent(data),
-       subject:"teste"
+      subject:"teste",
     });
+    console.log("foi");
     return res.status(200).json({ success: true });
   }
   return res.status(400).json({ message: "Bad  " });

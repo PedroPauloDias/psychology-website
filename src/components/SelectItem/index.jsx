@@ -53,8 +53,9 @@ export default function SelectComponent() {
     },
   
     label: {
-      fontWeight: 300,
-      fontSize: theme.fontSizes.sm,
+      fontWeight: 100,
+      fontSize: theme.fontSizes.md,
+      fontFamily: 'Cinzel',
     },
   
     icon: {

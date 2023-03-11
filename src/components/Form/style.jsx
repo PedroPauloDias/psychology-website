@@ -27,6 +27,7 @@ align-items: center;
 justify-content: flex-start;
 background-color: #fff;
 
+
 @media (min-width: 1200px){
   height: 4.5rem;
 width: 22rem;
@@ -49,15 +50,15 @@ height:100%;
 border-radius: 20px;
 border: unset;
 outline: none;
-font-size: 1rem;
+font-size: 1.1rem;
 display: flex;
 align-items: center;
-color: #17191E;
 padding: 1rem 1.5rem;
+
+
 
 @media (min-width: 1200px){
   font-size: 1.4rem;
-
 }
 
 
@@ -91,9 +92,11 @@ height: 100%;
 width: 100%;
 border: unset;
 outline: none;
-font-size: 1rem;
+font-weight: bold;
+font-size: 1.1rem;
 padding: 1rem 1.5rem;
 border-radius: 10px;
+
 
 @media (min-width: 1200px){
   font-size: 1.4rem;
