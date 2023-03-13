@@ -2,7 +2,6 @@ import { GlobalStyles, lightTheme, darkTheme } from "@/styles/ThemeConfig";
 import { useState } from "react";
 import { ThemeProvider } from "styled-components";
 import { Provider } from "react-redux";
-import store from "@/src/redux/store";
 import { Sun, Moon } from "phosphor-react";
 import * as S from "../styles/app";
 
@@ -18,7 +17,6 @@ export default function App({ Component, pageProps }) {
   
 
   return (
-    <Provider store={store}>
       <ThemeProvider theme={theme == "light" ? lightTheme : darkTheme}>
         {theme == "light" ? (
           <S.StyledButton onClick={toggleTheme}>
@@ -34,6 +32,5 @@ export default function App({ Component, pageProps }) {
         <Component {...pageProps} />
         </main>
       </ThemeProvider>
-    </Provider>
   );
 }
