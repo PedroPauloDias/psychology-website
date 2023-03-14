@@ -10,7 +10,7 @@ export default function Info() {
     <>
       <Layout>
         <div>
-          <Image src="/images/consultorio.jpg" alt="imagem do consultorio"
+          <Image src="/images/consultorio.jpg" alt=" consultorio da psicologa"
             height="250" width="415" />
         </div>
         <S.Container>
@@ -21,7 +21,7 @@ export default function Info() {
           <div>
             <Image
               src="/images/psicologa.webp"
-              alt="imagem de paciente e psicologa conversando"
+              alt=" paciente e psicologa conversando"
               height="250" width="375"
             />
           </div>
