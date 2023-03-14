@@ -9,8 +9,7 @@ import { Contact } from "@/src/components/Contact";
 import { useEffect , useState} from 'react';
 import Aos from 'aos'
 import 'aos/dist/aos.css'
-import Head from 'next/head'
-import { LocalMap } from "@/src/components/LocalMap";
+
 
 export default function Home() {
    
