@@ -4,39 +4,29 @@ import * as S from './style'
 const useStyles = createStyles((theme) => ({
   wrapper: {
     paddingTop: `calc(${theme.spacing.xl} * 2)`,
-    paddingBottom: `calc(${theme.spacing.xl} * 2)`,
-    minHeight: 550,
-    width: " 100%",
-    backgroundColor: '#47625d',
-    borderRadius: "10px",
+    paddingBottom:"20px",
+    minHeight: 500,
+    backgroundColor:"#47625d"
+
   },
 
   title: {
-    marginBottom: "40px",
-    marginTop: "50px",
-    paddingTop: "30px",
-    fontFamily: "Cinzel",
-    fontSize: "32px",
+    marginBottom: `calc(${theme.spacing.xl} * 5)`,
     color: "#fff",
-
-
+    paddingTop: "20px",
+    paddingBottom:"20px"
   },
 
   item: {
     borderRadius: theme.radius.md,
-    marginBottom: theme.spacing.lg,
-    color: "#000",
-    border: ` ${theme.colorScheme === 'dark' ? theme.colors.dark[4] : theme.colors.gray[3]
-      }`,
+    marginBottom: theme.spacing.sm,
+    
   },
 }));
-
-
-
 export function FaqSimple() {
   const { classes } = useStyles();
   return (
-    <Container size="md" className={classes.wrapper}>
+    <Container size="xl" className={classes.wrapper}>
       <Title className={classes.title}>
 
         Dúvidas frequentes
@@ -48,9 +38,9 @@ export function FaqSimple() {
           <Accordion.Control>A  privacidade é assegurada ?</Accordion.Control>
           <Accordion.Panel>
 
-            <S.Texte>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe vitae atque eveniet expedita earum a amet similique ad, officia consectetur provident, neque quis odit eligendi, eum dolore. A, corporis impedit.
-            </S.Texte>
+            <S.Text>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe vitae atque eveniet expedita earum a amet similique ad, officia consectetur provident, neque quis odit eligendi     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe vitae atque eveniet expedita earum a amet similique ad, officia consectetur provident, neque quis odit eligendi     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe vitae atque eveniet expedita earum a amet similique ad, officia consectetur provident, neque quis odit eligendi
+            </S.Text>
 
           </Accordion.Panel>
         </Accordion.Item>
@@ -58,36 +48,36 @@ export function FaqSimple() {
         <Accordion.Item className={classes.item} value="tempo">
           <Accordion.Control>Quanto tempo preciso fazer terapia?</Accordion.Control>
           <Accordion.Panel>
-            <S.Texte>
+            <S.Text>
               É complicado definir o tempo de duração da terapia sem ter conhecimento do quadro clínico dos pacientes.
-              Duas pessoas com o diagnóstico da depressão podem ter tratamentos diferentes por responderem a ferramentas e técnicas distintas. Além disso, podem ter crenças diferentes sobre a sua capacidade de combater a depressão, o que automaticamente influencia o tempo de duração do tratamento.
-            </S.Texte>
+            
+            </S.Text>
           </Accordion.Panel>
         </Accordion.Item>
 
         <Accordion.Item className={classes.item} value="duvidas">
           <Accordion.Control>Como saber se a terapia está dando certo ? </Accordion.Control>
           <Accordion.Panel>
-            <S.Texte>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe vitae atque eveniet expedita earum a amet similique ad, officia consectetur provident, neque quis odit eligendi, eum dolore. A, corporis impedit.
-            </S.Texte></Accordion.Panel>
+            <S.Text>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe vitae atque eveniet expedita earum a amet similique ad, officia consectetur provident, neque quis odit eligendi
+            </S.Text></Accordion.Panel>
         </Accordion.Item>
 
         <Accordion.Item className={classes.item} value="medicacao">
           <Accordion.Control>E se eu precisar de medicação ?</Accordion.Control>
           <Accordion.Panel>
-            <S.Texte>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe vitae atque eveniet expedita earum a amet similique ad, officia consectetur provident, neque quis odit eligendi, eum dolore. A, corporis impedit.
-            </S.Texte>
+            <S.Text>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe vitae atque eveniet expedita earum a amet similique ad, officia consectetur provident, neque quis odit eligendi
+            </S.Text>
           </Accordion.Panel>
         </Accordion.Item>
 
         <Accordion.Item className={classes.item} value="duvidas-melhora">
           <Accordion.Control>O que devo fazer se não notar uma melhora ?</Accordion.Control>
           <Accordion.Panel>
-            <S.Texte>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe vitae atque eveniet expedita earum a amet similique ad, officia consectetur provident, neque quis odit eligendi, eum dolore. A, corporis impedit.
-            </S.Texte>
+            <S.Text>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe vitae atque eveniet expedita earum a amet similique ad, officia consectetur provident, neque quis odit eligendi
+            </S.Text>
           </Accordion.Panel>
         </Accordion.Item>
       </Accordion>
