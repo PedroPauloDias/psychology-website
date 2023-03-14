@@ -87,7 +87,7 @@ export default function SelectComponent() {
         <Menu.Target>
           <UnstyledButton className={classes.control}>
             <Group spacing="xs">
-              <Image src={selected.image} width={22} height={22} />
+              <Image src={selected.image} width={22} height={22} alt=''/>
               <span className={classes.label}>{selected.label}</span>
             </Group>
             <x size={16} className={classes.icon} stroke={1.5} />
