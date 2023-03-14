@@ -69,7 +69,7 @@ export default function SelectComponent() {
     const [selected, setSelected] = useState(data[0]);
     const items = data.map((item) => (
       <Menu.Item
-        icon={<Image src={item.image} width={18} height={18} />}
+        icon={<Image src={item.image} width={18} height={18}  alt =''/>}
         onClick={() => setSelected(item)}
         key={item.label}
       >
