@@ -1,5 +1,4 @@
 import { FaqSimple } from "@/src/components/frequentlyQuestions";
-import Image from "next/image";
 import Layout from "../Layout";
 import * as S from './style'
 
@@ -10,7 +9,7 @@ export default function Info() {
     <>
       <Layout>
         <div>
-          <img src="/images/consultorio.jpg" alt=""
+          <img src="/images/consultorio.jpg" alt=" consultorio_psicologa"
             height="250" width="415" />
         </div>
         <S.Container>
@@ -21,7 +20,7 @@ export default function Info() {
           <div>
             <img
               src="/images/psicologa.webp"
-              alt=""
+              alt="paciente_e_psicologa_conversando"
               height="250" width="375"
             />
           </div>

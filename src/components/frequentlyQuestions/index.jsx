@@ -6,7 +6,8 @@ const useStyles = createStyles((theme) => ({
     paddingTop: `calc(${theme.spacing.xl} * 2)`,
     paddingBottom:"20px",
     minHeight: 500,
-    backgroundColor:"#47625d"
+    backgroundColor: "#47625d",
+    borderRadius:"10px"
 
   },
 
