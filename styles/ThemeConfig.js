@@ -15,7 +15,8 @@ export const lightTheme = {
   backgroundModal:'#fff' ,
   backgroundButton: '#070A11',
   backgroundButtonModal: "#EECD62",
-  svgColor:'#000',
+  svgColor: '#000',
+  contrastText:'#47625d',
 }
 
 export const darkTheme = {
@@ -33,7 +34,8 @@ export const darkTheme = {
   backgroundModal:'#47625d',
   backgroundButton: '#070A11',
   backgroundButtonModal: "#f0f1f3",
-  svgColor:'#fff',
+  svgColor: '#fff',
+  contrastText:'#Ebc65e' ,
   
 }
 
