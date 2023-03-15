@@ -6,7 +6,7 @@ export const AboutMeContent = () => {
     <>
       <div>
         <img src='/images/perfil.jpg' alt=''
-          height="400" width="435" />
+          height="400" width="415" />
       </div>
       <S.Container>
         <S.ContainerText>
@@ -19,7 +19,7 @@ export const AboutMeContent = () => {
           <S.Text>especialista em tratamento infantil </S.Text>
           <div>
             <img src='/images/puzzle.webp' alt=''
-              height="300" width="395" />
+              height="300" width="375" />
           </div>
           <S.SubTitle>Especialidades </S.SubTitle>
           <S.Text>
@@ -36,7 +36,7 @@ export const AboutMeContent = () => {
           <S.Title>Meu Consultório</S.Title>
           <div>
             <img src='/images/consultorio.jpg' alt=''
-              height="300" width="395" />
+              height="300" width="375" />
           </div>
 
           <S.Text>Localizado na Rua João Evangelista nº 303  no centro da cidade de Itapetininga-Sp  </S.Text>
