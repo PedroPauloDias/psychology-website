@@ -7,7 +7,7 @@ padding: 1rem 1.2rem;
 img{
   border-radius: 15px;
   object-fit: cover;
-
+margin-bottom: 1.5rem;
 
 }
 `

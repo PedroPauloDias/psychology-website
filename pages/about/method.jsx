@@ -1,7 +1,13 @@
+import { AboutMethod } from '@/src/components/aboutMethod'
 import React from 'react'
+import Layout from '../Layout'
 
-export default  function  method()  {
+export default function method() {
   return (
-    <div>method</div>
+    <>
+      <Layout>
+        <AboutMethod />
+      </Layout>
+    </>
   )
 }

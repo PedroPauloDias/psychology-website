@@ -6,7 +6,7 @@ export const AboutMeContent = () => {
     <>
       <div>
         <img src='/images/perfil.jpg' alt=''
-          height="400" width="415" />
+          height="400" width="410" />
       </div>
       <S.Container>
         <S.ContainerText>
