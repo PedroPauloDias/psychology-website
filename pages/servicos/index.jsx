@@ -19,7 +19,19 @@ export default function servicos({servicos}) {
   return (
     <>
       <Layout>
-        <ServicesContent servicos={servicos}/>
+      <div>
+          {servicos.map((servico) => (
+            <div key={servico.title}>
+              <ServicesContent
+                title={servico.title}
+                subTitle={servico.subTitle}
+                text={servico.text}
+                secondaryText={servico.secondaryText}
+              
+              />
+                       </div>
+          ))}
+        </div>
       </Layout>
     </>
   )

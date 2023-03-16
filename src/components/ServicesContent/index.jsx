@@ -16,38 +16,32 @@ export async function getStaticProps() {
 
 }
 
-export const ServicesContent = ({ servicos }) => {
+export const ServicesContent = ({title, text, subTitle,secondaryText}) => {
   return (
     <>
       <div>
-          <div>
-          {servicos.map((servico) => (
-            <div key={servico.title}>
-              <div>
-                <img src='/images/gratis.webp' alt=''
-                  height="300" width="410" />
-              </div>
-              <S.Container>
-                <S.ContainerText>
-                  <S.Title>{servico.title}</S.Title>
-                  <S.Text>
-                   {servico.text}
-                  </S.Text>
-                        
-                  <S.Title>{servico.subTitle}</S.Title>
-                  <div>
-                    <img src='/images/cognitiva.jpeg' alt=''
-                      height="300" width="375" />
-                  </div>
-                  <S.Text>{servico.secondaryText}
-                  </S.Text>        
-                  <S.SubTitle>Entre em contato Comigo</S.SubTitle>
-                  <Form/>
-                </S.ContainerText>
-              </S.Container>
-            </div>
-          ))}
-        </div>
+      <div>
+<img src='/images/gratis.webp' alt=''
+  height="300" width="410" />
+</div>
+<S.Container>
+<S.ContainerText>
+  <S.Title>{title}</S.Title>
+  <S.Text>
+   {text}
+  </S.Text>
+        
+  <S.Title>{subTitle}</S.Title>
+  <div>
+    <img src='/images/cognitiva.jpeg' alt=''
+      height="300" width="375" />
+  </div>
+  <S.Text>{secondaryText}
+  </S.Text>        
+  <S.SubTitle>Entre em contato Comigo</S.SubTitle>
+  <Form/>
+</S.ContainerText>
+</S.Container>
     
     </div> 
     </>
