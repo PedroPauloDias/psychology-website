@@ -7,10 +7,9 @@ export const Contact = () => {
   return (
     <S.Container>
       <S.containerTitle data-aos="fade-right">
-        <h2>
-          Agende já uma
-         <S.HighlightText> consulta </S.HighlightText>
-           pra gente se conhecer</h2>
+        <h2> Agende já uma</h2>
+          <S.HighlightText> consulta </S.HighlightText>
+          <h2> pra gente se conhecer</h2>
       </S.containerTitle>
       <S.ContainerCards  >
         <S.ContactInfoCard >

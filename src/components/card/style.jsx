@@ -12,8 +12,12 @@ justify-content: space-between;
 padding: 1.2rem;
 
 @media  (min-width:720px){
-  height: 9rem;
-width: 12rem;
+  height: 10rem;
+width: 14rem;
+padding: 1rem;
+
+
+
 }
 
 @media  (min-width:1200px){
@@ -34,6 +38,11 @@ export const Title = styled.p`
 font-size: 1.1rem;
 color: ${({ color }) => color || '#000'};
 
+@media  (min-width:720px){
+font-size:1.4rem;
+text-align: start;
+width: 100%;
+}
 
 @media  (min-width:1200px){
 font-size:1.5rem

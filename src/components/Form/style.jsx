@@ -10,6 +10,13 @@ padding: 2rem .8rem;
 background: #E9EFF1;
 border-radius: 20px;
 margin-top: 1rem;
+padding-top:3rem;
+
+
+
+@media (min-width: 720px){
+padding-top:3.5rem
+}
 
 @media (min-width: 1200px){
 width: 95%;
@@ -147,7 +154,7 @@ margin-left: 1.5rem;
 @media (min-width:720px) {
   font-size: 1rem;
   text-align: center;
-  margin-right: 9rem;
+  padding-right: 5rem;
 }
 
 @media (min-width:1200px) {

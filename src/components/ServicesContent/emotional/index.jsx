@@ -7,7 +7,7 @@ export const EmotionalContent = () => {
     <>
       <div>
       <div>
-          <img src='/images/gratis.webp' alt=''
+          <img src='/images/emocionais.webp' alt=''
             height="300" width="410" />
         </div>
    

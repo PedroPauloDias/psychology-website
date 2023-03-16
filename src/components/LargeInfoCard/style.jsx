@@ -10,6 +10,7 @@ margin: 2rem .5rem;
 @media (min-width:720px){
 width: 90%;
 margin-left: 2.5rem;
+padding: 2rem;
 }
 
 @media (min-width:1200px){
@@ -35,8 +36,8 @@ font-size: 1.1rem;
 color: #17191E;
 
 @media (min-width:720px){
-  font-size: 1.2rem;
-  font-weight: 400;
+  font-size: 1.3rem;
+  line-height:1.8rem;
 
 }
 @media (min-width:1200px){
@@ -61,11 +62,16 @@ display: flex;
 align-items: center;
 justify-content: space-between;
 padding: 0 .7rem;
-margin: 1rem 0rem;
+margin: 1.5rem 0rem;
 text-decoration: none;
 background-color:#3F5950 ;
 
 
+@media (min-width:720px){
+ 
+  margin-top:1.7rem;
+
+}
 
 
 @media (min-width:1200px){

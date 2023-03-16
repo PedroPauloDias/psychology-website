@@ -35,13 +35,13 @@ export const Testimonials = () => {
               <S.ContainerText>            
                 <S.Text>
                 consectetur. aliquam in feugiat eget tortor placerat sit
-                  cursus leo cursus interdum in ac mattis arcu consectetur. cursus leo cursus interdum in ac mattis 
+                  cursus leo cursus interdum in ac mattis arcu consectetur. cursus leo cursus interdum in ac mattis cursus leo cursus interdum in ac mattis 
                 </S.Text>
               </S.ContainerText>
               <S.ContainerText>             
                 <S.Text>
                   consectetur. aliquam in feugiat eget tortor placerat sit
-                  cursus leo cursus interdum in ac mattis arcu consectetur. cursus leo cursus interdum. aliquam. 
+                  cursus leo cursus interdum in ac mattis arcu consectetur. cursus leo cursus interdum. aliquam. cursus leo cursus interdum in ac mattis cursus leo cursus interdum in ac mattis 
                 </S.Text>             
               </S.ContainerText>
             </Slider>

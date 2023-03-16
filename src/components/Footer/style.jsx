@@ -33,6 +33,11 @@ font-size: .9rem;
 text-align: center;
 margin-bottom: 2rem;
 
+@media (min-width: 720px){
+font-size: 1.1rem;
+line-height: 1.5rem;
+}
+
 
 `
 export const ModalMap = styled.div`

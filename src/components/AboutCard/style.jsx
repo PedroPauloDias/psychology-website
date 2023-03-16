@@ -15,8 +15,7 @@ padding: 1.5rem;
 
 
 @media (min-width: 720px) {
-  width: 22.5rem;
-  height: 26rem;
+  height: 29rem;
   margin-right: 1rem;
   margin-top: 8rem;
   padding: 1rem;
@@ -33,14 +32,20 @@ padding: 1.5rem;
 `
 export const Title = styled.h3`
 font-weight: 600;
-font-size: 1.9rem;
+font-size: 1.8rem;
 width: 100%;
 height: 2.5rem;
 padding:.5rem 1rem;
 
 
+@media (min-width: 720px) {
+margin-top: 1.5rem;
+  
+}
+
+
 @media (min-width: 1200px) {
-  padding: 0 1rem;
+  padding: 1rem;
 }
 `
 
@@ -57,6 +62,8 @@ margin:1rem 0;
 
 @media (min-width: 720px) {
   height: 15rem;
+  line-height: 1.7rem;
+  margin-top: 2.5rem;
 }
 
 @media (min-width: 1200px) {

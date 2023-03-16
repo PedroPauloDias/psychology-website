@@ -49,11 +49,10 @@ line-height: 3.5rem;
 }
 `
 export const ContainerSlider = styled.div`
-height: 11rem;
+height: 11.5rem;
 background-color: #F0F1F3;
 border-radius: 20px;
   user-select: none;
-  padding: 1rem;
 
 
 .slick-prev::before,
@@ -65,9 +64,9 @@ cursor: auto !important;
 
 
 @media (min-width: 720px){
-  width: 100%;
-height: 14rem;
+width: 100%;
 margin: 0 auto;
+padding: 1.3rem;
 
 }
 @media (min-width: 1200px){
@@ -96,7 +95,6 @@ margin-top: 3rem;
 
 `
 export const ContainerText = styled.div`
-
 padding: 1rem 1.5rem;
 `
 
@@ -107,7 +105,7 @@ color : #000;
 
 
 @media (min-width: 720px){
-margin: 1.5rem auto;
+padding: 1.5rem auto;
 font-size: 1.3rem;
 }
 @media (min-width: 1200px){
@@ -133,8 +131,9 @@ border-radius: 30px;
 margin-right: 1.5rem;
 
 @media (min-width: 760px){
-  max-height: 30rem;
-  width: 100%;
+  max-height: 28rem;
+  width: 98%;
+  margin-left: .5rem;
 }
 
 @media (min-width: 1200px){
