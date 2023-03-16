@@ -28,16 +28,19 @@ export const MenuMobile = () => {
             </S.CloseButton>
         <S.ContainerLink>
           <S.ListLink>
-            <S.Link href="#">Home</S.Link>
+            <S.Link href="/">Home</S.Link>
           </S.ListLink>
           <S.ListLink>
-            <S.Link href="#">Serviços</S.Link>
+            <S.Link href="/atendimento">Serviços</S.Link>
           </S.ListLink>
           <S.ListLink>
-            <S.Link href="#">Sobre mim</S.Link>
+            <S.Link href="/about">Sobre mim</S.Link>
           </S.ListLink>
           <S.ListLink>
             <S.Link href="#">Contato</S.Link>
+              </S.ListLink>  
+              <S.ListLink>
+            <S.Link href="/info">Informacões</S.Link>
           </S.ListLink>
           <S.ListLink>
             <S.Link href="#">Whatsapp</S.Link>

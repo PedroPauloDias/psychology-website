@@ -89,13 +89,12 @@ height: 27.5rem ;
 `
 
 export const ContainerTitle = styled.div`
-height: 8rem;
+height: 9rem;
 line-height: 1rem;
-font-size: 1.7rem;
-padding: .5rem;
+font-size: 1.5rem;
+padding: 1rem 2rem;
 margin: 2.5rem 0;
-margin-left: 2.7rem;
-font-weight: 700;
+
 
 @media (min-width:720px) {
   font-size: 2rem;
@@ -108,7 +107,7 @@ font-weight: 700;
 }
 `
 
-export const Title = styled.h2`
+export const Title = styled.h1`
 color: ${({theme})=> theme.text};
 margin: 1.5rem 0;
 
@@ -126,7 +125,7 @@ margin: 1.5rem 0;
 `
 
 
-export const SubTitle = styled.p`
+export const SubTitle = styled.h3`
 color:#ebc65e;
 line-height: 1.5rem;
 

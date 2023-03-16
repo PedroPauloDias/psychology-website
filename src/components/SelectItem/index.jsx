@@ -2,6 +2,7 @@ import { forwardRef, useState } from 'react';
 import { createStyles, UnstyledButton, Menu, Image, Group } from '@mantine/core';
 
 import * as S from './style'
+import { Inter } from '@next/font/google';
 const data = [
   {
     image: 'https://cdn-icons-png.flaticon.com/512/174/174879.png',
@@ -55,7 +56,7 @@ export default function SelectComponent() {
     label: {
       fontWeight: 100,
       fontSize: theme.fontSizes.md,
-      fontFamily: 'Cinzel',
+      fontFamily: 'Inter',
     },
   
     icon: {

@@ -22,15 +22,13 @@ padding:5rem 1rem
 `
 
 export const containerTitle = styled.div`
-height: 10.5rem;
 text-align: start;
-font-weight: 700;
-font-size: 1.3rem;
-line-height: 2.5rem;
+font-size: 1.6rem;
+line-height: 2.6rem;
 color: ${({theme})=> theme.text};
-margin: 1.2rem;
-margin-top: 4rem;
-padding: 1rem;
+margin: 1rem;
+margin-top: 3rem;
+padding: .8rem;
 
 
 
@@ -42,7 +40,7 @@ padding: 1rem;
   grid-area: title;
   font-size: 2.8rem;
   margin: 5rem 0rem 1rem 1rem;
-  line-height: 3.5rem;
+  line-height: 2.5rem;
 
 }
 @media (min-width: 1500px){
@@ -52,15 +50,19 @@ padding: 1rem;
 
 }
 `
-export const HighlightText = styled.span`
+export const HighlightText = styled.h2`
 color:#Ebc65e;
-margin-left: .1rem;
-margin-right:0.5rem;
+
+font-size: 2.4rem;
+line-height: 2.6rem;
+
+
 `
 
 export const ContainerCards = styled.div`
 margin: 1rem 1rem;
 display: flex;
+flex-direction: column;
 align-items: center;
 justify-content: center;
 gap:.3rem;
@@ -102,14 +104,15 @@ border-radius: 20px;
 
 
 export const ContactInfoCard = styled.div`
-height: 8rem;
-width: 12rem;
-text-align: center;
-padding:1rem;
+height: 7rem;
+width: 23rem;
+text-align: start;
+justify-content: center;
+padding:1.5rem 2.7rem;
 background: #F0F1F3;
 color:#363537;
 border-radius: 20px;
-font-weight: 700;
+font-weight: 500;
 margin-bottom:1rem;
 
 @media (min-width: 720px){
@@ -130,8 +133,8 @@ width: 21rem;
 
 `
 export const Text = styled.p`
-font-size: .9rem;
-line-height: 1.5rem;
+font-size: 1.5rem;
+line-height: 1.7rem;
 margin-bottom: .7rem;
 
 @media (min-width: 720px){

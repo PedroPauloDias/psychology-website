@@ -34,10 +34,10 @@ export const ContainerTitle = styled.div`
 height: 10.5rem;
 text-align: start;
 font-weight: 700;
-font-size: 1.3rem;
-line-height: 2.5rem;
+font-size: 1.7rem;
+line-height: 3rem;
 color: ${({theme})=>theme.text};
-margin:  1.5rem 1.2rem 0rem 1.2rem;
+margin:  2.5rem 1rem 1rem 1rem;
 
 @media (min-width: 720px) {
   font-size: 2rem;

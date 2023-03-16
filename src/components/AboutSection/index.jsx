@@ -9,7 +9,7 @@ export const AboutSection = () => {
         <AboutCardCard
           title='Sobre mim'
           category=""
-          description='Sou psicóloga e psicoterapeuta particular. Pratico há 6 anos, pratico psicologia há 9 anos. Tenho um diploma de educação psicológica especial superior, um especialista certificado em PNL. Utilizo os métodos mais fortes desta escola, voltados a terapia para provocar mudanças'
+          description='Sou psicóloga e psicoterapeuta particular. Pratico há 6 anos, pratico psicologia há 9 anos. Tenho um diploma de educação psicológica especial superior, um especialista certificado em PNL. Utilizo os métodos mais fortes desta escola'
         />
         <AboutCardCard
           title='Sobre o método'

@@ -31,9 +31,9 @@ padding: 1.5rem;
 
 }
 `
-export const Title = styled.p`
+export const Title = styled.h3`
 font-weight: 600;
-font-size: 1.7rem;
+font-size: 1.9rem;
 width: 100%;
 height: 2.5rem;
 padding:.5rem 1rem;
@@ -48,8 +48,9 @@ export const Description = styled.p`
 width: 100%;
 height: 13.5rem;
 padding:.5rem 1rem;
+line-height:1.5rem;
 
-font-size: .9rem;
+font-size: 1.1rem;
 color:  ${({ theme }) => theme.textCard2};
 margin:1rem 0;
 

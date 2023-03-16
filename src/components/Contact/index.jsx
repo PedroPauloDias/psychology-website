@@ -7,10 +7,10 @@ export const Contact = () => {
   return (
     <S.Container>
       <S.containerTitle data-aos="fade-right">
-        <h3>
+        <h2>
           Agende já uma
-         <S.HighlightText> consulta gratuita</S.HighlightText>
-           pra gente se conhecer</h3>
+         <S.HighlightText> consulta </S.HighlightText>
+           pra gente se conhecer</h2>
       </S.containerTitle>
       <S.ContainerCards  >
         <S.ContactInfoCard >
@@ -20,8 +20,14 @@ export const Contact = () => {
           <S.Text>tel : 15 99604 2007</S.Text>
         </S.ContactInfoCard>
         <S.ContactInfoCard  >
-          <S.Text>Horario de atendimento</S.Text>
-          <S.Text>Seg - Ter: 12:00 - 19:00</S.Text>
+          <S.Text>
+            Horario de atendimento
+          </S.Text>
+          <S.Text>
+            Seg - Ter: 
+                       
+            12:00 - 19:00 hrs
+          </S.Text>
         </S.ContactInfoCard>
       </S.ContainerCards>
       <S.ContainerForm>

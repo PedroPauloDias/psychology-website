@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-height: 16rem;
+height: 15rem;
 background-color:#E9EFF1;
 border-radius: 30px;
-padding: 2.1rem;
-margin: 0rem .9rem;
+padding: 1.7rem;
+margin: 2rem .5rem;
 
 @media (min-width:720px){
 width: 90%;
@@ -31,8 +31,7 @@ margin-left: 2rem;
 
 export const ContainerText = styled.div`
 
-font-weight: 400;
-font-size: .9rem;
+font-size: 1.1rem;
 color: #17191E;
 
 @media (min-width:720px){
@@ -85,7 +84,7 @@ display: flex;
 align-items: center;
 justify-content: space-around;
 font-weight: 200;
-font-size: .9rem;
+font-size: 1rem;
 color: #fff;
 border: none;
 text-decoration: none;

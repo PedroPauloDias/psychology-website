@@ -9,7 +9,7 @@ margin: 1.2rem ;
 padding: 2rem .8rem;
 background: #E9EFF1;
 border-radius: 20px;
-margin-top: 1.5rem;
+margin-top: 1rem;
 
 @media (min-width: 1200px){
 width: 95%;
@@ -50,12 +50,16 @@ height:100%;
 border-radius: 20px;
 border: unset;
 outline: none;
-font-size: 1.1rem;
+font-size: 1rem;
 display: flex;
 align-items: center;
 padding: 1rem 1.5rem;
 
 
+::placeholder{
+  color :#363537;
+  font-weight: 200;
+}
 
 @media (min-width: 1200px){
   font-size: 1.4rem;
@@ -92,11 +96,15 @@ height: 100%;
 width: 100%;
 border: unset;
 outline: none;
-font-weight: bold;
 font-size: 1.1rem;
 padding: 1rem 1.5rem;
 border-radius: 10px;
 
+
+::placeholder{
+  color :#363537;
+  font-weight: 200;
+}
 
 @media (min-width: 1200px){
   font-size: 1.4rem;

@@ -43,7 +43,6 @@ export const Form = () => {
           <S.Input
             type="text"
             placeholder='Nome'
-            placeholderTextColor="green"
             name='name'
             value={values.name}
             onChange={handleChange} />

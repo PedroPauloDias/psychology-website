@@ -9,19 +9,19 @@ export const Navbar = () => {
       <nav>
         <S.ContainerList >     
           <S.LinkList>
-            <S.A href="#">Home</S.A>
+            <S.A href="/">Home</S.A>
           </S.LinkList>
           <S.LinkList>
-            <S.A href="#">Serviços</S.A>
+            <S.A href="/atendimento">Atendimento</S.A>
           </S.LinkList>
           <S.LinkList>
-            <S.A href="#">Sobre mim</S.A>
+            <S.A href="/about">Sobre mim</S.A>
           </S.LinkList>
           <S.LinkList>
             <S.A href="#">Contato</S.A>
           </S.LinkList>
           <S.LinkList>
-            <S.A href="#"></S.A>
+            <S.A href="/info">Informações</S.A>
           </S.LinkList>
         <MenuMobile/>
         </S.ContainerList>

@@ -7,6 +7,7 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 gap: 1.5rem;
+margin-top: 2.5rem;
 
 
 @media (min-width: 720px) {

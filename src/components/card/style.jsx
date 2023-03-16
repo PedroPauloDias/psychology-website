@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-height: 7rem;
+height: 7.5rem;
 width: 10.5rem;
 border-radius: 1rem;
 background-color: ${({ BackgroundColor }) => BackgroundColor || '#F0F1F3'};
@@ -9,8 +9,7 @@ display: flex;
 flex-direction: column;
 align-items: flex-end;
 justify-content: space-between;
-padding: 1rem;
-font-weight: 600;
+padding: 1.2rem;
 
 @media  (min-width:720px){
   height: 9rem;
@@ -32,7 +31,7 @@ padding: 1rem  1.5rem;
 
 `
 export const Title = styled.p`
-font-size: .9rem;
+font-size: 1.1rem;
 color: ${({ color }) => color || '#000'};
 
 

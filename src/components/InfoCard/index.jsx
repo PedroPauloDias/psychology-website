@@ -14,7 +14,7 @@ export const InfoCard = ({ number, title, text, background }) => {
         }
       </S.NumberContainer >
       <S.ContainerTitle>
-        <h4>{title}</h4>
+        <p>{title}</p>
       </S.ContainerTitle>
       <S.ContainerText>
         <p>{text}</p>

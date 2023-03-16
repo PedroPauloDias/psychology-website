@@ -57,8 +57,8 @@ width: 2rem;
 `
 export const ContainerTitle = styled.div`
 height: 4rem;
-font-weight: 700;
-font-size: .9rem;
+font-weight: 600;
+font-size: 1.1rem;
 text-align: center;
 color: #070A11;
 
@@ -70,8 +70,7 @@ font-size: 1.1rem;
 `
 export const ContainerText = styled.div`
 height: 5rem;
-font-weight: 400;
-font-size: .8rem;
+font-size: 1rem;
 display: flex;
 align-items: center;
 text-align: center;

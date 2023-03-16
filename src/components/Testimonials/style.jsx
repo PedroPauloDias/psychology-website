@@ -17,7 +17,7 @@ export const ContainerTitle = styled.div`
 height: 8rem;
 text-align: start;
 font-weight: 700;
-font-size: 1.3rem;
+font-size: 1.7rem;
 line-height: 3rem;
 margin-top:2.5rem;
 
@@ -49,7 +49,7 @@ line-height: 3.5rem;
 }
 `
 export const ContainerSlider = styled.div`
-height: 13rem;
+height: 11rem;
 background-color: #F0F1F3;
 border-radius: 20px;
   user-select: none;
@@ -97,12 +97,12 @@ margin-top: 3rem;
 `
 export const ContainerText = styled.div`
 
-padding: 1rem 2rem;
+padding: 1rem 1.5rem;
 `
 
 export const Text = styled.p`
 
-font-size: 1rem;
+font-size: 1.1rem;
 color : #000;
 
 
@@ -127,9 +127,10 @@ line-height: 2rem;
 
 
 export const Image = styled.img`
-max-height: 24rem;
+max-height: 23rem;
 object-fit: cover;
-border-radius: 20px;
+border-radius: 30px;
+margin-right: 1.5rem;
 
 @media (min-width: 760px){
   max-height: 30rem;
