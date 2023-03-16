@@ -3,7 +3,18 @@ import * as S from './style'
 import { Form } from '@/src/components/Form'
 
 
+export async function getStaticProps() {
 
+  const res = await fetch('http://localhost:3000/api/services')
+  const data = await res.json()
+  console.log(data.services)
+  return {
+    props: {
+      servicos: data.services
+    }
+  }
+
+}
 
 export const ServicesContent = ({ servicos }) => {
   return (
