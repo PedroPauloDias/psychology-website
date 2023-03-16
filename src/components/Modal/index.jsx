@@ -19,14 +19,13 @@ export const Modal = ({ title, text, category }) => {
           <S.Overlay />
           <S.DialogContent>
             <div   >
-
               <S.Title  >{title}</S.Title >
               <S.ContainerCard >
                 <S.Imagem src={url} alt="" />
                 <S.Text  >{text}</S.Text>
               </S.ContainerCard>
               <S.ContactMe
-                onClick={() => push(`/atendimento/${routes}`)}
+                onClick={() => push(`/atendimento/${routes}/`)}
   
               >
                 Entre em contato Comigo
