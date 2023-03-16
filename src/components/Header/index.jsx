@@ -1,9 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import 'animate.css';
-
-import { Modal } from '../Modal';
-
-
 import Card from '../card'
 import * as S from './style'
 

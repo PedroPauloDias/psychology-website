@@ -1,10 +1,12 @@
 import React from 'react';
 import * as Dialog from '@radix-ui/react-dialog';
+import { useRouter } from 'next/router';
 import { X, CaretRight, Plus } from 'phosphor-react'
 import * as S from './style'
 
 export const Modal = ({ title, text, category }) => {
 
+  const { push } = useRouter()
   const url = `images/${(category)}.webp`
 
   return (
@@ -23,7 +25,10 @@ export const Modal = ({ title, text, category }) => {
                 <S.Imagem src={url} alt="" />
                 <S.Text  >{text}</S.Text>
               </S.ContainerCard>
-              <S.ContactMe  >
+              <S.ContactMe
+                onClick={() => push('/servicos')}
+                category={category}
+              >
                 Entre em contato Comigo
                 <CaretRight size={15} />
               </S.ContactMe>

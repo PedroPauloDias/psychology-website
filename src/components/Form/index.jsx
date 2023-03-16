@@ -33,6 +33,7 @@ export const Form = () => {
       ...prev,
     }));
     await sendContactForm(values)
+    console.log(sendContactForm)
   };
 
   return (

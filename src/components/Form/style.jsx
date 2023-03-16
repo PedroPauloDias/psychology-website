@@ -106,9 +106,10 @@ border-radius: 10px;
 
 export const ContainerSelect = styled.div`
 width: 19rem;
+height: 3rem;
 border-radius: 10px;
 margin-bottom: .5rem;
-background-color: #fff;
+
 
 &::focus{
   border: none;

@@ -62,6 +62,7 @@ export default function SelectComponent() {
       transition: 'transform 150ms ease',
       transform: opened ? 'rotate(180deg)' : 'rotate(0deg)',
     },
+ 
   }));
  
     const [opened, setOpened] = useState(false);

@@ -23,7 +23,7 @@ export const DialogContent = styled(Dialog.Content)`
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 90vh;
+  height: 60vh;
   width: 85vw;
   max-width: 450px;
   max-height: 650px;
@@ -169,7 +169,7 @@ background-color: transparent;
 export const ContactMe = styled.a`
 height: 3rem;
 width: 20rem;
-margin-top: 1rem;
+margin-top: 2.5rem;
 border-radius:10px;
 background-color:  ${({ theme }) => theme.backgroundButtonModal};;
 color: #000;
