@@ -19,10 +19,10 @@ export const EmotionalContent = () => {
             </S.Text>
 
             <S.Title>Onde buscar esse auxílio?</S.Title>
-            <div>
+            <S.ContainerImage>
               <img src='/images/engrenagens.jpg' alt=''
                 height="300" width="375" />
-            </div>
+            </S.ContainerImage>
             <S.Text>
               É importante deixar claro que esse tipo de auxílio pode vir tanto de um profissional da área da Psicologia quanto de pessoas leigas.
             </S.Text>

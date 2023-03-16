@@ -17,6 +17,10 @@ font-size: 1.2rem;
 margin-top: -2rem;
 margin-bottom: 1.5rem;
 `
+export const ContainerImage = styled.div`
+margin-bottom: 1.5rem;
+margin-top: -2rem;
+`
 
 export const ContainerText = styled.div`
 display: flex;
@@ -30,7 +34,7 @@ color: ${({theme})=> theme.contrastText};
 `
 export const SubTitle = styled.h3`
 font-size: 1.8rem;
-margin: 1rem 0;
+margin: 1rem 0 -.5rem 0;
 color: ${({theme})=> theme.contrastText};
 `
 

@@ -133,7 +133,7 @@ width: 21rem;
 
 `
 export const Text = styled.p`
-font-size: 1.5rem;
+font-size: 1.1rem;
 line-height: 1.7rem;
 margin-bottom: .7rem;
 

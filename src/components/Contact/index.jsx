@@ -24,8 +24,7 @@ export const Contact = () => {
             Horario de atendimento
           </S.Text>
           <S.Text>
-            Seg - Ter: 
-                       
+            Seg - Ter:                        
             12:00 - 19:00 hrs
           </S.Text>
         </S.ContactInfoCard>
