@@ -8,7 +8,7 @@ export const Modal = ({ title, text, category }) => {
 
   const { push } = useRouter()
   const url = `images/${(category)}.webp`
-
+  const routes = ( category === 'gratis' ? '' : category)
   return (
     <div>
       <Dialog.Root>
@@ -26,8 +26,8 @@ export const Modal = ({ title, text, category }) => {
                 <S.Text  >{text}</S.Text>
               </S.ContainerCard>
               <S.ContactMe
-                onClick={() => push('/servicos')}
-                category={category}
+                onClick={() => push(`/atendimento/${routes}`)}
+  
               >
                 Entre em contato Comigo
                 <CaretRight size={15} />
