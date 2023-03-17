@@ -17,6 +17,9 @@ align-items: space-around;
 width: 95%;
 border-radius: 20px;
 margin-left: 1rem;
+height: 13rem;
+margin-top: -3rem;
+margin-bottom: 2rem;
 }
 
 @media (min-width: 1500px){

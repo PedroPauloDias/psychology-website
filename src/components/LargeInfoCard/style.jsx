@@ -46,8 +46,8 @@ color: #17191E;
 
 
 }
-@media (min-width: 1500px) {
-  line-height: 1.8rem;
+@media (min-width: 1400px) {
+  line-height: 1.7rem;
   font-size: 1.3rem;
  
 }
@@ -80,8 +80,9 @@ background-color:#3F5950 ;
   margin-top:2rem;
 
 }
-@media (min-width: 1500px) {
-  margin-top:3rem;
+@media (min-width: 1400px) {
+  height: 2.8rem;
+  margin-top:4rem;
  
 }
 `
@@ -100,6 +101,13 @@ margin-left:.4rem;
 font-size: 1rem;
 margin-left:.8rem;
 }
+
+@media (min-width:1400px){
+  font-size: .9rem;
+margin-left:.8rem;
+}
+
+
 
 
 &:visited{

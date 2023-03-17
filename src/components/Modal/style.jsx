@@ -23,7 +23,7 @@ export const DialogContent = styled(Dialog.Content)`
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 70vh;
+  height: 80vh;
   width: 85vw;
   max-width: 450px;
   max-height: 600px;
@@ -33,13 +33,7 @@ export const DialogContent = styled(Dialog.Content)`
   align-items: center;
   background-color: ${({ theme }) => theme.backgroundModal};
   
-  @media (min-width: 1200px){
-    height: 70vh;
-   max-height: 750px;
-    max-width: 600px;
-    padding: 3.5rem;
 
-  }
   
 
 
@@ -62,12 +56,7 @@ object-fit: center;
 filter: grayscale(1);
 margin-top: 2rem;
 
-@media (min-width: 1200px){
-  height: 18rem;
-  width: 100%;
-  margin-top: 4rem;
- }
-    
+
 
 
 `
@@ -85,14 +74,7 @@ left: 3rem;
 top:1rem;
 color: ${({ theme }) => theme.TextCardModal};
 
-@media (min-width: 1200px){
-width:90%;
-font-size: 2.2rem;
-margin-top: 1.5rem;
-margin-bottom: 2rem;;
-left: -2rem;
 
-}
 
 
 `
@@ -104,15 +86,11 @@ font-size: .9rem;
 color: ${({ theme }) => theme.TextCardModal};
 
 @media (min-width: 1200px){
-width: 100%;
-height: 11rem;
-font-size: 1.5rem;
-padding:  .5rem ;
-line-height: 1.8rem;
-margin-top: .5rem;
 
-margin-bottom: 3rem;
-margin-left: -.8rem;
+font-size: 1.1rem;
+
+
+
 
 }
 

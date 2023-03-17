@@ -102,9 +102,17 @@ margin: 2.5rem 0;
 }
 @media (min-width:1200px) {
   margin-right: 1.5rem;
-
   margin: 1rem ;
 }
+
+@media (min-width:1400px) {
+  margin: .8rem 0;
+
+
+
+}
+
+
 `
 
 export const Title = styled.h1`
@@ -119,8 +127,14 @@ margin: 1.5rem 0;
 }
 
 @media (min-width:1200px) {
-  font-size: 4rem;
-  margin-left: -3rem;
+  font-size: 3rem;
+  margin-left: -1rem;
+}
+
+@media (min-width:1400px) {
+  margin-left: 1rem;
+
+
 }
 `
 
@@ -138,7 +152,14 @@ line-height: 1.5rem;
 @media (min-width:1200px) {
   margin: 3rem 0;
   font-size: 2.5rem;
-  margin-left: -3rem;
+  margin-left: -1rem;
+  line-height: 2.5rem;
+
+
+}
+@media (min-width:1400px) {
+  line-height: 3rem;
+  margin-left: 1rem;
 
 
 }

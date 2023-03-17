@@ -41,13 +41,10 @@ export const darkTheme = {
 
 export const GlobalStyles = createGlobalStyle`
 
-
-
 *{
   margin:0;
   padding: 0;
   box-sizing: border-box;
-
  
 }
   body {
@@ -56,9 +53,13 @@ export const GlobalStyles = createGlobalStyle`
 
     p  {
       font-family: Inter !important ;
-    }
-    
+    }   
 
     
+  }
+  main {
+    max-width:1400px;
+    margin: 0 auto;
+
   }
 `

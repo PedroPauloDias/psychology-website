@@ -25,7 +25,7 @@ padding-right: .5rem;
   margin-top:.5rem;
   width: 50%;
   justify-content:space-between;
-  margin-left: 8rem;
+  margin-left: 4rem;
 
 }
 
@@ -53,7 +53,8 @@ font-size: 1.2rem;
 
 @media (min-width:1200px) {
   
-font-size: 1.2rem;
+font-size: 1.1rem;
+font-weight: 500;
   
 }
 

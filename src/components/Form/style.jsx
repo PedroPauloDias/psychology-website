@@ -23,6 +23,7 @@ width: 95%;
 height: 45rem;
 gap:1.5rem;
 padding: 3rem .8rem;
+margin-top: 2rem;
 }
 `
 export const containerInput = styled.div`
@@ -149,7 +150,7 @@ width: 100%;
 font-weight: 200;
 font-size: 1rem;
 color:#17191E;
-margin-left: 1.5rem;
+padding-left: 2rem;
 
 @media (min-width:720px) {
   font-size: 1rem;
@@ -158,9 +159,9 @@ margin-left: 1.5rem;
 }
 
 @media (min-width:1200px) {
-  margin-right: 7rem;
+  padding-right: 4rem;
   text-align: center;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
 }
 
 `

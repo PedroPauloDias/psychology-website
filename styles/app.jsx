@@ -12,4 +12,9 @@ top:.8rem;
   top:1.1rem;
   left: 2rem;
 }
+
+@media (min-width: 1400px){
+  top:.95rem;
+  left: 3rem;
+}
 `

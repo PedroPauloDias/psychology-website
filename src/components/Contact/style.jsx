@@ -42,8 +42,8 @@ padding: .8rem;
 }
 @media (min-width: 1200px){
   grid-area: title;
-  font-size: 2.8rem;
-  margin: 5rem 0rem 1rem 1rem;
+  font-size: 1.8rem;
+  margin: 3rem 0rem 2rem 1rem;
   line-height: 2.5rem;
 
 }
@@ -68,10 +68,10 @@ line-height: 3.5rem;
 
 }
 
-@media (min-width: 1500px){
+@media (min-width: 1400px){
+  line-height: 4rem;
 
 gap: 1rem;
-margin-bottom: -2rem;
 
 }
 
@@ -87,21 +87,22 @@ gap:.3rem;
 
 @media (min-width: 720px){
 padding-right: 1rem;
+margin: 0 1rem;
  
 }
 
 @media (min-width: 1200px){
-  height: 10rem;
+  height: 13rem;
   grid-area: cards;
-  margin-bottom: -5rem;
-  gap: .5rem
+  gap: .1rem;
+  padding-right: 0.5rem ;
+
  
 }
-@media (min-width: 1500px){
-
-  gap: 1rem;
-  margin-bottom: -2rem;
- 
+@media (min-width: 1400px){
+padding-right: 1rem;
+  gap: .2rem;
+  margin-bottom: 0rem;
 }
 
 
@@ -143,16 +144,17 @@ height: 9rem;
 width: 100%;
 margin-left:1rem;
 padding: 2rem;
+margin-bottom: 0.5rem;
 
 }
 
 @media (min-width: 1200px){
-height: 9rem;
-width: 19rem;
-margin: 0;
+height: 7rem;
+width: 100%;
+padding: .5rem  1rem;
 }
 @media (min-width: 1500px) {
-  height: 11rem;
+height: 11rem;
 width: 21rem;
 }
 
@@ -170,8 +172,8 @@ margin-bottom: .7rem;
 }
 
 @media (min-width: 1200px){
-  margin: 1rem 0rem;
-font-size:1.3rem;
+  margin: .5rem 0rem;
+  font-size:1.3rem;
 
 }
 `

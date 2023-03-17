@@ -21,20 +21,17 @@ padding: 1rem;
 }
 @media (min-width: 1200px) {
   height:18rem;
-width:13rem;
+width:10.5rem;
 padding: 1rem;
 }
-@media (min-width: 1500px) {
+@media (min-width: 1400px) {
   height:19rem;
-width:13.5rem;
+width:12rem;
 padding: 1rem;
+
 }
 
-@media (min-width: 1600px) {
-  height:19rem;
-width:14.5rem;
-padding: 1rem;
-}
+
 
 `
 export const NumberContainer = styled.div`
@@ -79,5 +76,11 @@ color: #070A11;
 
 @media (min-width: 720px) {
 font-size: 1rem;
+}
+
+
+@media (min-width: 1200px) {
+font-size: 1.1rem;
+margin-top: 1rem;
 }
 `

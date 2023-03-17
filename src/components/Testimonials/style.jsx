@@ -37,16 +37,15 @@ margin-top:2.5rem;
   font-size: 2rem;
   margin-top: 2rem;
 }
-@media (min-width: 1500px){
-  font-size: 2.5rem;
-  margin-left: 2.5rem;
-}
-
-@media (min-width: 1600px){
-font-size: 2.6rem;
-line-height: 3.5rem;
+@media (min-width: 1400px){
+  font-size: 2.2rem;
+  margin-left: 2.5rem;  line-height: 
+  4rem;
+  
 
 }
+
+
 `
 export const ContainerSlider = styled.div`
 height: 11.5rem;
@@ -71,8 +70,9 @@ padding: 1.3rem;
 }
 @media (min-width: 1200px){
 width: 32rem;
-margin-right: 2rem;
-margin-top: 3rem;
+height: 15rem;
+padding-right: 2rem;
+margin-top: -2rem;
 ;}
 
 
@@ -137,8 +137,9 @@ margin-right: 1.5rem;
 }
 
 @media (min-width: 1200px){
-  max-height: 32rem;
+  max-height: 31rem;
   width: 100%;
+  margin-left: -2rem;
 }
 @media (min-width: 1500px){
   max-height: 38rem;

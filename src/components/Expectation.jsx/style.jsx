@@ -46,8 +46,9 @@ margin:  2.5rem 1rem 1rem 1rem;
   padding:0 1rem;
 }
 @media (min-width: 1200px) {
-  font-size: 2.5rem;
-  line-height: 3.5rem;
+height: 17rem;
+font-size: 1.8rem;
+
   margin: 1rem 0;
   width: 40%;
   padding: .5rem;
@@ -80,24 +81,22 @@ export const ContainerCards = styled.div`
   @media (min-width: 720px) {
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem 1rem ;
+
 }
 
 @media (min-width: 1200px){
-  grid-template-columns: repeat(3, 1fr);
-    gap: 3rem 5rem ;
+  grid-template-columns: repeat(6, 1fr);
+    gap: 3rem 1.3rem ;
 }
 
-@media (min-width: 1500px) {
+@media (min-width: 1400px) {
   width: 100%;
   grid-template-columns: repeat(6, 1fr);
-gap: 1.5rem ; 
-margin-left:1rem;
-}
+gap: 2rem ; 
+margin-right:1rem;
 
-@media (min-width: 1600px) {
-  width: 100%;
-  grid-template-columns: repeat(6, 1fr);
-gap: 1.2rem ;}
+
+}
 
 
 `
