@@ -91,7 +91,7 @@ display: flex;
 align-items: center;
 justify-content: space-around;
 font-weight: 200;
-font-size: 1rem;
+font-size: .8rem;
 color: #fff;
 border: none;
 text-decoration: none;

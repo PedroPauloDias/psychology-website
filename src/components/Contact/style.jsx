@@ -47,12 +47,7 @@ padding: .8rem;
   line-height: 2.5rem;
 
 }
-@media (min-width: 1500px){
 
-  margin: 5rem 0rem 2rem 1rem;
-  line-height: 3.5rem;
-
-}
 `
 export const HighlightText = styled.h2`
 color:#Ebc65e;
@@ -120,24 +115,22 @@ export const ContainerFooter = styled.div`
   grid-area: footer;
 
 }
-@media (min-width: 1500px){
-width: 100%;
-border-radius: 20px;
-}
+
 `
 
 
 export const ContactInfoCard = styled.div`
 height: 7rem;
-width: 24rem;
+width: 22rem;
 text-align: start;
 justify-content: center;
-padding:1.5rem 2.7rem;
+padding:1.5rem ;
 background: #F0F1F3;
 color:#363537;
 border-radius: 20px;
 font-weight: 500;
 margin-bottom:1rem;
+
 
 @media (min-width: 720px){
 height: 9rem;
@@ -153,10 +146,7 @@ height: 7rem;
 width: 100%;
 padding: .5rem  1rem;
 }
-@media (min-width: 1500px) {
-height: 11rem;
-width: 21rem;
-}
+
 
 `
 export const Text = styled.p`
