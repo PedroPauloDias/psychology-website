@@ -12,6 +12,8 @@ grid-template-areas:
  "footer form"
 
 ;
+
+
 margin-left: 1rem;
 padding: 1.5rem 0rem;
 }
@@ -73,16 +75,17 @@ gap: 1rem;
 `
 
 export const ContainerCards = styled.div`
-margin: 1rem 1rem;
+width: 100%;
 display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
 gap:.3rem;
 
+
+
 @media (min-width: 720px){
-padding-right: 1rem;
-margin: 0 1rem;
+padding: 1rem 2rem 1rem 1rem;
  
 }
 
@@ -130,6 +133,7 @@ color:#363537;
 border-radius: 20px;
 font-weight: 500;
 margin-bottom:1rem;
+
 
 
 @media (min-width: 720px){

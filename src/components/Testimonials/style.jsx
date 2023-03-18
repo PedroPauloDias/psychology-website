@@ -159,3 +159,11 @@ width:45%
 
 }
 `
+
+export const InstagramContainer = styled.div`
+background-color : red;
+height: 1rem;
+margin-top: -2rem;
+z-index: 100000;
+
+`

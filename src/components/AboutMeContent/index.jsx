@@ -25,20 +25,15 @@ export const AboutMeContent = () => {
           <S.Text>
             Relacionamento interpessoal, crises no relacionamento, psicopatologias transtornos psicológicos, como ansiedade, depressão, fobias, transtornos do impulso, entre outros.
             Atuando com adultos, adolescentes e casais.</S.Text>
-
           <S.SubTitle>Tipos de Consultas</S.SubTitle>
-
           <S.Text>Realizo atendimentos psicológicos em
             <strong>Itapetininga/SP </strong>e também
             <strong>  terapia online </strong>
             através de videochamada no Google meet.</S.Text>
-
-          <S.Title>Meu Consultório</S.Title>
-          <div>
-            <img src='/images/consultorio.jpg' alt=''
+          <S.Title>Meu Consultório</S.Title>          <div>
+            <img src='/images/escritorio.jpg' alt=''
               height="300" width="375" />
           </div>
-
           <S.Text>Localizado na Rua João Evangelista nº 303  no centro da cidade de Itapetininga-Sp  </S.Text>
           <S.Text>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus et repellat aliquid blanditiis reiciendis. Animi corrupti quis odit magnam numquam autem ullam corporis in vero quia, neque molestiae debitis expedita?</S.Text>
         </S.ContainerText>

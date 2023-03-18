@@ -8,7 +8,7 @@ import { Form } from '@/src/components/Form'
 export const FreeConsult = () => {
   return (
     <>
-      <div>
+      <S.ContainerContent>
         <div>
           <img src='/images/gratis.webp' alt=''
             height="300" width="410" />
@@ -57,7 +57,7 @@ export const FreeConsult = () => {
         </S.Cards>
             <Form />
 
-      </div>
+      </S.ContainerContent>
     </>
   )
 }

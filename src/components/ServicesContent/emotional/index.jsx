@@ -5,7 +5,7 @@ import { Form } from '@/src/components/Form'
 export const EmotionalContent = () => {
   return (
     <>
-      <div>
+      <S.ContainerContent>
       <div>
           <img src='/images/emocionais.webp' alt=''
             height="300" width="410" />
@@ -17,6 +17,9 @@ export const EmotionalContent = () => {
             <S.Text>
               Pode-se dizer que ajuda emocional é o nome que dá significado a todo apoio moral e psicológico que alguém possa receber, além da ajuda para entender, enfrentar e superar o sofrimento do outro.
             </S.Text>
+          </S.ContainerText>
+          
+            < S.ContainerText>
 
             <S.Title>Onde buscar esse auxílio?</S.Title>
             <S.ContainerImage>
@@ -43,7 +46,7 @@ export const EmotionalContent = () => {
         </S.Container>
         <Form />
 
-      </div>
+      </S.ContainerContent>
     </>
   )
 }

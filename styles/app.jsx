@@ -16,5 +16,6 @@ top:.8rem;
 @media (min-width: 1400px){
   top:.95rem;
   left: 3rem;
+ 
 }
 `

@@ -8,7 +8,7 @@ import { Form } from '@/src/components/Form'
 export const BehaviorContent = () => {
   return (
     <>
-      <div>
+      <S.ContainerContent>
         <div>
           <img src='/images/gratis.webp' alt=''
             height="300" width="410" />
@@ -62,7 +62,7 @@ export const BehaviorContent = () => {
         </S.Container>
         <Form />
 
-      </div>
+      </S.ContainerContent>
     </>
   )
 }
