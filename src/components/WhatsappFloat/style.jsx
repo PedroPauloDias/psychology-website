@@ -4,8 +4,8 @@ export const FloatButton = styled.a`
   position: fixed;
   width: 40px;
   height: 40px;
-  bottom: 10px;
-  right: 35px;
+  bottom: 5px;
+  right: 5px;
   background-color: #47625d;
   opacity: .8;
   color: #FFF;
