@@ -20,7 +20,7 @@ justify-content: center;
   transition: all 0.5s;
 
   svg {
-font-size:1.2rem;
+font-size:2rem;
 transition: all 0.5s;
 
 
@@ -31,7 +31,7 @@ height: 45px;
 width: 45px;
 
 svg  {
-  font-size: 1.7rem;
+  font-size: 1.8rem;
 }
 
 }

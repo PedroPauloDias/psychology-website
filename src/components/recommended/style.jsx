@@ -1,8 +1,18 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-width: 90%;
-padding-left: 1.5rem;
+widht: 40rem;
+padding:0  2rem;
+margin: 0 auto;
+
+
+.slick-prev::before,
+.slick-next:before 
+{
+display: none !important;
+cursor: auto !important;
+}
+
 `
 
 export const Title = styled.h2 `

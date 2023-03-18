@@ -108,10 +108,9 @@ font-size: 1.1rem;
 padding: 1rem 1.5rem;
 border-radius: 10px;
 
-
 ::placeholder{
   color :#363537;
-  font-weight: 200;
+  font-weight: 200!important;
 }
 
 @media (min-width: 1200px){

@@ -25,7 +25,6 @@ padding:5rem 1rem
 
 export const containerTitle = styled.div`
 
-width: 100%;
 text-align: start;
 font-size: 1.6rem;
 line-height: 2.6rem;
