@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-height: 15rem;
+height: 16rem;
 width:11rem;
 display: flex;
 flex-direction: column;
@@ -66,7 +66,7 @@ font-size: 1.1rem;
 
 `
 export const ContainerText = styled.div`
-height: 5rem;
+height: 6rem;
 font-size: 1rem;
 display: flex;
 align-items: center;

@@ -32,7 +32,7 @@ export const Recommended = () => {
       <S.Container>
 
         <Slider {...settings}>
-          <div onClick={() => push('/about')} >
+          <div onClick={() => push('/leitura-recomendada/ansiedade')} >
 
           <Image
             src="/images/ansiedade.png"
