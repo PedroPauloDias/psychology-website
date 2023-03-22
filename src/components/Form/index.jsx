@@ -34,6 +34,8 @@ export const Form = () => {
     }));
     await sendContactForm(values)
     console.log(sendContactForm)
+    setState(initState)
+    alert("Mensagem enviada")
   };
 
   return (
