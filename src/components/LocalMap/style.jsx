@@ -7,7 +7,7 @@ position: absolute;
 
 height: 100vh;
 width: 100%;
-top:15rem;
+top:25rem;
 left: 0;
 right: 0;
 bottom: 0;
