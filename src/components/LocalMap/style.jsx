@@ -31,7 +31,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-margin-top: 15rem;
+margin-top: 25rem;
 
 `
 
