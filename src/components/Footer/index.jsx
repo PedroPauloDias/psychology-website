@@ -21,7 +21,7 @@ export const Footer = () => {
       <S.Container >
       <SocialMedias/>
         <S.FooterText >
-            <p>Rua João Evangelista nº 303  , Itapetininga-Sp </p>
+            <p>Rua João Evangelista nº 303  , Itapetininga-SP </p>
                          
               <LocalMap />             
             
