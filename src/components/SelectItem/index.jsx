@@ -1,5 +1,6 @@
 import {  useState } from 'react';
 import { createStyles, UnstyledButton, Menu, Image, Group } from '@mantine/core';
+import { X } from 'phosphor-react';
 
 
 const data = [
@@ -91,7 +92,7 @@ export default function SelectComponent() {
               <Image src={selected.image} width={22} height={22} alt=''/>
               <span className={classes.label}>{selected.label}</span>
             </Group>
-            <x size={16} className={classes.icon} stroke={1.5} />
+            <X size={16} className={classes.icon} stroke={1.5} />
           </UnstyledButton>
         </Menu.Target>
         <Menu.Dropdown>{items}</Menu.Dropdown>

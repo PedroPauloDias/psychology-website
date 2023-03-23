@@ -19,7 +19,7 @@ export const MenuMobile = () => {
   },[menuIsOpen])
 
   return (
-    <navbar>    
+    <nav>    
       {menuIsOpen == true ?        
         (
           <S.ContainerMenu   >       
@@ -57,7 +57,7 @@ export const MenuMobile = () => {
           </S.OpenMenu>
           )          
       }             
-    </navbar>
+    </nav>
 
   )
 }

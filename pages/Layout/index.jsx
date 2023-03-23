@@ -11,7 +11,7 @@ export default function Layout({
       <main>
         {children}
       </main>      
-      <Footer />
+      <Footer disable="true" />
     </>
   )
 }

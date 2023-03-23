@@ -25,9 +25,9 @@ export const Recommended = () => {
   return (
     <>
       <S.Title>
-        <h2>
+        
           Leituras Recomendadas
-        </h2>
+        
       </S.Title>
       <S.Container>
 

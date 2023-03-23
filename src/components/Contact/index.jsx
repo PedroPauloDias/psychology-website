@@ -32,7 +32,7 @@ export const Contact = () => {
         <Form/>
       </S.ContainerForm>
       <S.ContainerFooter>
-      <Footer/>
+      <Footer />
       </S.ContainerFooter>
     </S.Container>
   )

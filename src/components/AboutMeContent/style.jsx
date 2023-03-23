@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
 padding: 1rem 1.2rem;
-
+position: relative;
 
 img{
   border-radius: 15px;
@@ -32,6 +32,7 @@ export const SubTitle = styled.h3`
 font-size: 1.8rem;
 margin: 1rem 0;
 color: ${({theme})=> theme.contrastText};
+
 `
 
 export const Text = styled.p`

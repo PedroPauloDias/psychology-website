@@ -109,7 +109,7 @@ cursor: pointer;
 `
 
 
-export const OpenButton = styled.button`
+export const OpenButton = styled.div`
 height: 1.5rem;
 width: 1.5rem;
 border-radius:50%;
@@ -137,7 +137,7 @@ justify-content: center;
 }
 `
 
-export const Button = styled.button`
+export const Button = styled.div`
 border: none;
 background-color: transparent;
 

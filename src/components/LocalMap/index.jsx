@@ -8,7 +8,7 @@ export const LocalMap = () => {
 
   useEffect(() => {
     document.body.style.overflowY = openedMap ? 'hidden' : 'auto'
-  }, [openedMap])
+ }, [openedMap])
 
   function handleMap() {
     setOpenedMap(!openedMap)

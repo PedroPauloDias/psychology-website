@@ -44,7 +44,7 @@ line-height: 1.5rem;
 
 `
 export const ModalMap = styled.div`
-
+display: ${({disable}) => disable  ?  "none" : "initial" };
 
 `
 

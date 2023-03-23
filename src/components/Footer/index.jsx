@@ -4,12 +4,14 @@ import { LocalMap } from '../LocalMap'
 
 import * as S from './style'
 
-export const Footer = () => {
+export const Footer = ({disable}) => {
 
   const [openedMap, setOpenedMap] = useState(false)
 
+const res = disable
+
  useEffect(() => {
-    document.body.style.overflowY = openedMap ? 'hidden' : 'auto'
+   document.body.style.overflowY = openedMap ? 'hidden' : 'auto'
  }, [openedMap])
 
   function handleMap() {
@@ -21,9 +23,10 @@ export const Footer = () => {
       <S.Container >
       <SocialMedias/>
         <S.FooterText >
-            <p>Rua João Evangelista nº 303  , Itapetininga-SP </p>
-                         
+            <p>Rua João Evangelista nº 303  , Itapetininga-Sp </p>
+          <S.ModalMap disable={res}>
               <LocalMap />             
+          </S.ModalMap>          
             
           <p>
             Todos os direitos reservados
