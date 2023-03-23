@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-widht: 40rem;
-padding:0  2rem;
 margin: 0 auto;
+box-shadow:  -3px 3px 20px ${({theme}) => theme.boxShadowColor},
+             3px -3px 20px ${({theme}) => theme.boxShadowColor2};
 
-
+margin: 0 2rem;
 .slick-prev::before,
 .slick-next:before 
 {
@@ -14,6 +14,7 @@ cursor: auto !important;
 }
 
 `
+
 
 export const Title = styled.h2 `
 height: 8rem;

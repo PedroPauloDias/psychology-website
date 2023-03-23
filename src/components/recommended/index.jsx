@@ -40,13 +40,16 @@ export const Recommended = () => {
             width={340}
             height={400}
             />
-            </div>
+          </div>
+          <div
+           onClick={() => push('/leitura-recomendada/saude-mental')} >
           <Image
-            src="/images/pensamento.jpg"
+            src="/images/saude-mental.png"
             alt="Minha imagem"
             width={340}
             height={400}
-          />
+            />
+            </div>
 
         </Slider>
       </S.Container>

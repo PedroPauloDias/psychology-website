@@ -26,7 +26,7 @@ export const DialogContent = styled(Dialog.Content)`
   height: 80vh;
   width: 85vw;
   max-width: 450px;
-  max-height: 600px;
+  max-height: 550px;
   padding: 25px;
   display: flex;
   flex-direction: column;

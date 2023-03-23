@@ -3,12 +3,11 @@ import styled from "styled-components";
 
 export const Container = styled.div`
 
-
-
-height: 100vh;
-width: 100%;
 position: absolute;
-top:255rem;
+
+height: 150vh;
+width: 100%;
+top:15rem;
 left: 0;
 right: 0;
 bottom: 0;
@@ -32,7 +31,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-margin-top: 10rem;
+margin-top: 15rem;
 
 `
 

@@ -17,6 +17,8 @@ export const lightTheme = {
   backgroundButtonModal: "#EECD62",
   svgColor: '#000',
   contrastText:'#47625d',
+  boxShadowColor:'#bebebe',
+  boxShadowColor2:'#ffffff',
 }
 
 export const darkTheme = {
@@ -36,7 +38,8 @@ export const darkTheme = {
   backgroundButtonModal: "#f0f1f3",
   svgColor: '#fff',
   contrastText:'#Ebc65e' ,
-  
+  boxShadowColor:'#363537',
+  boxShadowColor2:'#363537',
 }
 
 export const GlobalStyles = createGlobalStyle`
@@ -54,6 +57,7 @@ export const GlobalStyles = createGlobalStyle`
     p  {
       font-family: Inter !important ;
     }   
+
 
     
   }

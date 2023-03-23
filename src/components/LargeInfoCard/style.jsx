@@ -6,6 +6,8 @@ background-color:#E9EFF1;
 border-radius: 30px;
 padding: 1.7rem;
 margin: 2rem .5rem;
+box-shadow:  -3px 3px 20px ${({theme}) => theme.boxShadowColor},
+             3px -3px 20px ${({theme}) => theme.boxShadowColor2};
 
 @media (min-width:720px){
 width: 90%;
@@ -86,12 +88,13 @@ background-color:#3F5950 ;
  
 }
 `
-export const Button = styled.a`
+export const Button = styled.button`
 display: flex;
 align-items: center;
 justify-content: space-around;
 font-weight: 200;
 font-size: .8rem;
+background-color: transparent;
 color: #fff;
 border: none;
 text-decoration: none;

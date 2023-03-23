@@ -45,6 +45,7 @@ line-height: 1.5rem;
 `
 export const ModalMap = styled.div`
 
+
 `
 
 export const OpenMap = styled.button`

@@ -6,8 +6,8 @@ export const InfoPageContent = () => {
   return (
     <>
       <div>
-        <img src='/images/consultorio.jpg' alt=''
-          height="250" width="415" />
+        <img src='/images/consultorio.jpg' alt='imagem de um consultorio medico'
+          height="250" width="405" />
       </div>
       <S.Container>
         <S.ContainerText>

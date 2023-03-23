@@ -43,7 +43,7 @@ export const MenuMobile = () => {
             <S.Link href="/info">Informacões</S.Link>
           </S.ListLink>
           <S.ListLink>
-            <S.Link href="#">Whatsapp</S.Link>
+            <S.Link href="https://wa.me/5515996042007" target="_blank">Whatsapp</S.Link>
           </S.ListLink>
             </S.ContainerLink>
             <SocialMedias/>

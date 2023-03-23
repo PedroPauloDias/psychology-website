@@ -21,12 +21,10 @@ export const Footer = () => {
       <S.Container >
       <SocialMedias/>
         <S.FooterText >
-          <S.ModalMap>
             <p>Rua João Evangelista nº 303  , Itapetininga-Sp </p>
-            <div>             
+                         
               <LocalMap />             
-            </div>
-          </S.ModalMap>
+            
           <p>
             Todos os direitos reservados
             © 2023 Copyright

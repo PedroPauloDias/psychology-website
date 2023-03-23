@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+position : relative;
+
 
 @media (min-width: 1200px){
 height: 55rem;
@@ -32,6 +34,8 @@ color: ${({theme})=> theme.text};
 margin: 1rem;
 margin-top: 3rem;
 padding: .8rem;
+
+
 
 
 
@@ -132,6 +136,8 @@ color:#363537;
 border-radius: 20px;
 font-weight: 500;
 margin-bottom:1rem;
+box-shadow:  -3px 3px 20px ${({theme}) => theme.boxShadowColor},
+             3px -3px 20px ${({theme}) => theme.boxShadowColor2};
 
 
 

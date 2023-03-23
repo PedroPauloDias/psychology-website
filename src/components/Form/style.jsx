@@ -5,13 +5,14 @@ display: flex;
 flex-direction: column;
 align-items: center;
 gap:.8rem;
-margin: 1.2rem ;
+margin: 1.8rem ;
 padding: 2rem .8rem;
 background: #E9EFF1;
 border-radius: 20px;
 margin-top: 1rem;
 padding-top:3rem;
-
+box-shadow:  -3px 3px 20px ${({theme}) => theme.boxShadowColor},
+             3px -3px 20px ${({theme}) => theme.boxShadowColor2};
 
 
 @media (min-width: 720px){
@@ -108,6 +109,12 @@ font-size: 1.1rem;
 padding: 1rem 1.5rem;
 border-radius: 10px;
 
+::placeholder{
+  color :#363537;
+  font-weight: 200;
+  font-family: Cinzel;
+
+}
 
 
 @media (min-width: 1200px){

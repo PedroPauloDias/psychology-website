@@ -10,8 +10,8 @@ export const FreeConsult = () => {
     <>
       <S.ContainerContent>
         <div>
-          <img src='/images/gratis.webp' alt=''
-            height="300" width="410" />
+          <img src='/images/gratis.webp' alt='psicologa conversando com a paciente'
+            height="300" width="408" />
         </div>
         <S.Container>
           <S.ContainerText>
@@ -38,7 +38,7 @@ export const FreeConsult = () => {
             title='Terapia comportamental'
             text='O TDAH geralmente costuma se apresentar na infância e seus sintomas mais explícitos começam a aparecer na fase escolar, pois é o momento em que são mais estimulados, à interação e à utilização do raciocínio para resolução de problemas.' />
           <Card
-            category='Emocionais'
+            category='emocionais'
             title='Dificuldades emocionais '
             text='A crise emocional é caracterizada por um desgaste psicológico que pode ser decorrente de diversos fatores na vida de uma pessoa. Também conhecida como surto emocional, ela se instala quando o sofrimento psíquico é muito grande, ultrapassando a capacidade do indivíduo de lidar com a crise.'
           />
@@ -48,7 +48,7 @@ export const FreeConsult = () => {
             text='A terapia cognitiva comportamental é bastante recomendada, com evidencias científicas. Não é só um jogo de palavras, mas a melhor abordagem para tratar os traumas do passado é investir seriamente nesse processo, seja via TCC, Psicanálise, Existencialismo, ou outras.'
           />
            <Card
-            category='Emocionais'
+            category='emocionais'
             title='Outros Tratamentos'
             text=' Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum nihil dolor suscipit quis corrupti asperiores eum, fugit, atque eaque nemo praesentium. Voluptatem quasi dignissimos rerum eveniet harum cupiditate minus commodi?'
           />

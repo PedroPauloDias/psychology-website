@@ -8,25 +8,25 @@ export const AnsiedadeContent = () => {
             <Image
           src="/images/ansiedade.png"
           alt="Minha imagem"
-          width={400}
+          width={380}
           height={400}
         />
           <Image
           src="/images/2.png"
           alt="Minha imagem"
-          width={400}
+          width={380}
           height={400}
         />
           <Image
           src="/images/3.png"
           alt="Minha imagem"
-          width={400}
+          width={380}
           height={400}
         />
           <Image
           src="/images/4.png"
           alt="Minha imagem"
-          width={400}
+          width={380}
           height={400}
         />
     </S.Container>

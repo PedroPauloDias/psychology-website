@@ -11,6 +11,9 @@ align-items: flex-end;
 justify-content: space-between;
 padding: 1.2rem;
 
+box-shadow:  -3px 3px 20px ${({theme}) => theme.boxShadowColor},
+             3px -3px 20px ${({theme}) => theme.boxShadowColor2};
+
 @media  (min-width:720px){
   height: 10rem;
 width: 14rem;

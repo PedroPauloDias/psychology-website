@@ -10,7 +10,8 @@ background-color: ${({ background }) => background === 'yellow' ?
     '#Ebc65e' : '#F0F1F3'};
 border-radius: 30px;
 padding: 1rem .8rem;
-
+box-shadow:  -3px 3px 20px ${({theme}) => theme.boxShadowColor},
+             3px -3px 20px ${({theme}) => theme.boxShadowColor2};
 
 
 

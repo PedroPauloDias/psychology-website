@@ -14,6 +14,11 @@ border-radius: 20px;
 padding: 1.5rem;
 
 
+box-shadow:  -3px 3px 20px ${({theme}) => theme.boxShadowColor},
+             3px -3px 20px ${({theme}) => theme.boxShadowColor2};
+
+
+
 @media (min-width: 720px) {
   height: 29rem;
   margin-right: 1rem;
