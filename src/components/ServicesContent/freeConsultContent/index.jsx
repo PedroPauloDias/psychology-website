@@ -29,7 +29,7 @@ export const FreeConsult = () => {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam non adipisci voluptatibus cumque obcaecati numquam eaque necessitatibus tempora, harum rerum magni commodi consectetur! Nulla ipsa veniam rem, aspernatur suscipit tempore.
             </S.Text>
 
-            <S.SubTitle>Entre em contato Comigo</S.SubTitle>
+        
           </S.ContainerText>
         </S.Container>
         <S.Cards data-aos="zoom-in-down">
@@ -55,6 +55,7 @@ export const FreeConsult = () => {
          
       
         </S.Cards>
+        <S.SubTitle>Entre em contato Comigo</S.SubTitle>
             <Form />
 
       </S.ContainerContent>

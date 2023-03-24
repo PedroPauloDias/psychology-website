@@ -53,9 +53,10 @@ margin: 0 auto;
 }
 @media  (min-width:1200px) {
 display: grid;
-grid-template-columns: repeat(2, 1fr);
-margin-top: 7rem;
-gap: 2rem;
+grid-template-columns: repeat(4, 1fr);
+margin: 7rem 0;
+gap: 3.5rem;
+padding: 0 1.8rem ;
 }
 @media  (min-width:1500px){
   margin-top: 5rem;
@@ -111,7 +112,7 @@ margin: 4.2rem 0;
 `
 export const SubTitle = styled.h3`
 font-size: 1.8rem;
-margin: 1rem 0;
+margin-left: 2rem ;
 color: ${({ theme }) => theme.contrastText};
 
 

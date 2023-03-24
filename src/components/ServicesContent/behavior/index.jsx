@@ -1,6 +1,7 @@
 import React from 'react'
 import * as S from './style'
 import { Form } from '@/src/components/Form'
+import { Footer } from '../../Footer'
 
 
 
@@ -59,9 +60,8 @@ export const BehaviorContent = () => {
             </S.Text>
             <S.SubTitle>Entre em contato Comigo</S.SubTitle>
           </S.ContainerText>
-        </S.Container>
         <Form />
-
+        </S.Container>
       </S.ContainerContent>
     </>
   )

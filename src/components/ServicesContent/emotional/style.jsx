@@ -9,7 +9,12 @@ img{
 object-fit: cover;
 margin-bottom: 1.5rem;
 }
+
+margin: 5rem 0rem ;
+padding: 0 3rem;
+
 }
+
 `
 
 export const Container = styled.div`

@@ -164,9 +164,7 @@ cursor: pointer;
   font-size:1.2rem;
 }
 
-@media (min-width: 2000px){
-margin-left:19rem;
-}
+
 
 
 `

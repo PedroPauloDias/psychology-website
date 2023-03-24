@@ -14,19 +14,18 @@ align-items: space-around;
 }
 
 @media (min-width: 1200px){
-width: 95%;
 border-radius: 20px;
-margin-left: 1rem;
 height: 13rem;
 margin-top: -3rem;
 margin-bottom: 2rem;
 }
 
-@media (min-width: 1500px){
-width: 95%;
-border-radius: 20px;
-margin-left: 1rem;
+@media (min-width: 2000px){
+  height: 14rem;
+  padding: 1.5rem;
 }
+
+
 
 `
 
@@ -39,6 +38,15 @@ margin-bottom: 2rem;
 @media (min-width: 720px){
 font-size: 1.1rem;
 line-height: 1.5rem;
+}
+@media (min-width: 1200px){
+font-size:1.3rem;
+line-height: 2rem;
+
+}
+@media (min-width: 2000px){
+  font-size: 1.8rem;
+  line-height: 2rem ;
 }
 
 

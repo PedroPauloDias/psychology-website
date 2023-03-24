@@ -1,8 +1,9 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-margin: 0 auto;
-box-shadow:  -3px 3px 20px ${({theme}) => theme.boxShadowColor},
+
+margin-left: 4rem ;
+box-shadow:  -3px 3px 20px ${({ theme }) => theme.boxShadowColor},
              3px -3px 20px ${({theme}) => theme.boxShadowColor2};
 
 margin: 0 2rem;
@@ -11,6 +12,11 @@ margin: 0 2rem;
 {
 display: none !important;
 cursor: auto !important;
+}
+
+@media (min-width: 720px){
+  width: 21rem;
+  margin-left: 2rem ;
 }
 
 `
@@ -24,4 +30,9 @@ font-size: 1.5rem;
 line-height: 2.5rem;
 margin-top:2.5rem;
 padding: 1rem 1.5rem;
+
+@media (min-width: 720px){
+  width: 21rem;
+  margin-left: 2rem ;
+}
 `
