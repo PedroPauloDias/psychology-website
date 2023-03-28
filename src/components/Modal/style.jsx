@@ -23,25 +23,33 @@ export const DialogContent = styled(Dialog.Content)`
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 80vh;
+  height: 65vh;
   width: 85vw;
   max-width: 450px;
-  max-height: 550px;
+  max-height: 650px;
   padding: 25px;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: ${({ theme }) => theme.backgroundModal};
 
+  @media  (min-width: 720px){
+  max-width: 450px;
+  height: 70vh;
+
+}
+
+
   @media  (min-width:1200px){
     max-width: 450px;
+    height: 80vh;
   max-height: 700px;
 
 }
 
 @media  (min-width:2000px){
     max-width: 500px;
-  max-height: 750px;
+  max-height: 800px;
 
 }
   
@@ -53,23 +61,18 @@ export const ContainerCard = styled.div`
 
 
 export const Imagem = styled.img`
-height: 15rem;
-width: 20rem;
-object-fit: center;
+width: 100%;
+object-fit: cover;
 filter: grayscale(1);
-margin-top: 2rem;
+margin-top: -2rem;
 
 @media  (min-width:1200px){
-height: 17rem;
-width: 21rem;
-margin-top: 3rem;
+margin-top: -3rem;
 
 }
 
 @media  (min-width:2000px){
-  height: 18rem;
-width: 25rem;
-margin-top: 3rem;
+margin-top: -3rem;
 
 }
 
@@ -85,19 +88,29 @@ line-height: 2rem;
 text-align: center;
 background-color: transparent;
 opacity:.9;
-margin: .5 ;
-position: absolute;
+margin: 0 .5rem ;
 left: 3rem;
 top:1rem;
 color: ${({ theme }) => theme.TextCardModal};
 
+
+@media  (min-width: 720px){
+width: 20rem;
+font-size: 1.5rem;
+line-height: 2rem;
+margin: .5rem 0;
+margin-left: -2rem;
+
+}
+
   @media  (min-width:1200px){
 height: 6rem;
 width: 20rem;
-font-size: 1.8rem;
+font-size: 1.6rem;
 line-height: 2rem;
 margin: .5rem 0;
 margin-left: -1rem;
+
 
 }
 
@@ -109,8 +122,6 @@ line-height: 2rem;
 margin: 1rem 0;
 
 }
-
-
 `
 
 export const Text = styled(Dialog.Description)`
@@ -118,6 +129,13 @@ width: 20rem;
 margin-top: 1rem;
 font-size: .9rem;
 color: ${({ theme }) => theme.TextCardModal};
+
+@media  (min-width: 720px){
+width: 25rem;
+font-size: 1.2rem;
+
+
+}
 
 @media (min-width: 1200px){
   width: 24rem;

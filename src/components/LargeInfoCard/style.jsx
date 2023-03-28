@@ -109,6 +109,7 @@ color: #fff;
 border: none;
 text-decoration: none;
 margin-left:.4rem;
+cursor : pointer;
 
 @media (min-width:1200px){
 font-size: 1rem;

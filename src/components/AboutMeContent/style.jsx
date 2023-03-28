@@ -16,7 +16,8 @@ margin-bottom: 1.5rem;
 };
 `
 export const Container = styled.div`
-padding: 1rem 1.2rem;
+padding: 1rem 0rem;
+
 
 @media (min-width: 1200px){
   display: flex;
@@ -32,6 +33,7 @@ margin-bottom: 1.5rem;
 
 @media (min-width: 2000px){
   display: flex;
+
   img{
   width: 680px;
   border-radius: 15px;
@@ -50,6 +52,9 @@ margin-bottom: 1.5rem;
 `
 
 export const ContainerGroup = styled.div`
+width: 100%;
+
+
 @media (min-width: 1200px){
 gap:1.5rem ;
 
@@ -60,7 +65,7 @@ flex-direction: row-reverse;
 }
 
 @media (min-width: 2000px){
-  width:1400px;
+  width:1440px;
 gap:1.5rem ;
 
   div:nth-child(even){
@@ -77,6 +82,7 @@ export const Group = styled.div `
 @media (min-width: 2000px){
   display: flex;
   gap:1rem;
+
 }
 `
 
@@ -102,12 +108,12 @@ margin-bottom: 3rem ;
 width: 680px;
 margin-bottom: 2rem ;
 
+
 }
 
 `
 
 export const Title = styled.h2`
-
 font-size: 2rem;
 margin: 2rem 0;
 color: ${({ theme }) => theme.contrastText};

@@ -14,7 +14,7 @@ margin-bottom: 1.5rem;
 };
 `
 export const Container = styled.div`
-padding: 1rem 1.2rem;
+padding: 1rem 0rem;
 
 @media (min-width: 1200px){
   display: flex;
@@ -58,7 +58,7 @@ flex-direction: row-reverse;
 }
 
 @media (min-width: 2000px){
-  width:1400px;
+  width:1440px;
 gap:1.5rem ;
 
   div:nth-child(even){

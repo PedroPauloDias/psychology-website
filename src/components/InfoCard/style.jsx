@@ -12,7 +12,7 @@ border-radius: 30px;
 padding: 1rem .8rem;
 box-shadow:  -3px 3px 20px ${({theme}) => theme.boxShadowColor},
              3px -3px 20px ${({theme}) => theme.boxShadowColor2};
-
+             
 
 
 @media (min-width: 720px) {
@@ -65,7 +65,6 @@ font-weight: 600;
 font-size: 1.1rem;
 text-align: center;
 color: #070A11;
-
 @media (min-width: 720px) {
 font-size: 1.1rem;
 }

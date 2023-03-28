@@ -16,15 +16,18 @@ export const Contact = () => {
           <S.Text>tcpsicologia23
             @gmail.com
             </S.Text>
-          <S.Text>tel : 15 99604 2007</S.Text>
+          <S.Text>
+             <S.ContrastText>tel : 15 99604 2007 </S.ContrastText>
+          </S.Text>
         </S.ContactInfoCard>
         <S.ContactInfoCard  >
           <S.Text>
             Horario de atendimento
           </S.Text>
           <S.Text>
+      <S.ContrastText>
             Seg - Ter:                        
-            12:00 - 19:00 hrs
+          12:00 - 19:00 hrs</S.ContrastText>      
           </S.Text>
         </S.ContactInfoCard>
       </S.ContainerCards>

@@ -13,7 +13,6 @@ margin-bottom: 1.5rem;
 };
 `
 export const Container = styled.div`
-padding: 1rem 1.2rem;
 
 @media (min-width: 1200px){
   display: flex;

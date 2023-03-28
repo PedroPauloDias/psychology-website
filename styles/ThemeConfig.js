@@ -55,9 +55,8 @@ export const GlobalStyles = createGlobalStyle`
     color: ${({ theme }) => theme.text};
 
     p  {
-      font-family: Inter !important ;
+      font-family: 'Poppins' !important ;
     }   
-
 
     
   }

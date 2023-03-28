@@ -197,7 +197,10 @@ margin-bottom: .7rem;
 
 }
 `
-  
+  export const ContrastText = styled.span`
+font-weight: 900;
+color:#47625d;
+  `
 
 
 

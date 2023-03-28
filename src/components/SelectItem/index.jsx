@@ -10,7 +10,7 @@ const data = [
     value: 'Whatsapp',
   },
   {
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/480px-Telegram_logo.svg.png',
+    image: 'https://cryptosfundtrading.com/wp-content/uploads/2021/05/kisspng-computer-icons-portable-network-graphics-telegram-5b75488d3d0319.0251816715344129412499.png',
     label: 'Telegram ',
     value: 'Telegram',
     
@@ -57,6 +57,7 @@ export default function SelectComponent() {
       fontWeight: 100,
       fontSize: theme.fontSizes.md,
       fontFamily: 'Inter',
+      marginLeft:'50px',
     },
   
     icon: {
@@ -71,7 +72,7 @@ export default function SelectComponent() {
     const [selected, setSelected] = useState(data[0]);
     const items = data.map((item) => (
       <Menu.Item
-        icon={<Image src={item.image} width={35} height={50}  alt =''/>}
+        icon={<Image src={item.image} width={18} height={18}  alt =''/>}
         onClick={() => setSelected(item)}
         key={item.label}
       >
@@ -89,7 +90,7 @@ export default function SelectComponent() {
         <Menu.Target>
           <UnstyledButton className={classes.control}>
             <Group spacing="xs">
-              <Image src={selected.image} width={35} height={50} alt=''/>
+              <Image src={selected.image} width={18} height={18} alt=''/>
               <span className={classes.label}>{selected.label}</span>
             </Group>
             <CaretDown size={16} className={classes.icon} stroke={1.5} />
