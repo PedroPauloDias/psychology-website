@@ -53,6 +53,7 @@ export const ContainerGroup = styled.div`
 @media (min-width: 1200px){
 gap:1.5rem ;
 
+
   div:nth-child(even){
 flex-direction: row-reverse;
   }

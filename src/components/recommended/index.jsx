@@ -24,34 +24,39 @@ export const Recommended = () => {
 
   return (
     <>
-      <S.Title>
-        
-          Leituras Recomendadas
-        
-      </S.Title>
+
       <S.Container>
+        <S.ContainerImage   data-aos="fade-right">
+          <S.Imagem src="/images/perfil.jpg" alt="fota da psicologa thayna" />
+        </S.ContainerImage>
+     
 
-        <Slider {...settings}>
-          <div onClick={() => push('/leitura-recomendada/ansiedade')} >
+        <S.ContainerSlider>
+        <S.Title>
+          Leituras Recomendadas
+        </S.Title>
+          <Slider {...settings}>
+            <div onClick={() => push('/leitura-recomendada/ansiedade')} >
 
-          <Image
-            src="/images/ansiedade.png"
-            alt="Minha imagem"
-            width={340}
-            height={400}
-            />
-          </div>
-          <div
-           onClick={() => push('/leitura-recomendada/saude-mental')} >
-          <Image
-            src="/images/saude-mental.png"
-            alt="Minha imagem"
-            width={340}
-            height={400}
-            />
+              <Image
+                src="/images/ansiedade.png"
+                alt="Minha imagem"
+                width={340}
+                height={400}
+              />
+            </div>
+            <div
+              onClick={() => push('/leitura-recomendada/saude-mental')} >
+              <Image
+                src="/images/saude-mental.png"
+                alt="Minha imagem"
+                width={340}
+                height={400}
+              />
             </div>
 
-        </Slider>
+          </Slider>
+        </S.ContainerSlider>
       </S.Container>
 
     </>

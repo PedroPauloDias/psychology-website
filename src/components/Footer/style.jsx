@@ -21,6 +21,8 @@ margin-bottom: 2rem;
 }
 
 @media (min-width: 2000px){
+  
+
   height: 14rem;
   padding: 1.5rem;
 }

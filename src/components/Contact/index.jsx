@@ -11,7 +11,7 @@ export const Contact = () => {
           <S.HighlightText> consulta </S.HighlightText>
           <h2> pra gente se conhecer</h2>
       </S.containerTitle>
-      <S.ContainerCards  >
+      <S.ContainerCards   >
         <S.ContactInfoCard >
           <S.Text>tcpsicologia23
             @gmail.com

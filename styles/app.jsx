@@ -15,7 +15,29 @@ top:.8rem;
 
 @media (min-width: 1400px){
   top:.95rem;
-  left: 3rem;
+  left: 3rem; 
+}
+@media (min-width: 1600px){
+  top:.95rem;
+  left: 7rem; 
+}
+@media (min-width: 1700px){
+  top:.95rem;
+  left: 10rem; 
+}
+@media (min-width: 1800px){
+  top:.95rem;
+  left: 14rem; 
+}
+@media (min-width: 1900px){
+  top:.95rem;
+  left: 17rem; 
+}
+
+
+@media (min-width:2000px) {
+  top:.95rem;
+  left: 100rem; 
  
 }
 `

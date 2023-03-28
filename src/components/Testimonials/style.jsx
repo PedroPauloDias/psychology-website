@@ -6,7 +6,6 @@ margin:  1rem 1.5rem;
 
 
 @media (min-width: 1200px){
-  width: 100%;
   display: flex;
   gap: 1.5rem;
   
@@ -150,12 +149,19 @@ margin-right: 1.5rem;
 `
 
 export const ContainerImage = styled.div`
+
+
 @media (min-width: 1200px){
 margin-left: 2rem;
 width: 50%;
 }
 @media (min-width: 1500px){
 width:45%
+
+}
+
+@media (min-width: 2000px){
+width:100%
 
 }
 `

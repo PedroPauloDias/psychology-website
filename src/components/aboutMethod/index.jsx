@@ -6,7 +6,7 @@ export const AboutMethod = () => {
       <S.ContainerContent>
         <div>
           <img src='/images/criancas.jpg' alt=''
-            height="400" width="410" />
+            height="400" width="400" />
         </div>
         <S.Container>
 
@@ -44,7 +44,7 @@ export const AboutMethod = () => {
             <S.Title>Terapia cognitivo-comportamental</S.Title>
               <S.Group>
                 <div>
-                  <img src='/images/cognitiva.jpeg' alt=''
+                  <img src='/images/terapia.jpg' alt=''
                     height="300" width="375" />
                 </div>
 

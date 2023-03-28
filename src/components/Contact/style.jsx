@@ -14,11 +14,14 @@ grid-template-areas:
  "footer form"
 
 ;
-
-
 margin-left: 1rem;
 padding: 1.5rem 0rem;
 }
+@media (min-width: 1200px){
+gap:2rem;
+padding:5rem 1rem
+}
+
 @media (min-width: 1500px){
 gap:2rem;
 padding:5rem 1rem
@@ -35,11 +38,6 @@ margin: 1rem;
 margin-top: 3rem;
 padding: .8rem;
 
-
-
-
-
-
 @media (min-width: 720px){
   height:12rem ;
   font-size: 2rem;
@@ -51,7 +49,14 @@ padding: .8rem;
   margin: 3rem 0rem 2rem 1rem;
   line-height: 2.5rem;
 
-}
+};
+@media (min-width: 2000px){
+  grid-area: title;
+  font-size: 1.8rem;
+  margin: 3rem 0rem 0rem 1rem;
+  line-height: 2.5rem;
+
+};
 
 `
 export const HighlightText = styled.h2`
@@ -66,14 +71,14 @@ line-height: 2.5rem;
   font-size:2.7rem;
 line-height: 3.5rem;
 
-}
+};
 
 @media (min-width: 1400px){
   line-height: 4rem;
 
 gap: 1rem;
 
-}
+};
 
 `
 
@@ -96,7 +101,7 @@ padding: 1rem 2rem 1rem 1rem;
   height: 13rem;
   grid-area: cards;
   gap: .1rem;
-  padding-right: 0.5rem ;
+  padding-right: 1.5rem ;
 
  
 }
@@ -104,6 +109,14 @@ padding: 1rem 2rem 1rem 1rem;
 padding-right: 1rem;
   gap: .2rem;
   margin-bottom: 0rem;
+}
+
+@media (min-width: 2000px){
+  height: 17rem;
+padding-right: 2rem;
+gap: .2rem;
+margin-bottom: 0rem;
+
 }
 
 
@@ -119,6 +132,7 @@ export const ContainerForm = styled.div`
 export const ContainerFooter = styled.div`
 @media (min-width: 1200px){
   grid-area: footer;
+  margin-top: 2.5rem;
 
 }
 
@@ -136,8 +150,7 @@ color:#363537;
 border-radius: 20px;
 font-weight: 500;
 margin-bottom:1rem;
-box-shadow:  -3px 3px 20px ${({theme}) => theme.boxShadowColor},
-             3px -3px 20px ${({theme}) => theme.boxShadowColor2};
+
 
 
 
@@ -155,6 +168,14 @@ height: 7rem;
 width: 100%;
 padding: .5rem  1rem;
 }
+
+@media (min-width: 2000px){
+height: 7rem;
+width: 100%;
+
+}
+
+
 
 
 `

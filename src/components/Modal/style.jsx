@@ -32,18 +32,21 @@ export const DialogContent = styled(Dialog.Content)`
   flex-direction: column;
   align-items: center;
   background-color: ${({ theme }) => theme.backgroundModal};
+
+  @media  (min-width:1200px){
+    max-width: 450px;
+  max-height: 700px;
+
+}
+
+@media  (min-width:2000px){
+    max-width: 500px;
+  max-height: 750px;
+
+}
   
-
-  
-
-
-
 `
 export const ContainerCard = styled.div`
-
-  
-
-
 
 `
 
@@ -55,6 +58,20 @@ width: 20rem;
 object-fit: center;
 filter: grayscale(1);
 margin-top: 2rem;
+
+@media  (min-width:1200px){
+height: 17rem;
+width: 21rem;
+margin-top: 3rem;
+
+}
+
+@media  (min-width:2000px){
+  height: 18rem;
+width: 25rem;
+margin-top: 3rem;
+
+}
 
 
 
@@ -74,7 +91,24 @@ left: 3rem;
 top:1rem;
 color: ${({ theme }) => theme.TextCardModal};
 
+  @media  (min-width:1200px){
+height: 6rem;
+width: 20rem;
+font-size: 1.8rem;
+line-height: 2rem;
+margin: .5rem 0;
+margin-left: -1rem;
 
+}
+
+@media  (min-width:2000px){
+height: 6rem;
+width: 20rem;
+font-size: 1.8rem;
+line-height: 2rem;
+margin: 1rem 0;
+
+}
 
 
 `
@@ -86,15 +120,9 @@ font-size: .9rem;
 color: ${({ theme }) => theme.TextCardModal};
 
 @media (min-width: 1200px){
-
-font-size: 1.1rem;
-
-
-
-
-}
-
-
+  width: 24rem;
+font-size: 1.5rem;
+};
 `
 
 export const DialogClose = styled(Dialog.Close)`
@@ -106,6 +134,8 @@ right: .5rem;
 background-color: transparent;
 border: none;
 cursor: pointer;
+
+
 `
 
 
@@ -130,6 +160,8 @@ justify-content: center;
  
 
 }
+
+
 
 &:hover{
   border: 1px solid #3F5950 ; 
@@ -162,6 +194,12 @@ cursor: pointer;
 
 @media (min-width: 1200px){
   font-size:1.2rem;
+}
+
+@media  (min-width:2000px){
+  height: 4rem;
+width: 22rem;
+font-size:1.5rem;
 }
 
 

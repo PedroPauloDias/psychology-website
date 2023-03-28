@@ -30,6 +30,16 @@ padding: 3rem 2.5rem  ;
 margin:1rem ;
 margin-left: 2rem;
 }
+@media (min-width: 2000px) {
+  width:55%;
+height: 19rem;
+padding: 3rem 2.5rem  ;
+margin:1rem ;
+margin-left: 1rem;
+margin-top :3rem;
+margin-right: 2rem ;
+}
+
 `
 
 export const ContainerText = styled.div`

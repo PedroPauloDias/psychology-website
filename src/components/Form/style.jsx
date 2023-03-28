@@ -5,14 +5,11 @@ display: flex;
 flex-direction: column;
 align-items: center;
 gap:.8rem;
-margin: 1.8rem ;
-padding: 2rem .8rem;
+padding: 2rem 1rem;
 background: #E9EFF1;
 border-radius: 20px;
 margin-top: 1rem;
 padding-top:3rem;
-box-shadow:  -3px 3px 20px ${({theme}) => theme.boxShadowColor},
-             3px -3px 20px ${({theme}) => theme.boxShadowColor2};
 
 
 @media (min-width: 720px){
@@ -25,7 +22,20 @@ height: 45rem;
 gap:1.5rem;
 padding: 3rem .8rem;
 margin-top: 2rem;
-}
+};
+
+@media (min-width: 1500px){
+width: 95%;
+height: 45rem;
+gap:1.5rem;
+padding: 3rem .8rem;
+margin-top: 2rem;
+};
+
+@media (min-width: 2000px){
+height: 48rem;
+
+};
 `
 export const containerInput = styled.div`
 height: 3.2rem;
@@ -138,8 +148,7 @@ margin-bottom: .5rem;
 width: 22rem;
 
 
-  
-}
+
 @media (min-width: 1500px){
   height: 5rem;
 width: 23rem;
@@ -205,7 +214,12 @@ margin-bottom: .5em;
   height: 10rem;
 width: 23rem;
 margin: 0
-}
+};
+
+@media (min-width: 2000px){
+height: 6rem;
+
+};
 
 `
 

@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 export const FloatButton = styled.a`
   position: fixed;
-  width: 40px;
-  height: 40px;
+  width: 4rem;
+  height:  4rem;
   bottom: 5px;
   right: 5px;
   background-color: #47625d;
@@ -19,20 +19,38 @@ justify-content: center;
   outline: none;
   transition: all 0.5s;
 
-  svg {
-font-size:2rem;
-transition: all 0.5s;
+
+  @media (min-width: 1200px){
+
+width: 6rem;
+height: 6rem;
+bottom: 10px;
+  right: 10px;
 
 
 }
 
+
+@media (min-width: 2000px){
+
+width: 6rem;
+height: 6rem;
+bottom: 50px;
+  right: 500px;
+
+}
+
+  svg {
+font-size:4rem;
+transition: all 0.5s;
+}
   &:hover {
 height: 45px;  
 width: 45px;
-
 svg  {
   font-size: 1.8rem;
 }
+
 
 }
 `;

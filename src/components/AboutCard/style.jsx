@@ -48,6 +48,7 @@ margin-top: 1.5rem;
 
 
 @media (min-width: 1200px) {
+  margin-top : -2rem;
   padding: 1rem;
 }
 `
@@ -70,7 +71,7 @@ margin:1rem 0;
 }
 
 @media (min-width: 1200px) {
-  height: 11rem;
+  height: 12rem;
 }
 `
 export const Button = styled.button`

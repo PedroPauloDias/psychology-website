@@ -31,6 +31,12 @@ width:12rem;
 padding: 1rem;
 
 }
+@media (min-width: 2000px) {
+margin-top: 2rem;
+width:12.5rem;
+
+
+}
 
 
 

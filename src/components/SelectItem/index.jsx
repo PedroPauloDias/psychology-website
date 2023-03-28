@@ -1,6 +1,6 @@
 import {  useState } from 'react';
 import { createStyles, UnstyledButton, Menu, Image, Group } from '@mantine/core';
-import { X } from 'phosphor-react';
+import { CaretDown } from 'phosphor-react';
 
 
 const data = [
@@ -71,7 +71,7 @@ export default function SelectComponent() {
     const [selected, setSelected] = useState(data[0]);
     const items = data.map((item) => (
       <Menu.Item
-        icon={<Image src={item.image} width={18} height={18}  alt =''/>}
+        icon={<Image src={item.image} width={35} height={50}  alt =''/>}
         onClick={() => setSelected(item)}
         key={item.label}
       >
@@ -89,10 +89,10 @@ export default function SelectComponent() {
         <Menu.Target>
           <UnstyledButton className={classes.control}>
             <Group spacing="xs">
-              <Image src={selected.image} width={22} height={22} alt=''/>
+              <Image src={selected.image} width={35} height={50} alt=''/>
               <span className={classes.label}>{selected.label}</span>
             </Group>
-            <X size={16} className={classes.icon} stroke={1.5} />
+            <CaretDown size={16} className={classes.icon} stroke={1.5} />
           </UnstyledButton>
         </Menu.Target>
         <Menu.Dropdown>{items}</Menu.Dropdown>
