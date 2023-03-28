@@ -7,7 +7,8 @@ import * as S from './style'
 export const Modal = ({ title, text, category }) => {
 
   const { push } = useRouter()
-  const url = `images/${(category)}.webp`
+
+  const url = `images/${category}.webp`
   const routes = ( category === 'gratis' ? '' : category)
   return (
     <div>
