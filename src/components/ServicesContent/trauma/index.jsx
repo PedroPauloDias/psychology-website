@@ -20,7 +20,7 @@ export const TraumaContent = () => {
             <div></div>
           <S.Group>
           <div>
-              <img src='/images/men.jpg' alt=''
+              <img src='/images/emocional.webp' alt=''
                 height="300" width="375" />
             </div>
             <S.Text>

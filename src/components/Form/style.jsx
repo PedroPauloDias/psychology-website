@@ -146,16 +146,13 @@ margin-bottom: .5rem;
 @media (min-width: 1200px){
   height: 4.5rem;
 width: 22rem;
-
-
+};
 
 @media (min-width: 1500px){
   height: 5rem;
 width: 23rem;
 
-}
-
-
+};
 `
 export const TextLabel = styled.label`
 width: 100%;
@@ -200,16 +197,15 @@ justify-content: center;
 background-color: #3F5950;
 margin-top: 1rem;
 margin-bottom: 1.5em;
+cursor: pointer;
+
 
 @media (min-width: 1200px){
   height: 4.5rem;
 width: 22rem;
 margin-top: .5rem;
-margin-bottom: .5em;
-
-
-  
-}
+margin-bottom: .5em;  
+};
 @media (min-width: 1500px){
   height: 10rem;
 width: 23rem;
@@ -238,7 +234,7 @@ border: none;
 @media (min-width: 1200px){
   font-size: 1.4rem;
 
-}
+};
 `
 
 

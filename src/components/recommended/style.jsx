@@ -32,7 +32,7 @@ width:90%;
 border-radius: 30px;
   user-select: none;
   margin-left: 1.5rem;
-
+cursor: pointer;
 
 
 .slick-prev::before,
