@@ -7,7 +7,7 @@ export const EmotionalContent = () => {
     <>
       <S.ContainerContent>
       <div>
-          <img src='/images/emocionais.webp' alt=''
+          <img src='/images/emocional.webp' alt=''
             height="300" width="410" />
         </div>
    

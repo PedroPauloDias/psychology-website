@@ -22,7 +22,7 @@ export const Modal = ({ title, text, category }) => {
             <div   >
               <S.Title  >{title}</S.Title >
               <S.ContainerCard >
-                <S.Imagem src={url} alt="" />
+                <S.Imagem src={url} alt={title} />
                 <S.Text  >{text}</S.Text>
               </S.ContainerCard>
               <S.ContactMe
