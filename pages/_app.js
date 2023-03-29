@@ -28,12 +28,8 @@ export default function App({ Component, pageProps }) {
         name="description"
         content="Psicóloga em itapetininga , atendimento de adultos e crianças "
         ></meta>
-        
-
-
-
-
       </Head>
+
       <ThemeProvider theme={theme == "light" ? lightTheme : darkTheme}>
         {theme == "light" ? (
           <S.StyledButton onClick={toggleTheme}>
@@ -59,8 +55,7 @@ gtag('config', '${process.env.NEXT_PUBLIC_GA_TRACKING}');
 `}
           </Script>
           <Component {...pageProps} />
-        </main>
-       
+        </main>       
       </ThemeProvider>
     </>
   );
