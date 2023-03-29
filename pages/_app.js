@@ -23,6 +23,7 @@ export default function App({ Component, pageProps }) {
         
         <title> Thayná Cunha Psicóloga</title>
         <link rel="shortcut icon" href="../images/psicologia-icone.png" />
+        <meta name="google-site-verification" content="fSGFbGj3mHwW8QlDhBor_9t2g17ZOKLaRuOt6phPrOc" />
         <meta name="keywords" content= "Thayná Cunha ,Thayná Cunha psicologa,Thayna Cunha Psicóloga em itapetininga, Psicologia itapetininga, Psicologa infantil em itapetininga "   ></meta>
         <meta
         name="description"
