@@ -13,6 +13,7 @@ import Aos from 'aos'
 import 'aos/dist/aos.css'
 
 
+
 export default function Home() {
    
   useEffect(() => {
@@ -27,6 +28,8 @@ export default function Home() {
 
   return (
     <>    
+ 
+      
       <Navbar />
         <Header />
         <AboutSection />
