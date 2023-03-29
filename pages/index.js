@@ -8,6 +8,7 @@ import { Contact } from "@/src/components/Contact";
 import { Recommended } from "../src/components/recommended"
 import { useEffect } from 'react';
 import { WhatsApp } from "@/src/components/whatsapp";
+import {Analytics} from 'src/components/analytics'
 
 import Aos from 'aos'
 import 'aos/dist/aos.css'
@@ -27,9 +28,7 @@ export default function Home() {
 
 
   return (
-    <>    
- 
-      
+    <>          
       <Navbar />
         <Header />
         <AboutSection />
