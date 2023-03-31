@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const ContainerForm = styled.div`
+width:90%;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -8,6 +9,7 @@ gap:.8rem;
 padding: 2rem 1rem;
 background: #E9EFF1;
 border-radius: 20px;
+margin: 1rem  auto;
 margin-top: 1rem;
 padding-top:3rem;
 

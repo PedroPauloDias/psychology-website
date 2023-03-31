@@ -56,7 +56,7 @@ flex-direction: row-reverse;
 }
 
 @media (min-width: 2000px){
-  width:1400px;
+  width:1440px;
 gap:1.5rem ;
 
   div:nth-child(even){
@@ -66,12 +66,14 @@ flex-direction: row-reverse;
 `
 export const Group = styled.div `
 
+padding: 0 1rem ;
 @media (min-width: 1200px){
   display: flex;
   gap:1rem;
 }
 @media (min-width: 2000px){
   display: flex;
+  width:1440px;
   gap:1rem;
 }
 `
@@ -104,8 +106,8 @@ margin-bottom: 2rem ;
 
 export const Title = styled.h2`
 
-font-size: 2rem;
-margin: 2rem 0;
+font-size: 1.5rem;
+margin: 2rem 1rem;
 color: ${({ theme }) => theme.contrastText};
 
 @media (min-width: 720px){
@@ -114,7 +116,7 @@ font-size:2.5rem;
 }
 @media (min-width: 1200px){
   height:4rem;
-  width: 100%;
+width: 100%;
 padding:1rem ;
 font-size:1.8rem;
 margin: 2.5rem 0 ;
@@ -135,8 +137,8 @@ background: linear-gradient(79deg, rgba(63,89,80,0.27494747899159666) 53%, rgba(
 `
 
 export const SubTitle = styled.h3`
-font-size: 1.8rem;
-margin: 1rem 0;
+font-size: 1.5rem;
+margin: 2rem 1rem;
 color: ${({theme})=> theme.contrastText};
 
 @media (min-width: 720px){
@@ -222,16 +224,17 @@ padding: .5rem;
 }
 
 @media (min-width:2000px){
+  width:1440px;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 12rem;
-  padding: 1rem 4rem ;
+  gap: 7rem;
+  padding: 1rem 2rem ;
 
   img{
     display: inline;
     height:600px;
-    width: 40%;
+    width: 50%;
     object-fit: cover;
     padding-top : 1rem;
   };
@@ -243,6 +246,7 @@ margin-top: -2rem;
 `
 export const ContainerForm = styled.div`
 width: 100%;
+padding: 0 3rem;
 `
 
 
@@ -290,6 +294,32 @@ margin-top: 5rem;
 }
 
 `
+export const HighLightText2 = styled.p`
+font-size: 1.2rem;
+margin-bottom: 1.5rem;
+margin-left:1rem;
+
+@media (min-width: 720px){
+font-size:2rem;
+line-height: 2rem;
+}
+
+@media (min-width: 1200px){
+font-size:2rem;
+line-height: 2rem;
+padding: 1.2rem 1.5rem ;
+
+}
+
+@media (min-width: 2000px){
+
+width: 750px;
+padding: 1.7rem ;
+font-size: 2rem;
+line-height: 3rem;
+}
+`
+
 
 
 

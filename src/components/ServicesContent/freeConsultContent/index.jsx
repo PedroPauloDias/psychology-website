@@ -51,7 +51,7 @@ export const FreeConsult = () => {
             title='Terapia comportamental'
             text='O TDAH geralmente costuma se apresentar na infância e seus sintomas mais explícitos começam a aparecer na fase escolar, pois é o momento em que são mais estimulados, à interação e à utilização do raciocínio para resolução de problemas.' />
           <Card
-            category='emocionais'
+            category='emocional'
             title='Dificuldades emocionais '
             text='A crise emocional é caracterizada por um desgaste psicológico que pode ser decorrente de diversos fatores na vida de uma pessoa. Também conhecida como surto emocional, ela se instala quando o sofrimento psíquico é muito grande, ultrapassando a capacidade do indivíduo de lidar com a crise.'
           />

@@ -2,10 +2,10 @@ import styled from 'styled-components';
 
 export const FloatButton = styled.a`
   position: fixed;
-  width: 3rem;
-  height:  3rem;
+  width: 2.5rem;
+  height:  2.5rem;
   bottom: 5px;
-  right: 5px;
+  right: 9px;
   background-color: #47625d;
   opacity: .8;
   color: #FFF;
@@ -21,7 +21,7 @@ justify-content: center;
 
 
   svg {
-font-size:2.5rem;
+font-size:2rem;
 transition: all 0.5s;
 }
   &:hover {

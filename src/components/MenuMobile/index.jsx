@@ -36,9 +36,7 @@ export const MenuMobile = () => {
           <S.ListLink>
             <S.Link href="/about">Sobre mim</S.Link>
           </S.ListLink>
-          <S.ListLink>
-            <S.Link href="#">Contato</S.Link>
-              </S.ListLink>  
+
               <S.ListLink>
             <S.Link href="/info">Informacões</S.Link>
           </S.ListLink>

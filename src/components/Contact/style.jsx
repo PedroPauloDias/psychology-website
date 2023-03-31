@@ -34,9 +34,8 @@ text-align: start;
 font-size: 1.6rem;
 line-height: 2.6rem;
 color: ${({theme})=> theme.text};
-margin: 1rem;
 margin-top: 3rem;
-padding: .8rem;
+padding: 0.8rem 1.5rem;
 
 @media (min-width: 720px){
   height:12rem ;

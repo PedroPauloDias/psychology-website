@@ -31,7 +31,7 @@ height:35rem;
 width:90%;
 border-radius: 30px;
   user-select: none;
-  margin-left: 1.5rem;
+  margin-left: 1rem;
 cursor: pointer;
 
 

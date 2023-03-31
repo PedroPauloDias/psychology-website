@@ -41,12 +41,14 @@ export const AboutMeContent = () => {
 
           <S.ContainerGroup>
           <div>  </div>
-          <S.SubTitle>Tipos de Consultas</S.SubTitle>
-          
-          <S.Text>Realizo atendimentos psicológicos em
+                
+          <S.SubTitle>Tipos de Consultas</S.SubTitle>          
+          <S.HighLightText2>
+               Realizo atendimentos psicológicos em
             <strong> Itapetininga/SP </strong>e também
             <strong>  terapia online </strong>
-            através de videochamada no Google meet.</S.Text>
+            através de videochamada no Google meet.
+            </S.HighLightText2> 
            
           </S.ContainerGroup>
         
