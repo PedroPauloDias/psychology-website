@@ -40,4 +40,9 @@ top:.8rem;
   left: 100rem; 
  
 }
+@media (min-width:2500px) {
+  top:.95rem;
+  right: 20rem; 
+ 
+}
 `

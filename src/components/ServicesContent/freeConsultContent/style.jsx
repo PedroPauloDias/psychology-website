@@ -246,7 +246,6 @@ margin-top: -2rem;
 `
 export const ContainerForm = styled.div`
 width: 100%;
-padding: 0 3rem;
 `
 
 
@@ -319,18 +318,6 @@ font-size: 2rem;
 line-height: 3rem;
 }
 `
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
